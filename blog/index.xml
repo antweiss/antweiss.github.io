@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on one man&#39;s singularity</title>
-    <link>http://antweiss.github.io/blog/</link>
+    <link>http://antweiss.com/blog/</link>
     <description>Recent content in Blogs on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Mar 2016 15:48:58 +0200</lastBuildDate>
-    <atom:link href="http://antweiss.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>starting the blog</title>
-      <link>http://antweiss.github.io/blog/starting-the-blog/</link>
+      <link>http://antweiss.com/blog/starting-the-blog/</link>
       <pubDate>Tue, 15 Mar 2016 15:48:58 +0200</pubDate>
       
-      <guid>http://antweiss.github.io/blog/starting-the-blog/</guid>
+      <guid>http://antweiss.com/blog/starting-the-blog/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve been reading the posts on &lt;a href=&#34;http://otomato.link/otoblog-2/&#34;&gt;otomato&lt;/a&gt; blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.&lt;/p&gt;
 
 &lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
