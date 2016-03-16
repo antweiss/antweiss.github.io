@@ -25,10 +25,10 @@
     
     <item>
       <title>About</title>
-      <link>http://antweiss.github.io/fixed/about/</link>
+      <link>http://antweiss.github.io/about/</link>
       <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
       
-      <guid>http://antweiss.github.io/fixed/about/</guid>
+      <guid>http://antweiss.github.io/about/</guid>
       <description>&lt;p&gt;Along with &lt;a href=&#34;https://en.wikipedia.org/wiki/Ford_Prefect_(character)&#34;&gt;Ford Prefect&lt;/a&gt;, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a &lt;em&gt;hyperspace bypass&lt;/em&gt;. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>colophon</title>
-      <link>http://antweiss.github.io/fixed/colophon/</link>
+      <link>http://antweiss.github.io/colophon/</link>
       <pubDate>Sat, 22 Aug 2015 06:28:26 -0700</pubDate>
       
-      <guid>http://antweiss.github.io/fixed/colophon/</guid>
+      <guid>http://antweiss.github.io/colophon/</guid>
       <description>&lt;p&gt;This website is a personal homepage.&lt;/p&gt;
 
 &lt;p&gt;The site is built with &lt;a target=&#34;_blank&#34; href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;—a static site generator made with Go. The website &lt;a href=&#34;http://antweiss.github.io/&#34;&gt;source code&lt;/a&gt; is available on GitHub. It uses the &lt;a target=&#34;_blank&#34; href=&#34;//github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa&lt;/a&gt; theme. The posts are written in Markdown.&lt;/p&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>Code</title>
-      <link>http://antweiss.github.io/fixed/code/</link>
+      <link>http://antweiss.github.io/code/</link>
       <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
-      <guid>http://antweiss.github.io/fixed/code/</guid>
+      <guid>http://antweiss.github.io/code/</guid>
       <description>
 
 &lt;p&gt;The Hitchhiker&amp;rsquo;s Guide to the Galaxy is a comedy science fiction series created by &lt;a href=&#34;https://en.wikipedia.org/wiki/Douglas_Adams&#34;&gt;Douglas Adams&lt;/a&gt;. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, and over several years it gradually became an international multi-media phenomenon. Adaptations have included stage shows, a &amp;ldquo;trilogy&amp;rdquo; of five books published between 1979 and 1992, a sixth novel penned by &lt;a href=&#34;https://en.wikipedia.org/wiki/Eoin_Colfer&#34;&gt;Eoin Colfer&lt;/a&gt; in 2009, a 1981 TV series, a 1984 computer game, and three series of three-part comic book adaptations of the first three novels published by DC Comics between 1993 and 1996. There were also two series of towels, produced by Beer-Davies, that are considered by some fans to be an &amp;ldquo;official version&amp;rdquo; of The Hitchhiker&amp;rsquo;s Guide to the Galaxy, as they include text from the first novel.&lt;/p&gt;
