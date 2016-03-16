@@ -20,6 +20,8 @@
 &lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
 
 &lt;p&gt;There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)&lt;/p&gt;
+
+&lt;p&gt;{{ template &amp;ldquo;_internal/disqus.html .&amp;rdquo; }}&lt;/p&gt;
 </description>
     </item>
     
