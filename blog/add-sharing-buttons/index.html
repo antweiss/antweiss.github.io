@@ -13,10 +13,10 @@
 <title>
 
 
-     starting the blog 
+     add sharing buttons 
 
 </title>
-<link rel="canonical" href="http://antweiss.com/blog/starting-the-blog/">
+<link rel="canonical" href="http://antweiss.com/blog/add-sharing-buttons/">
 
 
 <script type="text/javascript">
@@ -117,23 +117,37 @@
                 <div class="title-container">
                     <div class="page-heading">
 
-    starting the blog
+    add sharing buttons
 
 </div>
 
                     <div class="initials"><a href="http://antweiss.com/">ad</a></div>
                 </div>
                 <div class="meta">
-                    <div class="date" title="Tue, Mar 15, 2016">Tue, Mar 15, 2016</div>
+                    <div class="date" title="Sun, Mar 20, 2016">Sun, Mar 20, 2016</div>
                     <div class="reading-time"><div class="middot"></div>1 minute read</div>
                 </div>
             </div>
             <div class="markdown">
-                <p>If you&rsquo;ve been reading the posts on <a href="http://otomato.link/otoblog-2/">otomato</a> blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.</p>
+                <p>this is becoming my official personal blog and I&rsquo;m inclined to post some quality content here.
+so I better add some sharing buttons.
+but how does one do this in Hugo?</p>
 
-<p>Now that <a href="http://otomato.link">Otomato</a> is becoming a full-blown consulting firm I feel it&rsquo;s time to separate the personal from the professional.</p>
+<p>I recalled I had a <a href="https://shareaholic.com/">Shareaholic</a> account I&rsquo;ve used before. Shareaholic is free and very easy to set up.</p>
 
-<p>There still may be some shared context here and there, but starting today I&rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</p>
+<p>I&rsquo;ve generated the code snippets from their control interface and pasted them to my theme&rsquo;s layout html files (I&rsquo;m using the wonderfully minimal <a href="https://github.com/nishanths/cocoa-hugo-theme">cocoa theme</a>):</p>
+
+<p>in themes/cocoa/layouts/partials/head.html :
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #888888">&lt;</span><span style="color: #2838b0">script</span> <span style="color: #388038">type</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;text/javascript&#39;</span> <span style="color: #388038">src</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;//my.shareaholic.url/assets/pub/shareaholic.js&#39;</span> <span style="color: #388038">data-shr-siteid</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;4c511..e8c&#39;</span> <span style="color: #388038">data-cfasync</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;false&#39;</span> <span style="color: #388038">async</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;async&#39;</span><span style="color: #888888">&gt;&lt;/</span><span style="color: #2838b0">script</span><span style="color: #888888">&gt;</span>
+</pre></div>
+
+and in themes/cocoa/layouts/blog/single.html :
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #888888">&lt;</span><span style="color: #2838b0">br</span><span style="color: #888888">&gt;</span>
+<span style="color: #888888">&lt;</span><span style="color: #2838b0">div</span> <span style="color: #388038">class</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;shareaholic-canvas&#39;</span> <span style="color: #388038">data-app</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;share_buttons&#39;</span> <span style="color: #388038">data-app-id</span><span style="color: #666666">=</span><span style="color: #b83838">&#39;somenumberfromshareaholic&#39;</span><span style="color: #888888">&gt;&lt;/</span><span style="color: #2838b0">div</span><span style="color: #888888">&gt;</span>
+<span style="color: #888888">&lt;</span><span style="color: #2838b0">div</span> <span style="color: #388038">class</span><span style="color: #666666">=</span><span style="color: #b83838">&quot;disqus&quot;</span><span style="color: #888888">&gt;</span>
+</pre></div>
+
+Voila - the sharing buttons are right here below this post. Sharing makes you richer!</p>
 
                 <br>
                 <p><a href="/blog/">Back to posts</a></p>
@@ -144,9 +158,9 @@
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'antweiss';
-    var disqus_identifier = 'http:\/\/antweiss.com\/blog\/starting-the-blog\/';
-    var disqus_title = 'starting the blog';
-    var disqus_url = 'http:\/\/antweiss.com\/blog\/starting-the-blog\/';
+    var disqus_identifier = 'http:\/\/antweiss.com\/blog\/add-sharing-buttons\/';
+    var disqus_title = 'add sharing buttons';
+    var disqus_url = 'http:\/\/antweiss.com\/blog\/add-sharing-buttons\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
