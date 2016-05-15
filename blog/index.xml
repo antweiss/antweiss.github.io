@@ -6,50 +6,8 @@
     <description>Recent content in Blogs on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2016 23:57:25 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2016 23:54:17 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>add sharing buttons</title>
-      <link>http://antweiss.com/blog/add-sharing-buttons/</link>
-      <pubDate>Sun, 15 May 2016 23:57:25 +0300</pubDate>
-      
-      <guid>http://antweiss.com/blog/add-sharing-buttons/</guid>
-      <description>&lt;p&gt;this is becoming my official personal blog and I&amp;rsquo;m inclined to post some quality content here.
-so I better add some sharing buttons.
-but how does one do this in Hugo?&lt;/p&gt;
-
-&lt;p&gt;I recalled I had a &lt;a href=&#34;https://shareaholic.com/&#34;&gt;Shareaholic&lt;/a&gt; account I&amp;rsquo;ve used before. Shareaholic is free and very easy to set up.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve generated the code snippets from their control interface and pasted them to my theme&amp;rsquo;s layout html files (I&amp;rsquo;m using the wonderfully minimal &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa theme&lt;/a&gt;):&lt;/p&gt;
-
-&lt;p&gt;in themes/cocoa/layouts/partials/head.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;//my.shareaholic.url/assets/pub/shareaholic.js&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-shr-siteid&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;4c511..e8c&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-cfasync&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;false&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;async&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;async&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-and in themes/cocoa/layouts/blog/single.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;br&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;shareaholic-canvas&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;share_buttons&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app-id&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;somenumberfromshareaholic&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;quot;disqus&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-Voila - the sharing buttons are right here below this post. Sharing makes you richer!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>starting the blog</title>
-      <link>http://antweiss.com/blog/starting-the-blog/</link>
-      <pubDate>Sun, 15 May 2016 23:57:19 +0300</pubDate>
-      
-      <guid>http://antweiss.com/blog/starting-the-blog/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the posts on &lt;a href=&#34;http://otomato.link/otoblog-2/&#34;&gt;otomato&lt;/a&gt; blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.&lt;/p&gt;
-
-&lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
-
-&lt;p&gt;There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>2 months of Otomato</title>
@@ -85,6 +43,48 @@ Growing the company is a challenge - but it&amp;rsquo;s a challenge I&amp;rsquo;
 &lt;p&gt;And it certainly is too early to make any conclusions. I can just say I&amp;rsquo;m enjoying this new life, no matter how stressful and uncertain it may seem.&lt;/p&gt;
 
 &lt;p&gt;the journey continues&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>add sharing buttons</title>
+      <link>http://antweiss.com/blog/add-sharing-buttons/</link>
+      <pubDate>Fri, 15 Apr 2016 23:57:25 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/add-sharing-buttons/</guid>
+      <description>&lt;p&gt;this is becoming my official personal blog and I&amp;rsquo;m inclined to post some quality content here.
+so I better add some sharing buttons.
+but how does one do this in Hugo?&lt;/p&gt;
+
+&lt;p&gt;I recalled I had a &lt;a href=&#34;https://shareaholic.com/&#34;&gt;Shareaholic&lt;/a&gt; account I&amp;rsquo;ve used before. Shareaholic is free and very easy to set up.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve generated the code snippets from their control interface and pasted them to my theme&amp;rsquo;s layout html files (I&amp;rsquo;m using the wonderfully minimal &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa theme&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;in themes/cocoa/layouts/partials/head.html :
+&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;//my.shareaholic.url/assets/pub/shareaholic.js&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-shr-siteid&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;4c511..e8c&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-cfasync&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;false&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;async&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;async&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+and in themes/cocoa/layouts/blog/single.html :
+&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;br&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;shareaholic-canvas&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;share_buttons&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app-id&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;somenumberfromshareaholic&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;quot;disqus&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+Voila - the sharing buttons are right here below this post. Sharing makes you richer!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>starting the blog</title>
+      <link>http://antweiss.com/blog/starting-the-blog/</link>
+      <pubDate>Tue, 15 Mar 2016 23:57:19 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/starting-the-blog/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the posts on &lt;a href=&#34;http://otomato.link/otoblog-2/&#34;&gt;otomato&lt;/a&gt; blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.&lt;/p&gt;
+
+&lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
+
+&lt;p&gt;There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)&lt;/p&gt;
 </description>
     </item>
     
