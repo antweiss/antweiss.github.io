@@ -6,48 +6,43 @@
     <description>Recent content in Blogs on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2016 13:12:22 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2016 23:54:17 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>add sharing buttons</title>
-      <link>http://antweiss.com/blog/add-sharing-buttons/</link>
-      <pubDate>Sun, 20 Mar 2016 13:12:22 +0200</pubDate>
+      <title>2 months of Otomato</title>
+      <link>http://antweiss.com/blog/2-months-of-otomato/</link>
+      <pubDate>Sun, 15 May 2016 23:54:17 +0300</pubDate>
       
-      <guid>http://antweiss.com/blog/add-sharing-buttons/</guid>
-      <description>&lt;p&gt;this is becoming my official personal blog and I&amp;rsquo;m inclined to post some quality content here.
-so I better add some sharing buttons.
-but how does one do this in Hugo?&lt;/p&gt;
+      <guid>http://antweiss.com/blog/2-months-of-otomato/</guid>
+      <description>&lt;p&gt;Going forward&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;I recalled I had a &lt;a href=&#34;https://shareaholic.com/&#34;&gt;Shareaholic&lt;/a&gt; account I&amp;rsquo;ve used before. Shareaholic is free and very easy to set up.&lt;/p&gt;
+&lt;p&gt;2 months have passed since I started Otomato as a company.
+Things are going exceptionally well.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve generated the code snippets from their control interface and pasted them to my theme&amp;rsquo;s layout html files (I&amp;rsquo;m using the wonderfully minimal &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa theme&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more.
+We are looking to add some bigger logos to this list.
+We&amp;rsquo;re involved in various types of projects - from large-scale web services to IOT cloud solutions.&lt;/p&gt;
 
-&lt;p&gt;in themes/cocoa/layouts/partials/head.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;//my.shareaholic.url/assets/pub/shareaholic.js&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-shr-siteid&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;4c511..e8c&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-cfasync&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;false&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;async&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;async&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&amp;rsquo;s a very strong software delivery shark and it makes me very happy to have him on board. And we&amp;rsquo;ve started training a couple of juniors.
+I&amp;rsquo;m also meeting a lot of new exciting people in the field who I hope to partner with one day.&lt;/p&gt;
 
-and in themes/cocoa/layouts/blog/single.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;br&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;shareaholic-canvas&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;share_buttons&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app-id&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;somenumberfromshareaholic&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;quot;disqus&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And - we&amp;rsquo;re working on a comprehensive DevOps training program with an online academy.&lt;/p&gt;
 
-Voila - the sharing buttons are right here below this post. Sharing makes you richer!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>starting the blog</title>
-      <link>http://antweiss.com/blog/starting-the-blog/</link>
-      <pubDate>Tue, 15 Mar 2016 15:48:58 +0200</pubDate>
-      
-      <guid>http://antweiss.com/blog/starting-the-blog/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the posts on &lt;a href=&#34;http://otomato.link/otoblog-2/&#34;&gt;otomato&lt;/a&gt; blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.&lt;/p&gt;
+&lt;p&gt;And there are more plans which are still early to disclose.&lt;/p&gt;
 
-&lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
+&lt;p&gt;All this is certainly as stressful as it is great.
+A lot to take care of. A lot of responsibility.&lt;/p&gt;
 
-&lt;p&gt;There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)&lt;/p&gt;
+&lt;p&gt;I do get worried from time to time.
+There are nights when I wake up and can&amp;rsquo;t go back to sleep because thoughts are running through my head,&lt;/p&gt;
+
+&lt;p&gt;But it happens less as time passes by.
+Growing the company is a challenge - but it&amp;rsquo;s a challenge I&amp;rsquo;m up to.&lt;/p&gt;
+
+&lt;p&gt;And it certainly is too early to make any conclusions. I can just say I&amp;rsquo;m enjoying this new life, no matter how stressful and uncertain it may seem.&lt;/p&gt;
+
+&lt;p&gt;the journey continues&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
