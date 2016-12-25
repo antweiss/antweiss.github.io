@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on one man&#39;s singularity</title>
-    <link>http://antweiss.com/blog/</link>
-    <description>Recent content in Blogs on one man&#39;s singularity</description>
+    <title>Blog-rsses on one man&#39;s singularity</title>
+    <link>http://antweiss.com/blog/index.xml</link>
+    <description>Recent content in Blog-rsses on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2016 23:54:17 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2016 17:35:33 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>milestone throw</title>
+      <link>http://antweiss.com/blog/milestone-throw/</link>
+      <pubDate>Mon, 26 Sep 2016 17:35:33 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/milestone-throw/</guid>
+      <description>&lt;p&gt;Not surprisingly this blog isn&amp;rsquo;t getting too much of my attention.
+Most of my writing is now around &lt;a href=&#34;http://otomato/link&#34;&gt;Otomato&lt;/a&gt; official blog, evangelism we do for &lt;a href=&#34;http://codefresh.io&#34;&gt;Codefresh&lt;/a&gt;, white papers and articles.
+Oh yes and conference proposals. I&amp;rsquo;ve submitted quite a few lately. There&amp;rsquo;s one talk and a workshop already confirmed for start of December in Munich at &lt;a href=&#34;http://devopsconference.de&#34;&gt;DevOpsCon&lt;/a&gt; and hopefully there are more to come.&lt;/p&gt;
+
+&lt;p&gt;I hope to be able to write more in the next few weeks as we&amp;rsquo;re going on a family trip in the US - which means I won&amp;rsquo;t be doing the day-to-day work for almost a month.
+I already see myself sitting down to record my thoughts after a long day of sightseeing. But we&amp;rsquo;ll see how it all works out.&lt;/p&gt;
+
+&lt;p&gt;The last month before vacation was hectic.
+A lot of projects running in parallel, a few workshops, and in general - I laid off the vacation for too long. Don&amp;rsquo;t do that to yourself - giving yourself some time to rest and reflect is vitally important for your emotional, physical and spiritual well-being.&lt;/p&gt;
+
+&lt;p&gt;So now I&amp;rsquo;m going to recharge my batteries and come back with a blast.&lt;/p&gt;
+
+&lt;p&gt;Wishing the same to you.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2 months of Otomato</title>

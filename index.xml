@@ -2,12 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>one man&#39;s singularity</title>
-    <link>http://antweiss.com/</link>
+    <link>http://antweiss.com/index.xml</link>
     <description>Recent content on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2016 23:54:17 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2016 18:11:19 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Code</title>
+      <link>http://antweiss.com/code/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:19 +0300</pubDate>
+      
+      <guid>http://antweiss.com/code/</guid>
+      <description>&lt;p&gt;Nothing here yet!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>colophon</title>
+      <link>http://antweiss.com/colophon/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:14 +0300</pubDate>
+      
+      <guid>http://antweiss.com/colophon/</guid>
+      <description>&lt;p&gt;This website is a personal homepage.&lt;/p&gt;
+
+&lt;p&gt;The site is built with &lt;a target=&#34;_blank&#34; href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;—a static site generator made with Go. The website &lt;a href=&#34;http://antweiss.com/&#34;&gt;source code&lt;/a&gt; is available on GitHub. It uses the &lt;a target=&#34;_blank&#34; href=&#34;//github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa&lt;/a&gt; theme. The posts are written in Markdown.&lt;/p&gt;
+
+&lt;p&gt;The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.&lt;/p&gt;
+
+&lt;p&gt;If you find errors, &lt;a href=&#34;http://antweiss.com/&#34;&gt;please let me know&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://antweiss.com/about/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:06 +0300</pubDate>
+      
+      <guid>http://antweiss.com/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-stranger&#34;&gt;Welcome stranger!&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Ant Weiss&lt;/strong&gt; - an entrepreneur,  software delivery consultant, musician, public speaker, writer and instructor.&lt;/p&gt;
+
+&lt;p&gt;All this in no particular order and in parallel to being a male human being blessed with the best wife and kids in the world!&lt;/p&gt;
+
+&lt;p&gt;I also like to think of myself as a &lt;em&gt;futurist&lt;/em&gt;, but aren&amp;rsquo;t we all?&lt;/p&gt;
+
+&lt;p&gt;I write on a wide range of topics including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;creativity&lt;/li&gt;
+&lt;li&gt;entrepreneurship&lt;/li&gt;
+&lt;li&gt;technology&lt;/li&gt;
+&lt;li&gt;cool hacks&lt;/li&gt;
+&lt;li&gt;music&lt;/li&gt;
+&lt;li&gt;marketing&lt;/li&gt;
+&lt;li&gt;future&lt;/li&gt;
+&lt;li&gt;collaboration&lt;/li&gt;
+&lt;li&gt;software delivery methodologies&lt;/li&gt;
+&lt;li&gt;devops&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you like something you see here - drop me a line at ant.weiss@gmail.com.&lt;/p&gt;
+
+&lt;p&gt;Or find me on twitter: &lt;a href=&#34;http://twitter.com/antweiss&#34;&gt;antweiss&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is me on &lt;a href=&#34;https://about.me/antweiss&#34;&gt;about.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o.aolcdn.com/dims-global/dims/ABOUTME/5/435/290/100/http://d3mod6n032mdiz.cloudfront.net/thumb2/a/n/t/antweiss/antweiss-840x560.jpg&#34; class=&#34;profile&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>milestone throw</title>
+      <link>http://antweiss.com/blog/milestone-throw/</link>
+      <pubDate>Mon, 26 Sep 2016 17:35:33 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/milestone-throw/</guid>
+      <description>&lt;p&gt;Not surprisingly this blog isn&amp;rsquo;t getting too much of my attention.
+Most of my writing is now around &lt;a href=&#34;http://otomato/link&#34;&gt;Otomato&lt;/a&gt; official blog, evangelism we do for &lt;a href=&#34;http://codefresh.io&#34;&gt;Codefresh&lt;/a&gt;, white papers and articles.
+Oh yes and conference proposals. I&amp;rsquo;ve submitted quite a few lately. There&amp;rsquo;s one talk and a workshop already confirmed for start of December in Munich at &lt;a href=&#34;http://devopsconference.de&#34;&gt;DevOpsCon&lt;/a&gt; and hopefully there are more to come.&lt;/p&gt;
+
+&lt;p&gt;I hope to be able to write more in the next few weeks as we&amp;rsquo;re going on a family trip in the US - which means I won&amp;rsquo;t be doing the day-to-day work for almost a month.
+I already see myself sitting down to record my thoughts after a long day of sightseeing. But we&amp;rsquo;ll see how it all works out.&lt;/p&gt;
+
+&lt;p&gt;The last month before vacation was hectic.
+A lot of projects running in parallel, a few workshops, and in general - I laid off the vacation for too long. Don&amp;rsquo;t do that to yourself - giving yourself some time to rest and reflect is vitally important for your emotional, physical and spiritual well-being.&lt;/p&gt;
+
+&lt;p&gt;So now I&amp;rsquo;m going to recharge my batteries and come back with a blast.&lt;/p&gt;
+
+&lt;p&gt;Wishing the same to you.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2 months of Otomato</title>

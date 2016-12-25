@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fixeds on one man&#39;s singularity</title>
-    <link>http://antweiss.com/fixed/</link>
-    <description>Recent content in Fixeds on one man&#39;s singularity</description>
+    <title>Fixed-rsses on one man&#39;s singularity</title>
+    <link>http://antweiss.com/fixed/index.xml</link>
+    <description>Recent content in Fixed-rsses on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2016 18:11:19 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Code</title>
+      <link>http://antweiss.com/code/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:19 +0300</pubDate>
+      
+      <guid>http://antweiss.com/code/</guid>
+      <description>&lt;p&gt;Nothing here yet!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>colophon</title>
+      <link>http://antweiss.com/colophon/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:14 +0300</pubDate>
+      
+      <guid>http://antweiss.com/colophon/</guid>
+      <description>&lt;p&gt;This website is a personal homepage.&lt;/p&gt;
+
+&lt;p&gt;The site is built with &lt;a target=&#34;_blank&#34; href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;—a static site generator made with Go. The website &lt;a href=&#34;http://antweiss.com/&#34;&gt;source code&lt;/a&gt; is available on GitHub. It uses the &lt;a target=&#34;_blank&#34; href=&#34;//github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa&lt;/a&gt; theme. The posts are written in Markdown.&lt;/p&gt;
+
+&lt;p&gt;The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.&lt;/p&gt;
+
+&lt;p&gt;If you find errors, &lt;a href=&#34;http://antweiss.com/&#34;&gt;please let me know&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
       <link>http://antweiss.com/about/</link>
-      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
+      <pubDate>Mon, 26 Sep 2016 18:11:06 +0300</pubDate>
       
       <guid>http://antweiss.com/about/</guid>
       <description>
 
-&lt;h1 id=&#34;welcome-stranger:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Welcome stranger!&lt;/h1&gt;
+&lt;h1 id=&#34;welcome-stranger&#34;&gt;Welcome stranger!&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Ant Weiss&lt;/strong&gt; - an entrepreneur,  software delivery consultant, musician, public speaker, writer and instructor.&lt;/p&gt;
 
@@ -49,32 +75,6 @@
 &lt;p&gt;&lt;img src=&#34;http://o.aolcdn.com/dims-global/dims/ABOUTME/5/435/290/100/http://d3mod6n032mdiz.cloudfront.net/thumb2/a/n/t/antweiss/antweiss-840x560.jpg&#34; class=&#34;profile&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>colophon</title>
-      <link>http://antweiss.com/colophon/</link>
-      <pubDate>Sat, 22 Aug 2015 06:28:26 -0700</pubDate>
-      
-      <guid>http://antweiss.com/colophon/</guid>
-      <description>&lt;p&gt;This website is a personal homepage.&lt;/p&gt;
-
-&lt;p&gt;The site is built with &lt;a target=&#34;_blank&#34; href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;—a static site generator made with Go. The website &lt;a href=&#34;http://antweiss.com/&#34;&gt;source code&lt;/a&gt; is available on GitHub. It uses the &lt;a target=&#34;_blank&#34; href=&#34;//github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa&lt;/a&gt; theme. The posts are written in Markdown.&lt;/p&gt;
-
-&lt;p&gt;The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.&lt;/p&gt;
-
-&lt;p&gt;If you find errors, &lt;a href=&#34;http://antweiss.com/&#34;&gt;please let me know&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>http://antweiss.com/code/</link>
-      <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
-      
-      <guid>http://antweiss.com/code/</guid>
-      <description>&lt;p&gt;Nothing here yet!&lt;/p&gt;
 </description>
     </item>
     
