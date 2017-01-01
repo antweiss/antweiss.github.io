@@ -6,8 +6,73 @@
     <description>Recent content in Blog-rsses on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Sep 2016 17:35:33 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Dec 2016 19:11:35 +0200</lastBuildDate>
     <atom:link href="http://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>wrap_up_2016</title>
+      <link>http://antweiss.com/blog/wrap_up_2016/</link>
+      <pubDate>Sat, 31 Dec 2016 19:11:35 +0200</pubDate>
+      
+      <guid>http://antweiss.com/blog/wrap_up_2016/</guid>
+      <description>
+
+&lt;p&gt;So here I am again - drafting a post on my phone. In fact I&amp;rsquo;ve done this a number of times in the last couple of years. With wordpress it&amp;rsquo;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on Hugo and host on github pages - I&amp;rsquo;ll have to take the extra step. That&amp;rsquo;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&amp;rsquo;t go hand in hand with efficiency. At least not at first. Cutting new paths is always harder and takes longer than walking the beaten ones.&lt;/p&gt;
+
+&lt;p&gt;I was planning to write a personal wrap-up for 2016 and do some general theme-setting for 2017. But this december was hectic. It&amp;rsquo;s already the 30th and I have to use the few spare minutes with the phone while Janka is in the fitting room.&lt;/p&gt;
+
+&lt;p&gt;Yes, we found a great dress!!!&lt;/p&gt;
+
+&lt;p&gt;And now I&amp;rsquo;m home and went into my &amp;ldquo;writing room&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-what-exactly-happened-in-2016&#34;&gt;So what exactly happened in 2016?&lt;/h3&gt;
+
+&lt;p&gt;Personally - this was a big year:
+ I&amp;rsquo;ve finally realized my almost 5 years old dream and became a freelancer. And then started building a company. It was a challenging decision. Simply said I was scared, not sure of myself. But I succeeded in gradually building my confidence. And I have to thank my friends and my family who empowered and advised me on this road. There&amp;rsquo;s still a long journey ahead, I&amp;rsquo;m still not sure how things will work out. Right now it&amp;rsquo;s sometimes even hard to call &lt;strong&gt;Otomato&lt;/strong&gt; a company. It&amp;rsquo;s mostly me and a few think-alike creative folks who hop on and off. But I&amp;rsquo;m intent on building this into a real brand. Something bigger than myself, something with a life of its own. Because this is the ultimate goal of any creative activity - to give life to something meaningful, valuable, beautiful.&lt;/p&gt;
+
+&lt;p&gt;This year I was lucky enough to speak at a number of tech conferences in Israel and abroad. We&amp;rsquo;ve finished the third DevOps certification course at &lt;strong&gt;I.T.College&lt;/strong&gt; and started the fourth one. I personally worked on a number of exciting projects spanning a wide range of subjects such as: security, IOT, sharing economy, forex, advertisement and telco.
+ And most importantly - I&amp;rsquo;ve met and worked with a lot of great people. I had a chance to learn from them and teach them. I had a chance to share.&lt;/p&gt;
+
+&lt;p&gt;It wasn&amp;rsquo;t all easy and beautiful. Some of it was nerve-wrecking and exhausting. I wasn&amp;rsquo;t always sure where I&amp;rsquo;m going or if the choices are right. And some of them were wrong.
+ But overall - I&amp;rsquo;m sincerely grateful for the year behind and the lessons it taught me.&lt;/p&gt;
+
+&lt;h3 id=&#34;now-what-do-i-expect-of-year-2017&#34;&gt;Now what do I expect of year 2017?&lt;/h3&gt;
+
+&lt;p&gt;On the &lt;strong&gt;personal&lt;/strong&gt; level - I will definitely focus more on listening. To others and to myself. Especially to my closest ones. Janka needs me more than usual these days, and I was a bit too engaged in building the business lately.This is  a good opportunity to remind myself about balance.&lt;/p&gt;
+
+&lt;p&gt;Talking about balance: December was hectic and I&amp;rsquo;ve relaxed my gym schedule far beyond acceptable. I&amp;rsquo;ll start the year by getting back on track. The physical activity has tangible positive impact on my emotional and intellectual well-being.&lt;/p&gt;
+
+&lt;p&gt;And I&amp;rsquo;ll do more singing and playing. Especially now that I can join forces with Eran (my son). He&amp;rsquo;s become a good drummer and is also moving ahead in his bass playing.&lt;/p&gt;
+
+&lt;p&gt;Now to &lt;strong&gt;professional&lt;/strong&gt;. After all this blog is more about that - my contribution to the outside world.&lt;/p&gt;
+
+&lt;p&gt;I already tweeted about setting &lt;em&gt;chatbots&lt;/em&gt; and &lt;em&gt;storytelling&lt;/em&gt; as two important themes. I got very excited about &lt;strong&gt;ChatOps&lt;/strong&gt; and the whole idea of collaborative cli about 4-5 months ago. But I still haven&amp;rsquo;t found the time to look into it in more depth or build a real ChatOps solution. So in year 2017 I will be focusing on this from the very start. Especially as I have some customers sharing my excitement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Storytelling&lt;/strong&gt; has become a major theme with me in the last couple of months. Clearly thanks to Y.N.Harari&amp;rsquo;s &lt;a href=&#34;http://www.ynharari.com/sapiens/short-overview/&#34;&gt;Sapiens&lt;/a&gt; and the Tedx TLV Storytelling workshop we attended. I&amp;rsquo;ve always loved telling and hearing good stories. And now I actually see that every little thing around me is a story. And I want it all to be stories worth telling.&lt;/p&gt;
+
+&lt;p&gt;And I also believe I should focus even more on &lt;strong&gt;education&lt;/strong&gt;. There&amp;rsquo;s so much that can still be improved in how we teach and how we learn. And I sincerely believe we can build a new kind of technical training  - something that will be a better fit for the future world of AI, IoT and global organizations.&lt;/p&gt;
+
+&lt;p&gt;Those are my themes. And what are yours?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>measuring devops flow</title>
+      <link>http://antweiss.com/blog/measuring-devops-flow/</link>
+      <pubDate>Sun, 25 Dec 2016 18:24:32 +0200</pubDate>
+      
+      <guid>http://antweiss.com/blog/measuring-devops-flow/</guid>
+      <description>&lt;p&gt;During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&amp;rsquo;ve developed for our clients at Otomato.&lt;/p&gt;
+
+&lt;p&gt;The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&amp;rsquo;ve aimed at simplicity and conciseness.&lt;/p&gt;
+
+&lt;p&gt;Here are the metrics: [&lt;a href=&#34;http://devopsflowmetrics.org&#34;&gt;http://devopsflowmetrics.org&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;Feel free to use and comment.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to your feedback.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>milestone throw</title>
