@@ -6,8 +6,17 @@
     <description>Recent content on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Apr 2017 16:10:29 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 25 Apr 2017 17:50:23 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>chatops</title>
+      <link>http://antweiss.com/blog/chatops/</link>
+      <pubDate>Tue, 25 Apr 2017 17:50:23 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/chatops/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>devops is a myth</title>
