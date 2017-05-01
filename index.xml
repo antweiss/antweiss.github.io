@@ -6,8 +6,40 @@
     <description>Recent content on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Apr 2017 16:10:29 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 25 Apr 2017 17:50:23 +0300</lastBuildDate>
     <atom:link href="http://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>chatops</title>
+      <link>http://antweiss.com/blog/chatops/</link>
+      <pubDate>Tue, 25 Apr 2017 17:50:23 +0300</pubDate>
+      
+      <guid>http://antweiss.com/blog/chatops/</guid>
+      <description>&lt;p&gt;Do you have Slack, HipChat or Mattermost open now? Another chat app? Please close it. &lt;whispering&gt; Because we are gonna be praising ChatOps and I don&amp;rsquo;t want your bots to hear. It may go to their heads.
+And because I don&amp;rsquo;t want you to get distracted from my fabulous talk trying to fix production issues in the chat window.&lt;/p&gt;
+
+&lt;p&gt;ChatOps is easy to define. Much easier then DevOps for example. It basically means performing your software system operation tasks from the chat window. Chatting with the systems, so to say. Giving them commands, asking them questions, and yes - following their instructions and suggestions. All that in plain English or in whatever code languages we teach them to speak.&lt;/p&gt;
+
+&lt;p&gt;The term was originally coined by Github. Hubot - the chatbot they eventually released to the community famously became an indispensable member of their team, taking care of software delivery and operation tasks and providing some laughs in its free time.&lt;/p&gt;
+
+&lt;p&gt;GitHub started talking about ChatOps back in 2013 and since then the excitement around the concept has been steadily growing. So today we&amp;rsquo;ll take a look at why some of us think it&amp;rsquo;s so cool to chat with machines, how this changes the way we build and operate software and how to implement this correctly.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll start with myself. First time I heard about ChatOps was about 3 years ago and it immediately caught my eye. And I can certainly explain why.
+You see, I&amp;rsquo;m a self-taught programmer. But not one of those kids who played with Atari and Commodore 64 at the age of 5. (To be fair - Commodore 64 was only released when I was 8. And living in Soviet Russia I didn&amp;rsquo;t really have any chance to play with it.) So I wasn&amp;rsquo;t very much into computers until college. For my BA I studied Sociology, Anthropology and German Literature. And that&amp;rsquo;s basically when I first encountered internet. Back then it was still mostly text-based and centered around communication and information sharing, not commerce. We had gopher, bulletin boards and of course - Internet Relay Chat. Yes, IRC, still used by many open source communities (Jenkins developers for example) is a very old technology dating back to 1988. It&amp;rsquo;ll be 30 years old next year!!! But back then - in mid-nineties it was still relatively new and going strong. (Mind you - this was even before ICQ.)
+So I started both using internet and studying it as a part of my social studies curriculum. As an example - we had this exciting course about IRC and special communication patterns and slang constructs it gave birth to.
+At a certain point after I graduated I realized I actually enjoy programming, learned some C and C++ and found my first coding job. The company I worked at was developing an information retrieval system. Or put simpler, a search engine.&lt;/p&gt;
+
+&lt;p&gt;Now - we recently had this conversation with a couple of friends. We were 2 IT guys and another friend who has a printing business. So we were discussing all the latest developments in tech. You know, like big data, artificial intelligence, machine learning and stuff. And the printing guy says : it&amp;rsquo;s exciting, too bad computers are not my thing - I&amp;rsquo;ve never been good with math. And of course we found ourselves explaining to him how most of our work has nothing to do with math.
+Frankly - this implicit association of computer science with math has been a source of pain for me throughout my career.
+I&amp;rsquo;m an ok developer. Certainly not the best out there, but I&amp;rsquo;ve seen a lot of engineers worse than me. When I&amp;rsquo;m not doing speaking and training I still write some code. But I too, was never especially good at math.&lt;/p&gt;
+
+&lt;p&gt;After about 5 years of writing code for shekels I was dumb enough to enlist for yet another BA degree in CS. I have to admit that I quit after a year - broken by none other but math. And have been happily coding since then.&lt;/p&gt;
+
+&lt;p&gt;The thing is - I never saw programming as an exact science. Yes, one needs to know their math to code the complex algorithms, all the advanced deep learning and stuff. But for most of us - programming has much more to do with linguistics. As I see it our job is about trying to find the best language patterns in order to explain computers and other programmers what we want them to do.&lt;/p&gt;
+
+&lt;p&gt;So as I said - my first programming job was writing a text search engine. This was before Google and Elastic, so we were actually developing this thing ourselves. With natural language processing, efficient index compression and what not. Linguistics again! And even more than that - our engine was responsible for user search in ICQ.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>devops is a myth</title>
@@ -52,7 +84,7 @@ And then the speakers at the next fancy conference will tell you it&amp;rsquo;s 
 
 &lt;h3 id=&#34;but-isn-t-it-true&#34;&gt;But Isn&amp;rsquo;t It True?&lt;/h3&gt;
 
-&lt;p&gt;Anybody who&amp;rsquo;s studied management theories knows how the approaches have changed since the beginning of the last century. From Taylor&amp;rsquo;s scientific management and down to McGregor&amp;rsquo;s X&amp;amp;Y theory they&amp;rsquo;ve all had their followers. Managers who&amp;rsquo;ve applied them and swore getting great results thanks to them. And yet most of these theories have been proven wrong by their successors.&lt;/p&gt;
+&lt;p&gt;Anybody who&amp;rsquo;s studied &lt;a href=&#34;https://www.business.com/images/content/547/4f8bfc9786bc07e8b45fb/0-0-/&#34;&gt;management theories&lt;/a&gt; knows how the approaches have changed since the beginning of the last century. From Taylor&amp;rsquo;s scientific management and down to McGregor&amp;rsquo;s X&amp;amp;Y theory they&amp;rsquo;ve all had their followers. Managers who&amp;rsquo;ve applied them and swore getting great results thanks to them. And yet most of these theories have been proven wrong by their successors.&lt;/p&gt;
 
 &lt;p&gt;In the same way we see this happening with DevOps and Agile. Agile was all the buzz since its inception in 2005. Teams were moving to Scrum, then Kanban, now SAFE and LESS. But Agile didn&amp;rsquo;t deliver in its promise of better life. Or rather - it became so commonplace that it lost its edge. Without the hype, we now realize it has its downsides. And we now hope that maybe this new DevOps thing will make us happy.&lt;/p&gt;
 
