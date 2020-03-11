@@ -1,0 +1,26 @@
+baseurl = "http://antweiss.com/"
+languageCode = "en-us"
+title = "one man's singularity"
+
+disqusShortname = "antweiss"
+#disqus_url = http://antweiss.disqus.com
+pygmentsstyle = "lovelace"
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+DateForm = "Mon, Jan 2, 2006"
+Author = "Ant Weiss"
+CacheBuster = true
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = "Don't panic"
+Email = "ant.weiss@gmail.com" # TODO:
+FaviconFile = "img/otomato.ico"
+GATracker = "XYZ" # TODO:
+GitHub = "//github.com/antweiss" # TODO:
+Initials = "ad" # displayed on single post page; DEPRECATED in v0.3.0
+Lang = "en"
+LinkedIn = "//linkedin.com/in/antonweiss" # TODO:
+Twitter = "//twitter.com/antweiss" # TODO:
