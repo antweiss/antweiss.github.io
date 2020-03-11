@@ -1,412 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>one man&#39;s singularity</title>
-    <link>http://antweiss.com/index.xml</link>
+    <link>https://antweiss.com/</link>
     <description>Recent content on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2017 17:50:23 +0300</lastBuildDate>
-    <atom:link href="http://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>chatops</title>
-      <link>http://antweiss.com/blog/chatops/</link>
-      <pubDate>Thu, 25 May 2017 17:50:23 +0300</pubDate>
+      <title>Dangerous Career Advice for IT Professionals</title>
+      <link>https://antweiss.com/blog/dangerous-career-advice-for-it-professionals/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/chatops/</guid>
-      <description>&lt;p&gt;Soon there will be a post about ChatOps here.
-For now - just a placeholder.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/dangerous-career-advice-for-it-professionals/</guid>
+      <description>Mentor - yes, Career Advice - Not So Sure A large part of my current job involves mentoring, training and coaching less experienced engineers and engineering managers. Most of the time it’s about cloud-native technology, professional mastery, healthy engineering practices and tech blogging/speaking. But sometimes they also come to me for career advice. And I’m definitely the wrong person to come to with that! My career as an employee in tech was far from amazing - rather filled with stress and despair.</description>
     </item>
     
     <item>
       <title>devops is a myth</title>
-      <link>http://antweiss.com/blog/devops-is-a-myth/</link>
-      <pubDate>Tue, 25 Apr 2017 16:10:29 +0300</pubDate>
+      <link>https://antweiss.com/blog/devops-is-a-myth/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0300</pubDate>
       
-      <guid>http://antweiss.com/blog/devops-is-a-myth/</guid>
-      <description>
-
-&lt;h1 id=&#34;devops-is-a-myth&#34;&gt;DevOps Is A Myth&lt;/h1&gt;
-
-&lt;h4 id=&#34;practitioner-s-reflections-on-the-devops-handbook&#34;&gt;(Practitioner&amp;rsquo;s Reflections on The DevOps Handbook)&lt;/h4&gt;
-
-&lt;h3 id=&#34;the-holy-wars-of-devops&#34;&gt;The Holy Wars of DevOps&lt;/h3&gt;
-
-&lt;p&gt;Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps &lt;strong&gt;culture&lt;/strong&gt;, DevOps &lt;strong&gt;mindset&lt;/strong&gt; and DevOps &lt;strong&gt;ways&lt;/strong&gt;. All confirming one single truth - &lt;strong&gt;DevOps is a myth&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now don&amp;rsquo;t get me wrong - in no way is this a negation of its validity or importance.  As Y.N.Harrari shows so eloquently in his book &lt;a href=&#34;https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind&#34;&gt;&amp;lsquo;Sapiens&amp;rsquo;&lt;/a&gt; - myths were the forming power in the development of humankind. It is in fact our ability to collectively believe in these non-objective, imagined realities that allows us to collaborate at large scale, to coordinate our actions, to build pyramids, temples, cities and roads.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://antweiss.com/img/sapiens.jpg&#34; alt=&#34;/img/sapiens.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;there-s-a-handbook&#34;&gt;There&amp;rsquo;s a Handbook!&lt;/h3&gt;
-
-&lt;p&gt;I am writing this while finishing the exceptionally well written &lt;a href=&#34;http://www.itrevolution.com/book/the-devops-handbook/&#34;&gt;&amp;ldquo;DevOps Handbook&amp;rdquo;&lt;/a&gt;. If you really want to know what stands behind the all-too-often misinterpreted buzzword - you better read this cover-to-cover. It presents an almost-no-bullshit deep dive into why, how and what in DevOps. And it comes from the folks who invented the term and have been busy developing its main concepts over the last 7 years.&lt;/p&gt;
-
-&lt;p&gt;Now notice - I&amp;rsquo;m only saying you should read the &lt;strong&gt;&amp;ldquo;DevOps Handbook&amp;rdquo;&lt;/strong&gt; if you want to understand what DevOps is about.
-After finishing it I&amp;rsquo;m pretty sure you won&amp;rsquo;t have any interest in participating in petty arguments along the lines of &amp;lsquo;is DevOps about automation or not?&amp;rsquo;.
-But I&amp;rsquo;m not saying you should read the handbook if you want to know how to improve and speed up your software manufacturing and delivery processes. And neither if you want to optimize your IT organization for innovation and continuous improvement.&lt;/p&gt;
-
-&lt;p&gt;Because the main realization that you, as a smart reader, will arrive at  - is just that there is no such thing as DevOps. &lt;strong&gt;DevOps is a myth&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://antweiss.com/img/dohb.png&#34; alt=&#34;/img/dohb.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;so-what-s-the-story&#34;&gt;So What&amp;rsquo;s The Story?&lt;/h3&gt;
-
-&lt;p&gt;It all basically comes down to this: &lt;strong&gt;some IT companies achieve better results than others&lt;/strong&gt;.
-Better revenues, higher customer and employee satisfaction, faster value delivery, higher quality.
-There&amp;rsquo;s no one-size-fits-all formula, there is no magic bullet - but we can learn from these high performers and try to apply certain tools and practices in order to improve the way we work and achieve similar or better results. These tools and processes come from a myriad of management theories and practices. Moreover - they are constantly evolving, so we need to always be learning. But at least we have the promise of better life. That is if we get it all right: the people, the architecture, the processes, the mindset, the org structure, etc.&lt;/p&gt;
-
-&lt;p&gt;So it&amp;rsquo;s not about certain tools, cause the tools will change. And it&amp;rsquo;s not about certain practices - because we&amp;rsquo;re creative and frameworks come and go. I don&amp;rsquo;t see too many folks using Kanban boards 10 years from now. (In the same way only the laggards use Gantt charts today)
-And then the speakers at the next fancy conference will tell you it&amp;rsquo;s mainly about culture. And you know what culture is? It&amp;rsquo;s just a story, or rather a collection of stories that a group of people share. Stories that tell us something about the world and about ourselves. Stories that have only a very relative connection to the material world. Stories that can easily be proven as myths by another group of folks who believe them to be wrong.&lt;/p&gt;
-
-&lt;h3 id=&#34;but-isn-t-it-true&#34;&gt;But Isn&amp;rsquo;t It True?&lt;/h3&gt;
-
-&lt;p&gt;Anybody who&amp;rsquo;s studied &lt;a href=&#34;https://www.business.com/images/content/547/4f8bfc9786bc07e8b45fb/0-0-/&#34;&gt;management theories&lt;/a&gt; knows how the approaches have changed since the beginning of the last century. From Taylor&amp;rsquo;s scientific management and down to McGregor&amp;rsquo;s X&amp;amp;Y theory they&amp;rsquo;ve all had their followers. Managers who&amp;rsquo;ve applied them and swore getting great results thanks to them. And yet most of these theories have been proven wrong by their successors.&lt;/p&gt;
-
-&lt;p&gt;In the same way we see this happening with DevOps and Agile. Agile was all the buzz since its inception in 2005. Teams were moving to Scrum, then Kanban, now SAFE and LESS. But Agile didn&amp;rsquo;t deliver on its promise of better life. Or rather - it became so commonplace that it lost its edge. Without the hype, we now realize it has its downsides. And we now hope that maybe this new DevOps thing will make us happy.&lt;/p&gt;
-
-&lt;p&gt;You may say that the world is changing fast - that&amp;rsquo;s why we now need new approaches! And I agree - the technology, the globalization, the flow of information - they all change the stories we live in. But this also means that whatever is working for someone else today won&amp;rsquo;t probably work for you tomorrow - because the world will change yet again.&lt;/p&gt;
-
-&lt;p&gt;Which means that the DevOps Handbook - while a great overview and historical document and a source of inspiration - should not be taken as a guide to action. It&amp;rsquo;s just another step towards establishing the DevOps myth.&lt;/p&gt;
-
-&lt;p&gt;And that takes us back to where we started - myths and stories aren&amp;rsquo;t bad in themselves. They help us collaborate by providing a common semantic system and shared goals.
-But they only work while we believe in them and until a new myth comes around - one powerful enough to grab our attention.&lt;/p&gt;
-
-&lt;h3 id=&#34;your-own-devops-story&#34;&gt;Your Own DevOps Story&lt;/h3&gt;
-
-&lt;p&gt;So if we agree that DevOps is just another myth, what are we left with? What do we at &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; and other DevOps consultants and vendors have to sell? Well, it&amp;rsquo;s the same thing we&amp;rsquo;ve been building even before the DevOps buzz: effective software delivery and IT management. Based on tools and processes, automation and effective communication. Relying on common sense and on being experts in whatever myth is currently believed to be true.&lt;/p&gt;
-
-&lt;p&gt;As I keep saying  - culture is a story you tell. And we make sure to be experts in both the storytelling and the actual tooling and architecture. If you&amp;rsquo;re currently looking at creating a DevOps transformation or simply want to optimize your software delivery - give us a call. We&amp;rsquo;ll help to build your authentic DevOps story, to train your staff and to architect your pipeline based on practice, skills and your organization&amp;rsquo;s actual needs. Not based on myths that other people tell.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/devops-is-a-myth/</guid>
+      <description>DevOps Is A Myth (Practitioner&#39;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
+Now don&#39;t get me wrong - in no way is this a negation of its validity or importance.</description>
     </item>
     
     <item>
       <title>From Zero to One with Peter Thiel</title>
-      <link>http://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</link>
-      <pubDate>Sat, 21 Jan 2017 11:15:24 +0300</pubDate>
+      <link>https://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</link>
+      <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</guid>
-      <description>
-
-&lt;h3 id=&#34;blessed-by-a-flu&#34;&gt;Blessed By a Flu&lt;/h3&gt;
-
-&lt;p&gt;I was down with a flu last week.  Felt shitty but it was also a blessing of sorts as I got to spend a couple of days in bed reading a book. Gave me an opportunity to complete Peter Thiel&amp;rsquo;s &lt;a href=&#34;http://zerotoonebook.com/&#34;&gt;Zero to One&lt;/a&gt;. It&amp;rsquo;s widely known that we only remember 10-20% of what we read in books. Even those we really like. I liked Peter&amp;rsquo;s book but not enough to re-read it anytime soon. So I think it&amp;rsquo;s a good idea to write a kind of a review. Will help me remember it and hopefully will help you decide if you should read it.&lt;/p&gt;
-
-&lt;h3 id=&#34;les-provocateur&#34;&gt;Les Provocateur&lt;/h3&gt;
-
-&lt;p&gt;Peter Thiel is best known as a co-founder of PayPal. I&amp;rsquo;ve previously read some of his lectures on startup building. He&amp;rsquo;s pretty good at explaining the dotcom bubble and had a few convincingly practical ideas. And a few quite provocative ones - like his firm belief in the virtue of monopoly. So I was interested to see how all this is packaged in a book. Additionally - he&amp;rsquo;s been a lot in the media lately due to his famous support of Trump. I have a number of friends in the american technological bourgeoisie and for them supporting Trump is a clear no-no. Unsurprisingly Thiel&amp;rsquo;s haters camp grew quite a bit in the last year. Which made me even more curious. I&amp;rsquo;ve always loved provocators and disruptors of public opinion.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-book&#34;&gt;The Book&lt;/h3&gt;
-
-&lt;p&gt;The goal of the book is to describe how to build something conceptually new. Be it a product or a company. Hence the name. The real creativity in Peter&amp;rsquo;s words is going from zero to one - to make something out of nothing. As opposed to taking something that already exists and improving or optimizing it. And he goes on to laying out his maximalistic views on to why it&amp;rsquo;s only this demiurgian creativity that is interesting or worth pursuing.&lt;/p&gt;
-
-&lt;p&gt;It starts with his idee fix of building a monopoly.The concept is pretty close to the &lt;a href=&#34;https://www.blueoceanstrategy.com/&#34;&gt;blue ocean&lt;/a&gt; idea of Kim and Mauborgne. Just under a more provocative sauce. The great thing here is that Thel is the guy who actually created a kind of a monopoly in online payment. Which makes his story certainly more believabe.&lt;/p&gt;
-
-&lt;p&gt;In general that&amp;rsquo;s what I liked about the book - it is very believable. Thiel writes with passion. He truthfully says that small undifferentiated businesses are doomed to eternal fighting against ever-growing competition and low profit margin. And that he sees no point in opening such businesses.
-This certainly sounds insulting to many proud small business owners but that&amp;rsquo;s how Thiel sees the world.&lt;/p&gt;
-
-&lt;p&gt;He speaks with the same openness and passion when describing their founder team at PayPal. These are the people he&amp;rsquo;s very fond of - his lifelong friends. I could practically feel his nostalgia for the good old days. The way he depicts startups really made me myself contemplate an idea of abandoning consulting and finding a great startup I could join or co-found. This may still happen. Even though I know that great teams like the one he describes don&amp;rsquo;t happen everyday. And even when they do - bad leadership can easily blow all that greatness away.&lt;/p&gt;
-
-&lt;p&gt;And that for me is the selling point for Peter&amp;rsquo;s book. He reminds us why it is so great to work in a startup and also provides some criteria to help us decide which startups are worth joining.&lt;/p&gt;
-
-&lt;p&gt;He also does quite a good job destroying the myth of robot apocalypse in which computers will steal our jobs. He rightflly notices that technological progress didn&amp;rsquo;t help us work less. It just changed the type of work we&amp;rsquo;re doing. So the type of work will definitely continue changing. But not the amount of it. Humans have this inner necessity to create work. Even when they are fed, healthy and warm.&lt;/p&gt;
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;As I already said  - I liked the book. It&amp;rsquo;s quite concise and lays out Thiel&amp;rsquo;s ideas in a clear way.
-Even though his ideas could probably be all described in a blog post. In a few places in the book I felt like Peter is trying too hard to explain things that are already clear. In other places he&amp;rsquo;s just repeating himself.&lt;/p&gt;
-
-&lt;p&gt;But all in all - it&amp;rsquo;s a sincere, non-boring story of a real geek who made it. And that&amp;rsquo;s what makes it inspiring and educational.
-I wouldn&amp;rsquo;t call it a must-read but it&amp;rsquo;s certainly worth a few hours of your time.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</guid>
+      <description>Blessed By a Flu I was down with a flu last week. Felt shitty but it was also a blessing of sorts as I got to spend a couple of days in bed reading a book. Gave me an opportunity to complete Peter Thiel&#39;s [Zero to One] (http://zerotoonebook.com/). It&#39;s widely known that we only remember 10-20% of what we read in books. Even those we really like. I liked Peter&#39;s book but not enough to re-read it anytime soon.</description>
     </item>
     
     <item>
       <title>wrap up 2016</title>
-      <link>http://antweiss.com/blog/wrap-up-2016/</link>
-      <pubDate>Sat, 31 Dec 2016 11:15:29 +0300</pubDate>
+      <link>https://antweiss.com/blog/wrap-up-2016/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/wrap-up-2016/</guid>
-      <description>
-
-&lt;p&gt;So here I am again - drafting a post on my phone. In fact I&amp;rsquo;ve done this a number of times in the last couple of years. With wordpress it&amp;rsquo;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and host on github pages - I&amp;rsquo;ll have to take the extra step. That&amp;rsquo;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&amp;rsquo;t go hand in hand with efficiency. At least not at first. Cutting new paths is always harder and takes longer than walking the beaten ones.&lt;/p&gt;
-
-&lt;p&gt;I was planning to write a personal wrap-up for 2016 and do some general theme-setting for 2017. But this december was hectic. It&amp;rsquo;s already the 30th and I have to use the few spare minutes with the phone while Janka is in the fitting room.&lt;/p&gt;
-
-&lt;p&gt;Yes, we found a great dress!!!&lt;/p&gt;
-
-&lt;p&gt;And now I&amp;rsquo;m home and went into my &amp;ldquo;writing room&amp;rdquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;so-what-exactly-happened-in-2016&#34;&gt;So what exactly happened in 2016?&lt;/h3&gt;
-
-&lt;p&gt;Personally - this was a big year:
- I&amp;rsquo;ve finally realized my almost 5 years old dream and became a freelancer. And then started building a company. It was a challenging decision. Simply said I was scared, not sure of myself. But I succeeded in gradually building my confidence. And I have to thank my friends and my family who empowered and advised me on this road. There&amp;rsquo;s still a long journey ahead, I&amp;rsquo;m still not sure how things will work out. Right now it&amp;rsquo;s sometimes even hard to call &lt;strong&gt;Otomato&lt;/strong&gt; a company. It&amp;rsquo;s mostly me and a few think-alike creative folks who hop on and off. But I&amp;rsquo;m intent on building this into a real brand. Something bigger than myself, something with a life of its own. Because this is the ultimate goal of any creative activity - to give life to something meaningful, valuable, beautiful.&lt;/p&gt;
-
-&lt;p&gt;This year I was lucky enough to speak at a number of tech conferences in Israel and abroad. We&amp;rsquo;ve finished the third DevOps certification course at &lt;strong&gt;I.T.College&lt;/strong&gt; and started the fourth one. I personally worked on a number of exciting projects spanning a wide range of subjects such as: security, IOT, sharing economy, forex, advertisement and telco.
- And most importantly - I&amp;rsquo;ve met and worked with a lot of great people. I had a chance to learn from them and teach them. I had a chance to share.&lt;/p&gt;
-
-&lt;p&gt;It wasn&amp;rsquo;t all easy and beautiful. Some of it was nerve-wrecking and exhausting. I wasn&amp;rsquo;t always sure where I&amp;rsquo;m going or if the choices are right. And some of them were wrong.
- But overall - I&amp;rsquo;m sincerely grateful for the year behind and the lessons it taught me.&lt;/p&gt;
-
-&lt;h3 id=&#34;now-what-do-i-expect-of-year-2017&#34;&gt;Now what do I expect of year 2017?&lt;/h3&gt;
-
-&lt;p&gt;On the &lt;strong&gt;personal&lt;/strong&gt; level - I will definitely focus more on listening. To others and to myself. Especially to my closest ones. Janka needs me more than usual these days, and I was a bit too engaged in building the business lately.This is  a good opportunity to remind myself about balance.&lt;/p&gt;
-
-&lt;p&gt;Talking about balance: December was hectic and I&amp;rsquo;ve relaxed my gym schedule far beyond acceptable. I&amp;rsquo;ll start the year by getting back on track. The physical activity has tangible positive impact on my emotional and intellectual well-being.&lt;/p&gt;
-
-&lt;p&gt;And I&amp;rsquo;ll do more singing and playing. Especially now that I can join forces with Eran (my son). He&amp;rsquo;s become a good drummer and is also moving ahead in his bass playing.&lt;/p&gt;
-
-&lt;p&gt;Now to &lt;strong&gt;professional&lt;/strong&gt;. After all this blog is more about that - my contribution to the outside world.&lt;/p&gt;
-
-&lt;p&gt;I already tweeted about setting &lt;em&gt;chatbots&lt;/em&gt; and &lt;em&gt;storytelling&lt;/em&gt; as two important themes. I got very excited about &lt;strong&gt;ChatOps&lt;/strong&gt; and the whole idea of collaborative cli about 4-5 months ago. But I still haven&amp;rsquo;t found the time to look into it in more depth or build a real ChatOps solution. So in year 2017 I will be focusing on this from the very start. Especially as I have some customers sharing my excitement.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Storytelling&lt;/strong&gt; has become a major theme with me in the last couple of months. Clearly thanks to Y.N.Harari&amp;rsquo;s &lt;a href=&#34;http://www.ynharari.com/sapiens/short-overview/&#34;&gt;Sapiens&lt;/a&gt; and the Tedx TLV Storytelling workshop we attended. I&amp;rsquo;ve always loved telling and hearing good stories. And now I actually see that every little thing around me is a story. And I want it all to be stories worth telling.&lt;/p&gt;
-
-&lt;p&gt;And I also believe I should focus even more on &lt;strong&gt;education&lt;/strong&gt;. There&amp;rsquo;s so much that can still be improved in how we teach and how we learn. And I sincerely believe we can build a new kind of technical training  - something that will be a better fit for the future world of AI, IoT and global organizations.&lt;/p&gt;
-
-&lt;p&gt;Those are my themes. And what are yours?&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/wrap-up-2016/</guid>
+      <description>So here I am again - drafting a post on my phone. In fact I&#39;ve done this a number of times in the last couple of years. With wordpress it&#39;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on Hugo and host on github pages - I&#39;ll have to take the extra step. That&#39;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&#39;t go hand in hand with efficiency.</description>
     </item>
     
     <item>
       <title>measuring devops flow</title>
-      <link>http://antweiss.com/blog/measuring-devops-flow/</link>
-      <pubDate>Sun, 25 Dec 2016 11:45:35 +0300</pubDate>
+      <link>https://antweiss.com/blog/measuring-devops-flow/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/measuring-devops-flow/</guid>
-      <description>&lt;p&gt;During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&amp;rsquo;ve developed for our clients at Otomato.&lt;/p&gt;
-
-&lt;p&gt;The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&amp;rsquo;ve aimed at simplicity and conciseness.&lt;/p&gt;
-
-&lt;p&gt;Here are the metrics: [&lt;a href=&#34;http://devopsflowmetrics.org&#34;&gt;http://devopsflowmetrics.org&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Feel free to use and comment.&lt;/p&gt;
-
-&lt;p&gt;Looking forward to your feedback.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/measuring-devops-flow/</guid>
+      <description>During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&#39;ve developed for our clients at Otomato.
+The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&#39;ve aimed at simplicity and conciseness.
+Here are the metrics: [http://devopsflowmetrics.org]
+Feel free to use and comment.</description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://antweiss.com/code/</link>
+      <link>https://antweiss.com/code/</link>
       <pubDate>Mon, 26 Sep 2016 18:11:19 +0300</pubDate>
       
-      <guid>http://antweiss.com/code/</guid>
-      <description>&lt;p&gt;Nothing here yet!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>colophon</title>
-      <link>http://antweiss.com/colophon/</link>
-      <pubDate>Mon, 26 Sep 2016 18:11:14 +0300</pubDate>
-      
-      <guid>http://antweiss.com/colophon/</guid>
-      <description>&lt;p&gt;This website is a personal homepage.&lt;/p&gt;
-
-&lt;p&gt;The site is built with &lt;a target=&#34;_blank&#34; href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;—a static site generator made with Go. The website &lt;a href=&#34;http://antweiss.com/&#34;&gt;source code&lt;/a&gt; is available on GitHub. It uses the &lt;a target=&#34;_blank&#34; href=&#34;//github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa&lt;/a&gt; theme. The posts are written in Markdown.&lt;/p&gt;
-
-&lt;p&gt;The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.&lt;/p&gt;
-
-&lt;p&gt;If you find errors, &lt;a href=&#34;http://antweiss.com/&#34;&gt;please let me know&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/code/</guid>
+      <description>Nothing here yet!</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://antweiss.com/about/</link>
+      <link>https://antweiss.com/about/</link>
       <pubDate>Mon, 26 Sep 2016 18:11:06 +0300</pubDate>
       
-      <guid>http://antweiss.com/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-stranger&#34;&gt;Welcome stranger!&lt;/h1&gt;
-
-&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Ant Weiss&lt;/strong&gt; - an entrepreneur,  software delivery consultant, musician, public speaker, writer and instructor.&lt;/p&gt;
-
-&lt;p&gt;All this in no particular order and in parallel to being a male human being blessed with the best wife and kids in the world!&lt;/p&gt;
-
-&lt;p&gt;I also like to think of myself as a &lt;em&gt;futurist&lt;/em&gt;, but aren&amp;rsquo;t we all?&lt;/p&gt;
-
-&lt;p&gt;I write on a wide range of topics including but not limited to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;creativity&lt;/li&gt;
-&lt;li&gt;entrepreneurship&lt;/li&gt;
-&lt;li&gt;technology&lt;/li&gt;
-&lt;li&gt;cool hacks&lt;/li&gt;
-&lt;li&gt;music&lt;/li&gt;
-&lt;li&gt;marketing&lt;/li&gt;
-&lt;li&gt;future&lt;/li&gt;
-&lt;li&gt;collaboration&lt;/li&gt;
-&lt;li&gt;software delivery methodologies&lt;/li&gt;
-&lt;li&gt;devops&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you like something you see here - drop me a line at ant.weiss@gmail.com.&lt;/p&gt;
-
-&lt;p&gt;Or find me on twitter: &lt;a href=&#34;http://twitter.com/antweiss&#34;&gt;antweiss&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And this is me on &lt;a href=&#34;https://about.me/antweiss&#34;&gt;about.me&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o.aolcdn.com/dims-global/dims/ABOUTME/5/435/290/100/http://d3mod6n032mdiz.cloudfront.net/thumb2/a/n/t/antweiss/antweiss-840x560.jpg&#34; class=&#34;profile&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/about/</guid>
+      <description>Welcome stranger! I&#39;m Ant Weiss - an entrepreneur, software delivery consultant, musician, public speaker, writer and instructor.
+All this in no particular order and in parallel to being a male human being blessed with the best wife and kids in the world!
+I also like to think of myself as a futurist, but aren&#39;t we all?
+I write on a wide range of topics including but not limited to:
+ creativity entrepreneurship technology cool hacks music marketing future collaboration software delivery methodologies devops  If you like something you see here - drop me a line at ant.</description>
     </item>
     
     <item>
       <title>milestone throw</title>
-      <link>http://antweiss.com/blog/milestone-throw/</link>
-      <pubDate>Mon, 26 Sep 2016 11:15:42 +0300</pubDate>
+      <link>https://antweiss.com/blog/milestone-throw/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/milestone-throw/</guid>
-      <description>&lt;p&gt;Not surprisingly this blog isn&amp;rsquo;t getting too much of my attention.
-Most of my writing is now around &lt;a href=&#34;http://otomato/link&#34;&gt;Otomato&lt;/a&gt; official blog, evangelism we do for &lt;a href=&#34;http://codefresh.io&#34;&gt;Codefresh&lt;/a&gt;, white papers and articles.
-Oh yes and conference proposals. I&amp;rsquo;ve submitted quite a few lately. There&amp;rsquo;s one talk and a workshop already confirmed for start of December in Munich at &lt;a href=&#34;http://devopsconference.de&#34;&gt;DevOpsCon&lt;/a&gt; and hopefully there are more to come.&lt;/p&gt;
-
-&lt;p&gt;I hope to be able to write more in the next few weeks as we&amp;rsquo;re going on a family trip in the US - which means I won&amp;rsquo;t be doing the day-to-day work for almost a month.
-I already see myself sitting down to record my thoughts after a long day of sightseeing. But we&amp;rsquo;ll see how it all works out.&lt;/p&gt;
-
-&lt;p&gt;The last month before vacation was hectic.
-A lot of projects running in parallel, a few workshops, and in general - I laid off the vacation for too long. Don&amp;rsquo;t do that to yourself - giving yourself some time to rest and reflect is vitally important for your emotional, physical and spiritual well-being.&lt;/p&gt;
-
-&lt;p&gt;So now I&amp;rsquo;m going to recharge my batteries and come back with a blast.&lt;/p&gt;
-
-&lt;p&gt;Wishing the same to you.&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/milestone-throw/</guid>
+      <description>Not surprisingly this blog isn&#39;t getting too much of my attention. Most of my writing is now around Otomato official blog, evangelism we do for Codefresh, white papers and articles. Oh yes and conference proposals. I&#39;ve submitted quite a few lately. There&#39;s one talk and a workshop already confirmed for start of December in Munich at DevOpsCon and hopefully there are more to come.
+I hope to be able to write more in the next few weeks as we&#39;re going on a family trip in the US - which means I won&#39;t be doing the day-to-day work for almost a month.</description>
     </item>
     
     <item>
       <title>2 months of Otomato</title>
-      <link>http://antweiss.com/blog/2-months-of-otomato/</link>
-      <pubDate>Sun, 15 May 2016 23:54:17 +0300</pubDate>
+      <link>https://antweiss.com/blog/2-months-of-otomato/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0300</pubDate>
       
-      <guid>http://antweiss.com/blog/2-months-of-otomato/</guid>
-      <description>&lt;p&gt;Going forward&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;2 months have passed since I started &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; as a company.
-Things are going exceptionally well.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more.
-We are looking to add some bigger logos to this list.
-We&amp;rsquo;re involved in various types of projects - from large-scale web services to IOT cloud solutions.&lt;/p&gt;
-
-&lt;p&gt;Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&amp;rsquo;s a very strong software delivery shark and it makes me very happy to have him on board. And we&amp;rsquo;ve started training a couple of juniors.
-I&amp;rsquo;m also meeting a lot of new exciting people in the field who I hope to partner with one day.&lt;/p&gt;
-
-&lt;p&gt;And - we&amp;rsquo;re working on a comprehensive DevOps training program with an online academy.&lt;/p&gt;
-
-&lt;p&gt;And there are more plans which are still early to disclose.&lt;/p&gt;
-
-&lt;p&gt;All this is certainly as stressful as it is great.
-A lot to take care of. A lot of responsibility.&lt;/p&gt;
-
-&lt;p&gt;I do get worried from time to time.
-There are nights when I wake up and can&amp;rsquo;t go back to sleep because thoughts are running through my head,&lt;/p&gt;
-
-&lt;p&gt;But it happens less as time passes by.
-Growing the company is a challenge - but it&amp;rsquo;s a challenge I&amp;rsquo;m up to.&lt;/p&gt;
-
-&lt;p&gt;And it certainly is too early to make any conclusions. I can just say I&amp;rsquo;m enjoying this new life, no matter how stressful and uncertain it may seem.&lt;/p&gt;
-
-&lt;p&gt;the journey continues&amp;hellip;&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/2-months-of-otomato/</guid>
+      <description>Going forward&amp;hellip;
+2 months have passed since I started [Otomato] (http://otomato.link) as a company. Things are going exceptionally well.
+We&#39;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more. We are looking to add some bigger logos to this list. We&#39;re involved in various types of projects - from large-scale web services to IOT cloud solutions.
+Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&#39;s a very strong software delivery shark and it makes me very happy to have him on board.</description>
     </item>
     
     <item>
       <title>add sharing buttons</title>
-      <link>http://antweiss.com/blog/add-sharing-buttons/</link>
-      <pubDate>Fri, 15 Apr 2016 23:57:25 +0300</pubDate>
+      <link>https://antweiss.com/blog/add-sharing-buttons/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/add-sharing-buttons/</guid>
-      <description>&lt;p&gt;this is becoming my official personal blog and I&amp;rsquo;m inclined to post some quality content here.
-so I better add some sharing buttons.
-but how does one do this in Hugo?&lt;/p&gt;
-
-&lt;p&gt;I recalled I had a &lt;a href=&#34;https://shareaholic.com/&#34;&gt;Shareaholic&lt;/a&gt; account I&amp;rsquo;ve used before. Shareaholic is free and very easy to set up.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve generated the code snippets from their control interface and pasted them to my theme&amp;rsquo;s layout html files (I&amp;rsquo;m using the wonderfully minimal &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme&#34;&gt;cocoa theme&lt;/a&gt;):&lt;/p&gt;
-
-&lt;p&gt;in themes/cocoa/layouts/partials/head.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;//my.shareaholic.url/assets/pub/shareaholic.js&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-shr-siteid&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;4c511..e8c&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-cfasync&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;false&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;async&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;async&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-and in themes/cocoa/layouts/blog/single.html :
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;br&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;shareaholic-canvas&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;share_buttons&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;data-app-id&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;#39;somenumberfromshareaholic&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #888888&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #2838b0&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color: #388038&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #b83838&#34;&gt;&amp;quot;disqus&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #888888&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-Voila - the sharing buttons are right here below this post. Sharing makes you richer!&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/add-sharing-buttons/</guid>
+      <description>this is becoming my official personal blog and I&#39;m inclined to post some quality content here. so I better add some sharing buttons. but how does one do this in Hugo?
+I recalled I had a [Shareaholic] (https://shareaholic.com/) account I&#39;ve used before. Shareaholic is free and very easy to set up.
+I&#39;ve generated the code snippets from their control interface and pasted them to my theme&#39;s layout html files (I&#39;m using the wonderfully minimal cocoa theme):</description>
     </item>
     
     <item>
       <title>starting the blog</title>
-      <link>http://antweiss.com/blog/starting-the-blog/</link>
-      <pubDate>Tue, 15 Mar 2016 23:57:19 +0300</pubDate>
+      <link>https://antweiss.com/blog/starting-the-blog/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/blog/starting-the-blog/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the posts on &lt;a href=&#34;http://otomato.link/otoblog-2/&#34;&gt;otomato&lt;/a&gt; blog  - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.&lt;/p&gt;
-
-&lt;p&gt;Now that &lt;a href=&#34;http://otomato.link&#34;&gt;Otomato&lt;/a&gt; is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.&lt;/p&gt;
-
-&lt;p&gt;There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)&lt;/p&gt;
-</description>
+      <guid>https://antweiss.com/blog/starting-the-blog/</guid>
+      <description>If you&#39;ve been reading the posts on otomato blog - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.
+Now that Otomato is becoming a full-blown consulting firm I feel it&#39;s time to separate the personal from the professional.
+There still may be some shared context here and there, but starting today I&#39;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://antweiss.com/about-this-site/</link>
+      <link>https://antweiss.com/about-this-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/about-this-site/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#34;canonical&#34; href=&#34;http://antweiss.com/colophon&#34;/&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;/&gt;
-    &lt;meta http-equiv=&#34;refresh&#34; content=&#34;0;url=/colophon&#34;/&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-</description>
+      <guid>https://antweiss.com/about-this-site/</guid>
+      <description>    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://antweiss.com/posts/</link>
+      <link>https://antweiss.com/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/posts/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#34;canonical&#34; href=&#34;http://antweiss.com/blog&#34;/&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;/&gt;
-    &lt;meta http-equiv=&#34;refresh&#34; content=&#34;0;url=/blog&#34;/&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-</description>
+      <guid>https://antweiss.com/posts/</guid>
+      <description>    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://antweiss.com/writing/</link>
+      <link>https://antweiss.com/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://antweiss.com/writing/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#34;canonical&#34; href=&#34;http://antweiss.com/posts&#34;/&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;/&gt;
-    &lt;meta http-equiv=&#34;refresh&#34; content=&#34;0;url=/posts&#34;/&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-</description>
+      <guid>https://antweiss.com/writing/</guid>
+      <description>    </description>
     </item>
     
   </channel>
