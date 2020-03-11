@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>one man&#39;s singularity</title>
+    <link>https://antweiss.com/</link>
+    <description>Recent content on one man&#39;s singularity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dangerous Career Advice for IT Professionals</title>
+      <link>https://antweiss.com/blog/dangerous-career-advice-for-it-professionals/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/dangerous-career-advice-for-it-professionals/</guid>
+      <description>Mentor - yes, Career Advice - Not So Sure A large part of my current job involves mentoring, training and coaching less experienced engineers and engineering managers. Most of the time it’s about cloud-native technology, professional mastery, healthy engineering practices and tech blogging/speaking. But sometimes they also come to me for career advice. And I’m definitely the wrong person to come to with that! My career as an employee in tech was far from amazing - rather filled with stress and despair.</description>
+    </item>
+    
+    <item>
+      <title>devops is a myth</title>
+      <link>https://antweiss.com/blog/devops-is-a-myth/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-is-a-myth/</guid>
+      <description>DevOps Is A Myth (Practitioner&#39;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
+Now don&#39;t get me wrong - in no way is this a negation of its validity or importance.</description>
+    </item>
+    
+    <item>
+      <title>From Zero to One with Peter Thiel</title>
+      <link>https://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</link>
+      <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</guid>
+      <description>Blessed By a Flu I was down with a flu last week. Felt shitty but it was also a blessing of sorts as I got to spend a couple of days in bed reading a book. Gave me an opportunity to complete Peter Thiel&#39;s [Zero to One] (http://zerotoonebook.com/). It&#39;s widely known that we only remember 10-20% of what we read in books. Even those we really like. I liked Peter&#39;s book but not enough to re-read it anytime soon.</description>
+    </item>
+    
+    <item>
+      <title>wrap up 2016</title>
+      <link>https://antweiss.com/blog/wrap-up-2016/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/wrap-up-2016/</guid>
+      <description>So here I am again - drafting a post on my phone. In fact I&#39;ve done this a number of times in the last couple of years. With wordpress it&#39;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on Hugo and host on github pages - I&#39;ll have to take the extra step. That&#39;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&#39;t go hand in hand with efficiency.</description>
+    </item>
+    
+    <item>
+      <title>measuring devops flow</title>
+      <link>https://antweiss.com/blog/measuring-devops-flow/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/measuring-devops-flow/</guid>
+      <description>During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&#39;ve developed for our clients at Otomato.
+The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&#39;ve aimed at simplicity and conciseness.
+Here are the metrics: [http://devopsflowmetrics.org]
+Feel free to use and comment.</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://antweiss.com/code/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:19 +0300</pubDate>
+      
+      <guid>https://antweiss.com/code/</guid>
+      <description>Nothing here yet!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://antweiss.com/about/</link>
+      <pubDate>Mon, 26 Sep 2016 18:11:06 +0300</pubDate>
+      
+      <guid>https://antweiss.com/about/</guid>
+      <description>Welcome stranger! I&#39;m Ant Weiss - an entrepreneur, software delivery consultant, musician, public speaker, writer and instructor.
+All this in no particular order and in parallel to being a male human being blessed with the best wife and kids in the world!
+I also like to think of myself as a futurist, but aren&#39;t we all?
+I write on a wide range of topics including but not limited to:
+ creativity entrepreneurship technology cool hacks music marketing future collaboration software delivery methodologies devops  If you like something you see here - drop me a line at ant.</description>
+    </item>
+    
+    <item>
+      <title>milestone throw</title>
+      <link>https://antweiss.com/blog/milestone-throw/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/milestone-throw/</guid>
+      <description>Not surprisingly this blog isn&#39;t getting too much of my attention. Most of my writing is now around Otomato official blog, evangelism we do for Codefresh, white papers and articles. Oh yes and conference proposals. I&#39;ve submitted quite a few lately. There&#39;s one talk and a workshop already confirmed for start of December in Munich at DevOpsCon and hopefully there are more to come.
+I hope to be able to write more in the next few weeks as we&#39;re going on a family trip in the US - which means I won&#39;t be doing the day-to-day work for almost a month.</description>
+    </item>
+    
+    <item>
+      <title>2 months of Otomato</title>
+      <link>https://antweiss.com/blog/2-months-of-otomato/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/2-months-of-otomato/</guid>
+      <description>Going forward&amp;hellip;
+2 months have passed since I started [Otomato] (http://otomato.link) as a company. Things are going exceptionally well.
+We&#39;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more. We are looking to add some bigger logos to this list. We&#39;re involved in various types of projects - from large-scale web services to IOT cloud solutions.
+Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&#39;s a very strong software delivery shark and it makes me very happy to have him on board.</description>
+    </item>
+    
+    <item>
+      <title>add sharing buttons</title>
+      <link>https://antweiss.com/blog/add-sharing-buttons/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/add-sharing-buttons/</guid>
+      <description>this is becoming my official personal blog and I&#39;m inclined to post some quality content here. so I better add some sharing buttons. but how does one do this in Hugo?
+I recalled I had a [Shareaholic] (https://shareaholic.com/) account I&#39;ve used before. Shareaholic is free and very easy to set up.
+I&#39;ve generated the code snippets from their control interface and pasted them to my theme&#39;s layout html files (I&#39;m using the wonderfully minimal cocoa theme):</description>
+    </item>
+    
+    <item>
+      <title>starting the blog</title>
+      <link>https://antweiss.com/blog/starting-the-blog/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/blog/starting-the-blog/</guid>
+      <description>If you&#39;ve been reading the posts on otomato blog - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.
+Now that Otomato is becoming a full-blown consulting firm I feel it&#39;s time to separate the personal from the professional.
+There still may be some shared context here and there, but starting today I&#39;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://antweiss.com/about-this-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/about-this-site/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://antweiss.com/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/posts/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://antweiss.com/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://antweiss.com/writing/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>
