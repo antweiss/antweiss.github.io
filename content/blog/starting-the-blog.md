@@ -1,5 +1,5 @@
 +++
-date = "2016-03-15T23:57:19+03:00"
+date = "2016-03-15"
 draft = false
 title = "starting the blog"
 

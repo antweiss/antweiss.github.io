@@ -1,5 +1,5 @@
 +++
-date = "2016-05-15T23:54:17+03:00"
+date = 2016-05-15
 draft = false
 title = "2 months of Otomato"
 

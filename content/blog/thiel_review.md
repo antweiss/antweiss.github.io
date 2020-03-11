@@ -1,7 +1,7 @@
 +++
 title = "From Zero to One with Peter Thiel"
 draft = false
-date = "2017-01-21T11:15:24+03:00"
+date = "2017-01-21"
 
 +++
 

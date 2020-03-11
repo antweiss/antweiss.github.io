@@ -1,5 +1,5 @@
 +++
-date = "2016-04-15T23:57:25+03:00"
+date = "2016-04-15"
 draft = false
 title = "add sharing buttons"
 

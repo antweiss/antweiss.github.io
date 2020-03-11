@@ -1,5 +1,5 @@
 +++
-date = "2016-09-26T11:15:42+03:00"
+date = "2016-09-26"
 draft = false
 title = "milestone throw"
 

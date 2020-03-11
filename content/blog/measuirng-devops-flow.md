@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "measuring devops flow"
-date = "2016-12-25T11:45:35+03:00"
+date = "2016-12-25"
 
 +++
 

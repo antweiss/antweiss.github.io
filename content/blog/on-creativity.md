@@ -1,5 +1,5 @@
 +++
-date = "2017-06-12T02:06:48+03:00"
+date = 2017-06-12
 title = "on creativity"
 draft = true
 

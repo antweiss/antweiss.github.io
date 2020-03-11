@@ -1,7 +1,7 @@
 +++
 title = "devops is a myth"
 draft = false
-date = "2017-04-25T16:10:29+03:00"
+date = 2017-04-25
 
 +++
 
@@ -14,7 +14,9 @@ Yet another argument explodes online around the 'true nature of DevOps', around 
 
 Now don't get me wrong - in no way is this a negation of its validity or importance.  As Y.N.Harrari shows so eloquently in his book ['Sapiens'](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind) - myths were the forming power in the development of humankind. It is in fact our ability to collectively believe in these non-objective, imagined realities that allows us to collaborate at large scale, to coordinate our actions, to build pyramids, temples, cities and roads.
 
-![/img/sapiens.jpg](/img/sapiens.jpg)
+
+{{< figure class="special-img-class" src="/img/sapiens.jpg" title="Sapiens">}}
+
 
 ### There's a Handbook!
 
@@ -26,7 +28,7 @@ But I'm not saying you should read the handbook if you want to know how to impro
 
 Because the main realization that you, as a smart reader, will arrive at  - is just that there is no such thing as DevOps. **DevOps is a myth**.
 
-![/img/dohb.png](/img/dohb.png)
+{{< figure class="special-img-class" src="/img/dohb.png" title="DevOps Handbook">}}
 
 ### So What's The Story?
 
@@ -39,7 +41,7 @@ And then the speakers at the next fancy conference will tell you it's mainly abo
 
 ### But Isn't It True?
 
-Anybody who's studied [management theories] (https://www.business.com/images/content/547/4f8bfc9786bc07e8b45fb/0-0-/) knows how the approaches have changed since the beginning of the last century. From Taylor's scientific management and down to McGregor's X&Y theory they've all had their followers. Managers who've applied them and swore getting great results thanks to them. And yet most of these theories have been proven wrong by their successors.
+Anybody who's studied [management theories](https://www.business.com/images/content/547/4f8bfc9786bc07e8b45fb/0-0-/) knows how the approaches have changed since the beginning of the last century. From Taylor's scientific management and down to McGregor's X&Y theory they've all had their followers. Managers who've applied them and swore getting great results thanks to them. And yet most of these theories have been proven wrong by their successors.
 
 In the same way we see this happening with DevOps and Agile. Agile was all the buzz since its inception in 2005. Teams were moving to Scrum, then Kanban, now SAFE and LESS. But Agile didn't deliver on its promise of better life. Or rather - it became so commonplace that it lost its edge. Without the hype, we now realize it has its downsides. And we now hope that maybe this new DevOps thing will make us happy.
 
