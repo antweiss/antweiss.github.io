@@ -6,10 +6,19 @@
     <description>Recent content on one man&#39;s singularity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 08:24:02 +0200</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Home</title>
+      <link>https://antweiss.com/home/</link>
+      <pubDate>Thu, 12 Mar 2020 08:24:02 +0200</pubDate>
+      
+      <guid>https://antweiss.com/home/</guid>
+      <description>Anton (Ant) Weiss: Blog, Talks, Music </description>
+    </item>
     
     <item>
       <title>Dangerous Career Advice for IT Professionals</title>
@@ -58,15 +67,6 @@ Now don&#39;t get me wrong - in no way is this a negation of its validity or imp
 The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&#39;ve aimed at simplicity and conciseness.
 Here are the metrics: [http://devopsflowmetrics.org]
 Feel free to use and comment.</description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://antweiss.com/code/</link>
-      <pubDate>Mon, 26 Sep 2016 18:11:19 +0300</pubDate>
-      
-      <guid>https://antweiss.com/code/</guid>
-      <description>Nothing here yet!</description>
     </item>
     
     <item>
@@ -124,33 +124,6 @@ I&#39;ve generated the code snippets from their control interface and pasted the
       <description>If you&#39;ve been reading the posts on otomato blog - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.
 Now that Otomato is becoming a full-blown consulting firm I feel it&#39;s time to separate the personal from the professional.
 There still may be some shared context here and there, but starting today I&#39;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://antweiss.com/about-this-site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://antweiss.com/about-this-site/</guid>
-      <description>    </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://antweiss.com/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://antweiss.com/posts/</guid>
-      <description>    </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://antweiss.com/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://antweiss.com/writing/</guid>
-      <description>    </description>
     </item>
     
   </channel>

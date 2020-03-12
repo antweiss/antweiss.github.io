@@ -10,7 +10,7 @@
 <meta name="description" content="One Man&#39;s Singularity">
 
 
-    <meta property="twitter:site" content="@//twitter.com/antweiss">
+    <meta property="twitter:site" content="@antweiss">
 
 <meta property="og:site_name" content="one man&#39;s singularity" />
 <meta property="og:locale" content="en-us" />
@@ -482,7 +482,7 @@ a:hover {
   color: #2a6496;
 }
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 div.main .content {
     width: 100%;
@@ -634,7 +634,7 @@ div.main .content .markdown figure {
 div.main .content .markdown figure img {
   width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   display: block;
   position: static;
   margin: auto;
@@ -964,6 +964,11 @@ margin-left: -4%;
 
 
 
+  <style type="text/css" media="screen">
+    .progressive{overflow:hidden;position:relative;background:#efefef}.progressive__img{width:100%;height:100%;transform:translateZ(0)}.progressive--not-loaded{filter:blur(30px)}.progressive--is-loaded{filter:blur(20px);animation:a .5s both}@keyframes a{0%{filter:blur(20px)}to{filter:blur(0)}}
+
+  </style>
+
 
 
   <style type="text/css" media="screen">
@@ -1086,23 +1091,9 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
                     
                     
                         
-                            <li><a href="/code/">Code</a></li>
-                        
                     
                         
                             <li><a href="/about/">About</a></li>
-                        
-                    
-                        
-                            <li><a href="/about-this-site/"></a></li>
-                        
-                    
-                        
-                            <li><a href="/posts/"></a></li>
-                        
-                    
-                        
-                            <li><a href="/writing/"></a></li>
                         
                     
                 </ul>
@@ -1154,6 +1145,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             </div>
             <div class="markdown">
                 
+    
     <p>During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we've developed for our clients at Otomato.</p>
 <p>The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We've aimed at simplicity and conciseness.</p>
 <p>Here are the metrics: [<a href="http://devopsflowmetrics.org">http://devopsflowmetrics.org</a>]</p>
@@ -1203,7 +1195,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             
             <div class="post bg-white">
                 <script src="https://utteranc.es/client.js"
-                    repo= "mtn/cocoa-eh-hugo-theme"
+                    repo= "antweiss/antweiss.github.io"
                     issue-term="title"
                     theme="github-light"
                     crossorigin="anonymous"
@@ -1248,19 +1240,19 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
         
 
         
-            <a href="https://github.com///github.com/antweiss" rel=me target="_blank">
+            <a href="https://github.com/antweiss" rel=me target="_blank">
                 <img class="icon" src="https://antweiss.com/img/github.svg" alt="github" />
             </a>
         
 
         
-            <a href="https://twitter.com///twitter.com/antweiss" rel=me target="_blank">
+            <a href="https://twitter.com/antweiss" rel=me target="_blank">
                 <img class="icon" src="https://antweiss.com/img/twitter.svg" alt="twitter" />
             </a>
         
 
         
-            <a href="https://www.linkedin.com/in///linkedin.com/in/antonweiss" rel=me target="_blank">
+            <a href="https://www.linkedin.com/in/antonweiss" rel=me target="_blank">
                 <img class="icon" src="https://antweiss.com/img/linkedin.svg" alt="linkedin" />
             </a>
         
@@ -1302,6 +1294,8 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
 
 
+  <script src="https://antweiss.com/js/progressively.min.js" defer></script>
+
 
 
   <script src="https://antweiss.com/js/social-share-kit.min.js" defer></script>
@@ -1317,11 +1311,13 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
       hljs.initHighlighting();
     
     
+      progressively.init({delay: 30, throttle: 50});
+    
     
       SocialShareKit.init({
         twitter: {
             text: '',
-            via: '\/\/twitter.com\/antweiss'
+            via: 'antweiss'
         }
       });
     

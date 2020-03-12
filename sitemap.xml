@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://antweiss.com/home/</loc>
+    <lastmod>2020-03-12T08:24:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://antweiss.com/</loc>
+    <lastmod>2020-03-12T08:24:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://antweiss.com/blog/</loc>
     <lastmod>2020-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://antweiss.com/blog/dangerous-career-advice-for-it-professionals/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://antweiss.com/</loc>
     <lastmod>2020-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -35,11 +40,6 @@
   <url>
     <loc>https://antweiss.com/blog/measuring-devops-flow/</loc>
     <lastmod>2016-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://antweiss.com/code/</loc>
-    <lastmod>2016-09-26T18:11:19+03:00</lastmod>
   </url>
   
   <url>
@@ -65,21 +65,6 @@
   <url>
     <loc>https://antweiss.com/blog/starting-the-blog/</loc>
     <lastmod>2016-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://antweiss.com/about-this-site/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://antweiss.com/posts/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://antweiss.com/writing/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
