@@ -200,6 +200,7 @@ div.header .container .logo {
   max-width: 100px;
   
   margin-left: -2em;
+  margin-right: 1em;
 }
 div.header .name {
   padding-top: 20px;
@@ -476,7 +477,7 @@ div.main .container .content .post-item {
     list-style: none;
 }
 a {
-  color: #428bca;
+/*  color: #428bca;*/
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -511,7 +512,7 @@ div.main .content .markdown h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
+/*  color: #333333; */
   text-transform: none;
   margin-top: 1.75rem;
 }
@@ -538,7 +539,7 @@ div.main .content .markdown code,
 div.main .content .markdown pre {
   font-family: 'Menlo', monospace;
   font-size: 0.98rem;
-  background-color: #f7f7f7;
+/*  background-color: #f7f7f7; */
 }
 div.main .content .markdown code {
   /* enclosed by single backtick (`) */
@@ -656,7 +657,7 @@ div.main .content .markdown th {
 }
 div.main .content .markdown tbody tr:nth-child(odd) td,
 div.main .content .markdown tbody tr:nth-child(odd) th {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
 }
 div.main .content .markdown .footnotes ol {
   list-style-type: decimal;
@@ -728,7 +729,7 @@ div.main .content .share, div.main .content .share div {
   justify-content: center;
 }
 div.main .content .share {
-  background-color: rgba(152, 152, 152, 0.07);
+  /* background-color: rgba(152, 152, 152, 0.07); */
   padding: 1em 0;
 }
 div.main .content .share a {
@@ -739,7 +740,7 @@ kbd {
   border: 1px solid #ccc;
   font-size: 11px;
   font-family: Arial,Helvetica,sans-serif;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   color: #333;
   -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
   -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
@@ -816,10 +817,12 @@ justify-content: flex-start;
 }
 div.header .container .logo {
 margin: 0;
+margin-right: 1em;
 }
 div.header-home .container .logo {
 max-width: 216px;
 margin-left: 24px;
+margin-right: 1em;
 }
 div.header-home .name-home {
 padding-top: 30px;
@@ -989,28 +992,48 @@ margin-left: -4%;
 
   <style type="text/css" media="screen">
     a {
-    color: #527fc1f;
+    color: #FFFFFF;
 }
 
 a:hover {
     color: #1a3152;
 }
 
-div.main .content .markdown, div.header .name, div.header nav ul a:hover {
-    color: #181d2a;
+body {
+    background-color: #323131;
 }
 
+div.main .content .markdown h6 {
+    color: #FFFFFF;
+}
+
+div.main .content .markdown, div.header .name, div.header nav ul a:hover {
+    color: #FFFFFF;
+    background-color: #323131;
+}
+
+div .content {
+    background-color: #323131;
+}
+
+div.header {
+    background-color: #323131;
+}
 div.header nav ul a {
-    color: #6a7a8b;
+    color: #FFFFFF;
+    background-color: #323131;
 }
 
 div.main .content .markdown code {
-    background-color: #f9f9f9;
-    color: #527fc1f;
+    background-color: #323131;
+    color: #FFFFFF;
 }
 
+div.main .content .markdown figure {
+    background: #323131;
+}
 div.main .content .markdown pre, div.main .content .markdown pre code {
-    background-color: #282a36;
+    background-color: #323131;
     color: #87a5d2;
 }
 
@@ -1031,7 +1054,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 }
 
 .hljs-comment {
-    color: #6a7a8b;
+    color: #FFFFFF;
 }
 
 .hljs-regexp, .hljs-symbol, .hljs-template-variable {
@@ -1051,7 +1074,8 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 }
 
 .ssk {
-    background-color: #6a7a8b;
+    background-color: #FFFFFF;
+    color: #1a3152;
 }
 
   </style>
