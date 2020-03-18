@@ -64,7 +64,7 @@ a,
 a:visited,
 a:focus,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 html {
   height: 100%;
@@ -171,6 +171,9 @@ div.header .container .logo {
   margin-left: 1em;
   margin-right: 1em;
 }
+div.header .a {
+  text-decoration: none;
+}
 div.header .name {
   padding-top: 20px;
   font-size: 28px;
@@ -217,9 +220,9 @@ div.header nav ul a {
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
-div.header nav ul a:hover {
+/*div.header nav ul a:hover {
   color: #111111;
-}
+}*/
 div.footer .container {
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -980,8 +983,12 @@ div.main .content .markdown h6 {
 div.main .content .markdown, div.header .name, div.header nav ul {
     color: #FFFFFF;
     background-color: #323131;
+
 }
 
+div.header-home .container .content a .name h1 {
+    text-decoration: none;
+}
 div .content {
     background-color: #323131;
 }
@@ -992,6 +999,10 @@ div.header {
 div.header nav ul a {
     color: #FFFFFF;
     background-color: #323131;
+    text-decoration: none;
+}
+div.header nav ul a:hover {
+  color: #CB57E0;
 }
 
 div.main .content .markdown code {
