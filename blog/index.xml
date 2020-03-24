@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 13:29:53 +0200</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tangible Devops - Easy?</title>
+      <link>https://antweiss.com/blog/tangible-devops-easy/</link>
+      <pubDate>Tue, 24 Mar 2020 13:29:53 +0200</pubDate>
+      
+      <guid>https://antweiss.com/blog/tangible-devops-easy/</guid>
+      <description>SpeakEasy or SpeakHard? Last Thursday I had the privilege to be the inaugural guest on the now virtualised DevOps SpeakEasy show . Hosted by none other but the mighty Kat Cosgrove and Baruch Sadogursky - the notorious steampunk fashion icons who also happen to be developer advocates at JFrog.
+First of all - it really warms my heart how we suddenly get closer to folks from all over the globe due to COVID-19.</description>
+    </item>
     
     <item>
       <title>Corona Week One - The New Reality</title>
