@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://antweiss.com/blog/announcing-devops-shorts/</loc>
-    <lastmod>2020-04-14T10:27:51+03:00</lastmod>
+    <loc>https://antweiss.com/blog/</loc>
+    <lastmod>2020-04-17T16:45:18+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://antweiss.com/blog/</loc>
-    <lastmod>2020-04-14T10:27:51+03:00</lastmod>
+    <loc>https://antweiss.com/blog/extending-envoy-with-wasm-and-rust/</loc>
+    <lastmod>2020-04-17T16:45:18+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://antweiss.com/</loc>
+    <lastmod>2020-04-17T16:45:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://antweiss.com/blog/announcing-devops-shorts/</loc>
     <lastmod>2020-04-14T10:27:51+03:00</lastmod>
   </url>
   

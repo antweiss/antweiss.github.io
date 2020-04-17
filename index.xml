@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 10:27:51 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2020 16:45:18 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extending Envoy With Wasm and Rust</title>
+      <link>https://antweiss.com/blog/extending-envoy-with-wasm-and-rust/</link>
+      <pubDate>Fri, 17 Apr 2020 16:45:18 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/extending-envoy-with-wasm-and-rust/</guid>
+      <description>Extending Envoy with WASM and Rust  If you already know what Istio, Envoy, WASM and Rust have in common and just want to get started building your filter - feel free to skip straight to part 2 - Building the Filter
+ Part 1: The Evolution of the Mesh As I’ve mentioned multiple times over the last couple of years - service meshes are the next stage in the evolution of cloud native infrastructure.</description>
+    </item>
     
     <item>
       <title>Announcing Devops Shorts</title>
