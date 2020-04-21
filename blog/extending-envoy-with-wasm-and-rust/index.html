@@ -61,6 +61,17 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+img[src$='#floatleft']
+{
+	float:left;
+  margin-right: 1em;
+}
+
+img[src$='#floatright']
+{
+	float:right;
+       //etc. etc.
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, div.column {
@@ -1380,6 +1391,11 @@ And that our newly-built filter is loaded from our build target:</p>
                 </div>
                 
                 <div style="width: 100%;"></div>
+                
+                <div>
+                    <a href="https://antweiss.com/blog/devops-shorts-001-tobias-kunze/">Devops Shorts 001 - Tobias Kunze</a>
+                    <img class="icon" src="/img/next.svg" alt="next" />
+                </div>
                 
             </div>
             

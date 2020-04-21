@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 17 Apr 2020 16:45:18 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 09:12:11 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 001 - Tobias Kunze</title>
+      <link>https://antweiss.com/blog/devops-shorts-001-tobias-kunze/</link>
+      <pubDate>Tue, 21 Apr 2020 09:12:11 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-001-tobias-kunze/</guid>
+      <description>Nurture over Nature A-a-a-nd, we&#39;re rolling! The first episode of DevOps Shorts is out!
+I&#39;m so glad that Tobias Kunze happened to be my first guest! Tobias is the CEO of Glasnostic - a startup with a unique approach to application resilience.
+I first encountered Glasnostic (and immediately loved the post-Soviet reference of its name) due to my involvement with service mesh technology. Their company blog has a number of deep finely-written technical posts on meshes and service communication resilience patterns.</description>
+    </item>
     
     <item>
       <title>Extending Envoy With Wasm and Rust</title>
