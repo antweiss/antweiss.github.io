@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 09:12:11 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 16:03:07 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 2 - Baruch Sadogursky</title>
+      <link>https://antweiss.com/blog/devops-shorts-2-baruch-sadogursky/</link>
+      <pubDate>Fri, 24 Apr 2020 16:03:07 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-2-baruch-sadogursky/</guid>
+      <description>Employ Machines To Do What They Are Good At For the second episode of DevOps Shorts I got to talk to the man with the hat - the great @jbaruch - the Head of Dev Advocacy at JFrog!
+Baruch is the person in the very nitty-gritty of DevOps transformation - witnessing firsthand the pains and joys of the largest IT companies out there. This is what makes his perspective so unique and this episode so much worth listening to.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 001 - Tobias Kunze</title>
