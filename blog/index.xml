@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 24 Apr 2020 16:03:07 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 14:01:24 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 003 - Damien Ryan</title>
+      <link>https://antweiss.com/blog/devops-shorts-003-damien-ryan/</link>
+      <pubDate>Sun, 03 May 2020 14:01:24 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-003-damien-ryan/</guid>
+      <description>Damien Ryan: Working Sanely to Deliver Small Bits of Value For the third episode of DevOps Shorts I was happy to zoom with Damien Ryan! Damien has spent 22 years working in tech, going from applied science through all kinds of build and release engineering roles to his current position - the Director of Engineering at Featurespace - a company that builds Adaptive Behavioral Analytics technology for fraud and financial crime management.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 002 - Baruch Sadogursky</title>
