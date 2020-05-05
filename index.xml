@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 03 May 2020 14:01:24 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 16:41:26 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 004 - Carlos Leon</title>
+      <link>https://antweiss.com/blog/devops-shorts-004-carlos-leon/</link>
+      <pubDate>Tue, 05 May 2020 16:41:26 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-004-carlos-leon/</guid>
+      <description>Carlos Leon - Hacking the Human Side of DevOps Our guest for tonight is Carlos Leon - an independent cloud native and automation consultant. Carlos is the link between your business and your technical people - because he understands and speaks both languages.
+Carlos was born in Colombia, traveled the world and is now based in Netherlands where he is currently helping ING to automate and optimize their software delivery.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 003 - Damien Ryan</title>
