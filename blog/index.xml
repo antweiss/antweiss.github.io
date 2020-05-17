@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 05 May 2020 16:41:26 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 09:52:33 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 005 - Mike Druzhinin</title>
+      <link>https://antweiss.com/blog/devops-shorts-005-mike-druzhinin/</link>
+      <pubDate>Sun, 17 May 2020 09:52:33 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-005-mike-druzhinin/</guid>
+      <description>Mike Druzhinin - Testing in Production and the Serverless Edge DevOps Shorts E005 Our guest for tonight is Mike Druzhinin - Software Development Manager at Amazon.com and a Program Committee Member of the great DevOops conference.
+Mike took a short break from keeping Amazon up and running through the COVID-19 online shopping craze to talk to us about love, DevOps A-HA and the future.
+Mike talks about the how playfulness makes IT so loveable.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 004 - Carlos Leon</title>
