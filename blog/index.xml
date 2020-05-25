@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 17 May 2020 09:52:33 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 14:51:20 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 006 Manuel Pais</title>
+      <link>https://antweiss.com/blog/devops-shorts-006-manuel-pais/</link>
+      <pubDate>Mon, 25 May 2020 14:51:20 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-006-manuel-pais/</guid>
+      <description>Manuel Pais - Exploring the Team Topologies DevOps Shorts E006   About 3 years ago when I started delivering my DevOps Fundamentals training I used to refer to a website called DevOps Topologies in order to explain the different possibilities of applying DevOps to organizational structure. The creators of the site - Manuel Pais and Matthew Skelton did a great job visualizing and explaining the dominant patterns and anti-patterns of building DevOps-ish teams.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 005 - Mike Druzhinin</title>
