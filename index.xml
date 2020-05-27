@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 25 May 2020 14:51:20 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 19:31:35 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 007 Derek Weeks</title>
+      <link>https://antweiss.com/blog/devops-shorts-007-derek-weeks/</link>
+      <pubDate>Wed, 27 May 2020 19:31:35 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-007-derek-weeks/</guid>
+      <description>Derek Weeks - Exploring the Team Topologies DevOps Shorts E007   This time around I was happy to host Derek Weeks - the Vice-president at Sonatype and the co-founder of AllDayDevOps. The man who started doing global virtual conferences before they became cool.
+Derek spills some light on what it was like growing up in the Silicon Valley and what DevSecOps really looks like in the real world.
+Listen to the episode to learn :</description>
+    </item>
     
     <item>
       <title>Devops Shorts 006 Manuel Pais</title>
