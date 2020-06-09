@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 28 May 2020 19:03:49 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 17:04:56 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 008 John Willis</title>
+      <link>https://antweiss.com/blog/devops-shorts-008-john-willis/</link>
+      <pubDate>Tue, 09 Jun 2020 17:04:56 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-008-john-willis/</guid>
+      <description>John Willis - Towards the 5 Elements of IT   This episode of DevOps Shorts is probably the most exciting one I&#39;ve recorded until now!
+This time I was honoured to host none other but the great John Willis himself - the man who brought DevOpsDays to US, the originator of the CA(L)MS acronym, one of the authors of &amp;ldquo;The DevOps Handbook&amp;rdquo; and now - a senior director at RedHat Global Transformation Office.</description>
+    </item>
     
     <item>
       <title>We&#39;re on the Cloud Native Landscape!</title>
