@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 09 Jun 2020 17:04:56 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 01:37:28 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 009 Adi Shacham Shavit</title>
+      <link>https://antweiss.com/blog/devops-shorts-009-adi-shacham-shavit/</link>
+      <pubDate>Thu, 18 Jun 2020 01:37:28 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-009-adi-shacham-shavit/</guid>
+      <description>Adi Shacham-Shavit - Quality is Still Too Hard   And our guest for tonight is Adi Shacham-Shavit - previously the R&amp;amp;D manager at such companies as AppsFlyer and Lemonade, now EVP Engineering at an early stage startup called Clear.
+Adi hates wasting time and making the same mistake twice.
+First of all - it makes me happy that Adi is a woman - I feel like my show was lacking in diversity - I only got to interview white men until now.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 008 John Willis</title>
