@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 18 Jun 2020 01:37:28 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 12:29:37 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why I Started Wasm IL</title>
+      <link>https://antweiss.com/blog/why-i-started-wasm-il/</link>
+      <pubDate>Fri, 19 Jun 2020 12:29:37 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/why-i-started-wasm-il/</guid>
+      <description>I started hearing about WebAssembly a couple of years ago. At first it didn&#39;t attract my interest. I thought it was something like a JavaScript framework. But then I got interested in Rust and stumbled upon an article about compiling Rust to WebAssembly.
+That&#39;s when it occurred to me that WebAssembly had huge potential outside of the browser.
+And then WASI got released and Solomon Hykes (the founder of Docker) tweeted this:</description>
+    </item>
     
     <item>
       <title>Devops Shorts 009 Adi Shacham Shavit</title>
