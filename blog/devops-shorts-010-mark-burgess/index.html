@@ -15,9 +15,9 @@
 <meta property="og:site_name" content="one man&#39;s singularity" />
 <meta property="og:locale" content="en-us" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://antweiss.com/blog/why-i-started-wasm-il/" />
-<meta property="og:title" content="Why I Started Wasm IL" />
-<meta property="twitter:title" content="Why I Started Wasm IL">
+<meta property="og:url" content="https://antweiss.com/blog/devops-shorts-010-mark-burgess/" />
+<meta property="og:title" content="Devops Shorts 010 Mark Burgess" />
+<meta property="twitter:title" content="Devops Shorts 010 Mark Burgess">
 
     <meta property="og:image" content="https://antweiss.com/img/horns-bw.png">
     <meta property="twitter:card" content="summary">
@@ -29,10 +29,10 @@
 <title>
 
 
-     one man&#39;s singularity - Why I Started Wasm IL 
+     one man&#39;s singularity - Devops Shorts 010 Mark Burgess 
 
 </title>
-<link rel="canonical" href="https://antweiss.com/blog/why-i-started-wasm-il/">
+<link rel="canonical" href="https://antweiss.com/blog/devops-shorts-010-mark-burgess/">
 
 
 <style media="screen">
@@ -1186,14 +1186,14 @@ if (!doNotTrack) {
                     <div class="page-heading">
 
     
-    Why I Started Wasm IL
+    Devops Shorts 010 Mark Burgess
     
 
 </div>
 
                 </div>
                 <div class="meta">
-                    <div class="date" title="Fri Jun 19 2020 12:29:37 IDT">Jun 19, 2020</div>
+                    <div class="date" title="Tue Jul 14 2020 16:54:59 IDT">Jul 14, 2020</div>
                     
                         
                     
@@ -1218,21 +1218,55 @@ if (!doNotTrack) {
             <div class="markdown">
                 
     
-    <p>I started hearing about <a href="https://webassembly.org/">WebAssembly</a> a couple of years ago. At first it didn't attract my interest. I thought it was something like a JavaScript framework. But then I got interested in Rust and stumbled upon an article about compiling Rust to WebAssembly.</p>
-<p>That's when it occurred to me that WebAssembly had huge potential outside of the browser.</p>
-<p>And then <a href="https://wasi.dev/">WASI</a> got released and Solomon Hykes (the founder of Docker) tweeted this:</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If WASM+WASI existed in 2008, we wouldn&#39;t have needed to created Docker. That&#39;s how important it is. Webassembly on the server is the future of computing. A standardized system interface was the missing link. Let&#39;s hope WASI is up to the task! <a href="https://t.co/wnXQg4kwa4">https://t.co/wnXQg4kwa4</a></p>&mdash; Solomon Hykes (@solomonstre) <a href="https://twitter.com/solomonstre/status/1111004913222324225?ref_src=twsrc%5Etfw">March 27, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h1 id="mark-burgess--digging-away-at-humanmachine-systems">Mark Burgess - Digging Away at Human-Machine Systems</h1>
+<figure>
+    <img src="http://markburgess.org/img/markApr2020.jpg"/> 
+</figure>
 
-<p>Solomon may be exaggerating - or he may be totally on point. But seeing the kind of disruption that containers brought to software industry - I knew I had to look deeper into WASM.</p>
-<p>And then - Envoy WASM extensions landed - showing how WebAssembly can become a great extensibilty platform for polyglot interoperability.</p>
-<p>And more recently - <a href="https://github.com/deislabs/krustlet">Krustlet</a> was released by Microsoft. Bringing WASM wrokloads ever closer to the cloud-native terrain where I spend so much of my time.</p>
-<p>Because of all of the above - a couple of months ago I started the Israeli WebAssembly meetup group. With the purpose of &ldquo;discussing, learning and developing this exciting new technology together&rdquo;.</p>
-<p>We already have 95 members and held our first virtual meetup on 08/06 with a great presentation by Shachar Langbeheim and a talk on Envoy+WASM+Rust from yours truly. The attendance was great - we had 22 folks online - listening, asking questions, participating!</p>
-<p>Next Monday (June 22nd) we are holding <a href="https://www.meetup.com/wasmil/events/271029954/">our second event</a> - with none other but Alon Zakai - one of the original creators of <a href="https://emscripten.org/">Emscripten</a> and <a href="https://asmjs.org">asm.js</a> and the creator of <a href="https://github.com/WebAssembly/binaryen">Binaryen</a>. Alon is the person that makes compiling stuff to WebAssembly possible and easy.
-His talk is titled <strong>&ldquo;WebAssembly and the Elusive Universal Binary&rdquo;</strong> and I'm sure it will be eye-opening to anyone interested in modern software techonlogies.</p>
-<p>The meetup itself will be conducted in Hebrew, but Alon's talk will be in English.</p>
-<p>So what are you waiting for?  Join our group and regsiter for the meetup! And may the universal binary light your way!</p>
+<p>I'm so thrilled! My guest for tonight is <a href="https://twitter.com/markburgess_osl">Mark Burgess</a> - a &ldquo;technologist, scientist and author, specializing in the physics of Information Systems&rdquo; (quoted from <a href="http://markburgess.org">Mark's website</a>).</p>
+<p>Mark is probably best known to the IT crowd as the man who defined the ideas behind <strong>desired-state configuration management</strong> and the creator of the <a href="https://cfengine.com/">CFEngine</a> CM tool that predated Puppet, Chef and Ansible and is still in use at quite a number of companies.</p>
+<p>But for me Mark is first and foremost the creator of the <a href="http://markburgess.org/promises.html">Promise Theory</a> which provides a new outlook on how effective collaboration between free agents occurs in complex systems.</p>
+<p>I was thrilled and humbled to have Mark as my guest because his ideas and their implications are omnipresent in the systems we build and those we're part of.</p>
+<p>Listen to the episode to learn:</p>
+<ul>
+<li>
+<p>What's the connection between physics and information</p>
+</li>
+<li>
+<p>Why IT moves so slowly</p>
+</li>
+<li>
+<p>If playing with Kubernetes can make society a better place</p>
+</li>
+</ul>
+<p>If you find Mark's ideas as fascinating as I do - make sure to check out his latest book <a href="http://markburgess.org/smartspacetime.html">Smart SpaceTime</a> and a documentary series <a href="https://www.youtube.com/playlist?list=PL6wAWDeKgxZel_xTyIxArx1XBqqW0Bdwx">&ldquo;Bigger, Faster, Smarter&rdquo; on Youtube</a>.</p>
+<p>And if you <strong>really</strong> want to benefit from Mark's deep understanding of complexity - he's also providing consultancy to large IT organizations looking to adapt their systems and processes to the changing reality of our tumultuous world.</p>
+<p>The episode is live on:</p>
+<ul>
+<li>
+<p><a href="https://anchor.fm/devops-shorts/episodes/Mark-Burgess---Digging-Away-at-Human-Machine-Systems-egnutt">Anchor.fm</a></p>
+</li>
+<li>
+<p><a href="https://open.spotify.com/episode/7txfyXtwdpphFqPZUraHeO">Spotify</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/RGBTJdAzz8Y">Youtube</a> - also embedded at the bottom of this post.</p>
+</li>
+</ul>
+<p>Watch out for new episodes!</p>
+<p><em>This episode is once again made possible by <a href="https://otomato.io">Otomato Software Ltd.</a> - providers of Cloud-Native DevOps Knowledge and Services.</em>
+<em>Get in touch for:</em></p>
+<ul>
+<li><em>Developer Advocacy and Product Strategy</em></li>
+<li><em>Cloud Native Infrastructure Services and Training</em></li>
+<li><em>DevOps Acceleration</em></li>
+</ul>
+<p>To watch DevOps Shorts 010:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/RGBTJdAzz8Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 
 
             </div>
@@ -1259,15 +1293,10 @@ His talk is titled <strong>&ldquo;WebAssembly and the Elusive Universal Binary&r
                 
                 <div>
                     <img class="icon" src="/img/back.svg" alt="back" />
-                    <a href="https://antweiss.com/blog/devops-shorts-009-adi-shacham-shavit/">Devops Shorts 009 Adi Shacham Shavit</a>
+                    <a href="https://antweiss.com/blog/why-i-started-wasm-il/">Why I Started Wasm IL</a>
                 </div>
                 
                 <div style="width: 100%;"></div>
-                
-                <div>
-                    <a href="https://antweiss.com/blog/devops-shorts-010-mark-burgess/">Devops Shorts 010 Mark Burgess</a>
-                    <img class="icon" src="/img/next.svg" alt="next" />
-                </div>
                 
             </div>
             
