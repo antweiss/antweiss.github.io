@@ -344,7 +344,7 @@ div.main .content .page-heading {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #ad24ce;
+  color: #333333;
   margin-bottom: 16px;
 }
 div.main .content .front-matter .page-heading {
@@ -1218,17 +1218,17 @@ if (!doNotTrack) {
             <div class="markdown">
                 
     
-    <p>this is becoming my official personal blog and I'm inclined to post some quality content here.
+    <p>this is becoming my official personal blog and I&rsquo;m inclined to post some quality content here.
 so I better add some sharing buttons.
 but how does one do this in Hugo?</p>
-<p>I recalled I had a [Shareaholic] (<a href="https://shareaholic.com/">https://shareaholic.com/</a>) account I've used before. Shareaholic is free and very easy to set up.</p>
-<p>I've generated the code snippets from their control interface and pasted them to my theme's layout html files (I'm using the wonderfully minimal <a href="https://github.com/nishanths/cocoa-hugo-theme">cocoa theme</a>):</p>
+<p>I recalled I had a [Shareaholic] (<a href="https://shareaholic.com/">https://shareaholic.com/</a>) account I&rsquo;ve used before. Shareaholic is free and very easy to set up.</p>
+<p>I&rsquo;ve generated the code snippets from their control interface and pasted them to my theme&rsquo;s layout html files (I&rsquo;m using the wonderfully minimal <a href="https://github.com/nishanths/cocoa-hugo-theme">cocoa theme</a>):</p>
 <p>in themes/cocoa/layouts/partials/head.html :
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#888">&lt;</span><span style="color:#2838b0">script</span> <span style="color:#388038">type</span><span style="color:#666">=</span><span style="color:#b83838">&#39;text/javascript&#39;</span> <span style="color:#388038">src</span><span style="color:#666">=</span><span style="color:#b83838">&#39;//my.shareaholic.url/assets/pub/shareaholic.js&#39;</span> <span style="color:#388038">data-shr-siteid</span><span style="color:#666">=</span><span style="color:#b83838">&#39;4c511..e8c&#39;</span> <span style="color:#388038">data-cfasync</span><span style="color:#666">=</span><span style="color:#b83838">&#39;false&#39;</span> <span style="color:#388038">async</span><span style="color:#666">=</span><span style="color:#b83838">&#39;async&#39;</span><span style="color:#888"></span><span style="color:#888">&gt;</span><span style="color:#888">&lt;</span><span style="color:#888">/</span><span style="color:#2838b0">script</span><span style="color:#888">&gt;</span></code></pre></div>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#888">&lt;</span><span style="color:#2838b0">script</span> <span style="color:#388038">type</span><span style="color:#666">=</span><span style="color:#b83838">&#39;text/javascript&#39;</span> <span style="color:#388038">src</span><span style="color:#666">=</span><span style="color:#b83838">&#39;//my.shareaholic.url/assets/pub/shareaholic.js&#39;</span> <span style="color:#388038">data-shr-siteid</span><span style="color:#666">=</span><span style="color:#b83838">&#39;4c511..e8c&#39;</span> <span style="color:#388038">data-cfasync</span><span style="color:#666">=</span><span style="color:#b83838">&#39;false&#39;</span> <span style="color:#388038">async</span><span style="color:#666">=</span><span style="color:#b83838">&#39;async&#39;</span><span style="color:#888">&gt;&lt;/</span><span style="color:#2838b0">script</span><span style="color:#888">&gt;</span></code></pre></div>
 and in themes/cocoa/layouts/blog/single.html :
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#888">&lt;</span><span style="color:#2838b0">br</span><span style="color:#888"></span><span style="color:#888">&gt;</span>
-<span style="color:#888">&lt;</span><span style="color:#2838b0">div</span> <span style="color:#388038">class</span><span style="color:#666">=</span><span style="color:#b83838">&#39;shareaholic-canvas&#39;</span> <span style="color:#388038">data-app</span><span style="color:#666">=</span><span style="color:#b83838">&#39;share_buttons&#39;</span> <span style="color:#388038">data-app-id</span><span style="color:#666">=</span><span style="color:#b83838">&#39;somenumberfromshareaholic&#39;</span><span style="color:#888"></span><span style="color:#888">&gt;</span><span style="color:#888">&lt;</span><span style="color:#888">/</span><span style="color:#2838b0">div</span><span style="color:#888">&gt;</span>
-<span style="color:#888">&lt;</span><span style="color:#2838b0">div</span> <span style="color:#388038">class</span><span style="color:#666">=</span><span style="color:#b83838">&#34;disqus&#34;</span><span style="color:#888"></span><span style="color:#888">&gt;</span></code></pre></div>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#888">&lt;</span><span style="color:#2838b0">br</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;</span><span style="color:#2838b0">div</span> <span style="color:#388038">class</span><span style="color:#666">=</span><span style="color:#b83838">&#39;shareaholic-canvas&#39;</span> <span style="color:#388038">data-app</span><span style="color:#666">=</span><span style="color:#b83838">&#39;share_buttons&#39;</span> <span style="color:#388038">data-app-id</span><span style="color:#666">=</span><span style="color:#b83838">&#39;somenumberfromshareaholic&#39;</span><span style="color:#888">&gt;&lt;/</span><span style="color:#2838b0">div</span><span style="color:#888">&gt;</span>
+<span style="color:#888">&lt;</span><span style="color:#2838b0">div</span> <span style="color:#388038">class</span><span style="color:#666">=</span><span style="color:#b83838">&#34;disqus&#34;</span><span style="color:#888">&gt;</span></code></pre></div>
 Voila - the sharing buttons are right here below this post. Sharing makes you richer!</p>
 
 

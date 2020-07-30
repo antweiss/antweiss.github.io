@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 14 Jul 2020 16:54:59 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 14:38:43 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 011 Philipp Krenn</title>
+      <link>https://antweiss.com/blog/devops-shorts-011-philipp-krenn/</link>
+      <pubDate>Thu, 30 Jul 2020 14:38:43 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-011-philipp-krenn/</guid>
+      <description>Philipp Krenn - Build, Play, Automate   This time I&amp;rsquo;m happy to host Philipp Krenn - a meetup organizer, conference speaker and developer advocate at Elastic
+Philipp is very good at explaining and demoing exciting new technologies and he&amp;rsquo;s now in the very epicenter of the observability movement - bringing the Elastic stack to engineers all over the virtual world.
+Listen to the episode to learn:
+  What&amp;rsquo;s the role of playfulness in IT</description>
+    </item>
     
     <item>
       <title>Devops Shorts 010 Mark Burgess</title>
@@ -18,7 +30,7 @@
       <pubDate>Tue, 14 Jul 2020 16:54:59 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-010-mark-burgess/</guid>
-      <description>Mark Burgess - Digging Away at Human-Machine Systems   I&#39;m so thrilled! My guest for tonight is Mark Burgess - a &amp;ldquo;technologist, scientist and author, specializing in the physics of Information Systems&amp;rdquo; (quoted from Mark&#39;s website).
+      <description>Mark Burgess - Digging Away at Human-Machine Systems   I&amp;rsquo;m so thrilled! My guest for tonight is Mark Burgess - a &amp;ldquo;technologist, scientist and author, specializing in the physics of Information Systems&amp;rdquo; (quoted from Mark&amp;rsquo;s website).
 Mark is probably best known to the IT crowd as the man who defined the ideas behind desired-state configuration management and the creator of the CFEngine CM tool that predated Puppet, Chef and Ansible and is still in use at quite a number of companies.</description>
     </item>
     
@@ -28,8 +40,8 @@ Mark is probably best known to the IT crowd as the man who defined the ideas beh
       <pubDate>Fri, 19 Jun 2020 12:29:37 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/why-i-started-wasm-il/</guid>
-      <description>I started hearing about WebAssembly a couple of years ago. At first it didn&#39;t attract my interest. I thought it was something like a JavaScript framework. But then I got interested in Rust and stumbled upon an article about compiling Rust to WebAssembly.
-That&#39;s when it occurred to me that WebAssembly had huge potential outside of the browser.
+      <description>I started hearing about WebAssembly a couple of years ago. At first it didn&amp;rsquo;t attract my interest. I thought it was something like a JavaScript framework. But then I got interested in Rust and stumbled upon an article about compiling Rust to WebAssembly.
+That&amp;rsquo;s when it occurred to me that WebAssembly had huge potential outside of the browser.
 And then WASI got released and Solomon Hykes (the founder of Docker) tweeted this:</description>
     </item>
     
@@ -50,7 +62,7 @@ First of all - it makes me happy that Adi is a woman - I feel like my show was l
       <pubDate>Tue, 09 Jun 2020 17:04:56 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-008-john-willis/</guid>
-      <description>John Willis - Towards the 5 Elements of IT   This episode of DevOps Shorts is probably the most exciting one I&#39;ve recorded until now!
+      <description>John Willis - Towards the 5 Elements of IT   This episode of DevOps Shorts is probably the most exciting one I&amp;rsquo;ve recorded until now!
 This time I was honoured to host none other but the great John Willis himself - the man who brought DevOpsDays to US, the originator of the CA(L)MS acronym, one of the authors of &amp;ldquo;The DevOps Handbook&amp;rdquo; and now - a senior director at RedHat Global Transformation Office.</description>
     </item>
     
@@ -60,7 +72,7 @@ This time I was honoured to host none other but the great John Willis himself - 
       <pubDate>Thu, 28 May 2020 19:03:49 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/were-on-the-cloud-native-landscape/</guid>
-      <description>We&#39;re on The Cloud Native Landscape! This is a story about growing together as a community and building a project that matters.   Getting into the Mesh About a year and a half ago I got interested in service mesh technology. A customer needed some advanced routing capabilities and we started looking at Envoy and Istio. Then - invitations to talk about Istio at meetups and conferences started flowing in.</description>
+      <description>We&amp;rsquo;re on The Cloud Native Landscape! This is a story about growing together as a community and building a project that matters.   Getting into the Mesh About a year and a half ago I got interested in service mesh technology. A customer needed some advanced routing capabilities and we started looking at Envoy and Istio. Then - invitations to talk about Istio at meetups and conferences started flowing in.</description>
     </item>
     
     <item>
@@ -69,7 +81,7 @@ This time I was honoured to host none other but the great John Willis himself - 
       <pubDate>Wed, 27 May 2020 19:31:35 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-007-derek-weeks/</guid>
-      <description>Derek Weeks - It&#39;s All in The Feedback Loops! DevOps Shorts E007   This time around I was happy to host Derek Weeks - the Vice-president at Sonatype and the co-founder of AllDayDevOps. The man who started doing global virtual conferences before they became cool.
+      <description>Derek Weeks - It&amp;rsquo;s All in The Feedback Loops! DevOps Shorts E007   This time around I was happy to host Derek Weeks - the Vice-president at Sonatype and the co-founder of AllDayDevOps. The man who started doing global virtual conferences before they became cool.
 Derek spills some light on what it was like growing up in the Silicon Valley and what DevSecOps really looks like in the real world.</description>
     </item>
     
@@ -128,8 +140,8 @@ Baruch is the person in the very nitty-gritty of DevOps transformation - witness
       <pubDate>Tue, 21 Apr 2020 09:12:11 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-001-tobias-kunze/</guid>
-      <description>Nurture over Nature A-a-a-nd, we&#39;re rolling! The first episode of DevOps Shorts is out!
-I&#39;m so glad that Tobias Kunze happened to be my first guest! Tobias is the CEO of Glasnostic - a startup with a unique approach to application resilience.
+      <description>Nurture over Nature A-a-a-nd, we&amp;rsquo;re rolling! The first episode of DevOps Shorts is out!
+I&amp;rsquo;m so glad that Tobias Kunze happened to be my first guest! Tobias is the CEO of Glasnostic - a startup with a unique approach to application resilience.
 I first encountered Glasnostic (and immediately loved the post-Soviet reference of its name) due to my involvement with service mesh technology. Their company blog has a number of deep finely-written technical posts on meshes and service communication resilience patterns.</description>
     </item>
     
@@ -171,7 +183,7 @@ First of all - it really warms my heart how we suddenly get closer to folks from
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0200</pubDate>
       
       <guid>https://antweiss.com/blog/corona-week-one-the-new-reality/</guid>
-      <description>A New Reality Unfolds Gosh, it&#39;s complicated. How do I start this post without sounding banal? We&#39;re all confused, aren&#39;t we? Even those who say the Corona hysteria is unjustified. Even those who are relatively safe from contagion. Because no matter if anybody I know gets sick or not - there&#39;s a new reality our there. Something none of us had to deal with before. How will this impact our communities, jobs, businesses, families, money?</description>
+      <description>A New Reality Unfolds Gosh, it&amp;rsquo;s complicated. How do I start this post without sounding banal? We&amp;rsquo;re all confused, aren&amp;rsquo;t we? Even those who say the Corona hysteria is unjustified. Even those who are relatively safe from contagion. Because no matter if anybody I know gets sick or not - there&amp;rsquo;s a new reality our there. Something none of us had to deal with before. How will this impact our communities, jobs, businesses, families, money?</description>
     </item>
     
     <item>
@@ -189,8 +201,8 @@ First of all - it really warms my heart how we suddenly get closer to folks from
       <pubDate>Tue, 25 Apr 2017 00:00:00 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-is-a-myth/</guid>
-      <description>DevOps Is A Myth (Practitioner&#39;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
-Now don&#39;t get me wrong - in no way is this a negation of its validity or importance.</description>
+      <description>DevOps Is A Myth (Practitioner&amp;rsquo;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
+Now don&amp;rsquo;t get me wrong - in no way is this a negation of its validity or importance.</description>
     </item>
     
     <item>
@@ -199,7 +211,7 @@ Now don&#39;t get me wrong - in no way is this a negation of its validity or imp
       <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/from-zero-to-one-with-peter-thiel/</guid>
-      <description>Blessed By a Flu I was down with a flu last week. Felt shitty but it was also a blessing of sorts as I got to spend a couple of days in bed reading a book. Gave me an opportunity to complete Peter Thiel&#39;s [Zero to One] (http://zerotoonebook.com/). It&#39;s widely known that we only remember 10-20% of what we read in books. Even those we really like. I liked Peter&#39;s book but not enough to re-read it anytime soon.</description>
+      <description>Blessed By a Flu I was down with a flu last week. Felt shitty but it was also a blessing of sorts as I got to spend a couple of days in bed reading a book. Gave me an opportunity to complete Peter Thiel&amp;rsquo;s [Zero to One] (http://zerotoonebook.com/). It&amp;rsquo;s widely known that we only remember 10-20% of what we read in books. Even those we really like. I liked Peter&amp;rsquo;s book but not enough to re-read it anytime soon.</description>
     </item>
     
     <item>
@@ -208,7 +220,7 @@ Now don&#39;t get me wrong - in no way is this a negation of its validity or imp
       <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/wrap-up-2016/</guid>
-      <description>So here I am again - drafting a post on my phone. In fact I&#39;ve done this a number of times in the last couple of years. With wordpress it&#39;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on Hugo and host on github pages - I&#39;ll have to take the extra step. That&#39;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&#39;t go hand in hand with efficiency.</description>
+      <description>So here I am again - drafting a post on my phone. In fact I&amp;rsquo;ve done this a number of times in the last couple of years. With wordpress it&amp;rsquo;s even perfectly possible to post right away - the mobile app is great. But since I wanted to be geeky and build this blog on Hugo and host on github pages - I&amp;rsquo;ll have to take the extra step. That&amp;rsquo;s exactly what I was talking about at DevOps Days TLV - creativity and geekiness usually don&amp;rsquo;t go hand in hand with efficiency.</description>
     </item>
     
     <item>
@@ -217,8 +229,8 @@ Now don&#39;t get me wrong - in no way is this a negation of its validity or imp
       <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/measuring-devops-flow/</guid>
-      <description>During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&#39;ve developed for our clients at Otomato.
-The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&#39;ve aimed at simplicity and conciseness.
+      <description>During my recent talk at DevOps Days TLV I presented the 12 DevOps Flow Metrics we&amp;rsquo;ve developed for our clients at Otomato.
+The feedback was great and I got a number of requests to publish my slides. So we went ahead and created a github pages minisite with all the metrics laid out and explained. We&amp;rsquo;ve aimed at simplicity and conciseness.
 Here are the metrics: [http://devopsflowmetrics.org]
 Feel free to use and comment.</description>
     </item>
@@ -229,8 +241,8 @@ Feel free to use and comment.</description>
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/milestone-throw/</guid>
-      <description>Not surprisingly this blog isn&#39;t getting too much of my attention. Most of my writing is now around Otomato official blog, evangelism we do for Codefresh, white papers and articles. Oh yes and conference proposals. I&#39;ve submitted quite a few lately. There&#39;s one talk and a workshop already confirmed for start of December in Munich at DevOpsCon and hopefully there are more to come.
-I hope to be able to write more in the next few weeks as we&#39;re going on a family trip in the US - which means I won&#39;t be doing the day-to-day work for almost a month.</description>
+      <description>Not surprisingly this blog isn&amp;rsquo;t getting too much of my attention. Most of my writing is now around Otomato official blog, evangelism we do for Codefresh, white papers and articles. Oh yes and conference proposals. I&amp;rsquo;ve submitted quite a few lately. There&amp;rsquo;s one talk and a workshop already confirmed for start of December in Munich at DevOpsCon and hopefully there are more to come.
+I hope to be able to write more in the next few weeks as we&amp;rsquo;re going on a family trip in the US - which means I won&amp;rsquo;t be doing the day-to-day work for almost a month.</description>
     </item>
     
     <item>
@@ -241,8 +253,8 @@ I hope to be able to write more in the next few weeks as we&#39;re going on a fa
       <guid>https://antweiss.com/blog/2-months-of-otomato/</guid>
       <description>Going forward&amp;hellip;
 2 months have passed since I started [Otomato] (http://otomato.link) as a company. Things are going exceptionally well.
-We&#39;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more. We are looking to add some bigger logos to this list. We&#39;re involved in various types of projects - from large-scale web services to IOT cloud solutions.
-Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&#39;s a very strong software delivery shark and it makes me very happy to have him on board.</description>
+We&amp;rsquo;re already working with Motorola, Codefresh, Beame.io, Taboola, Chilli software and more. We are looking to add some bigger logos to this list. We&amp;rsquo;re involved in various types of projects - from large-scale web services to IOT cloud solutions.
+Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also have Eyal David joining me for some of the consulting activities - he&amp;rsquo;s a very strong software delivery shark and it makes me very happy to have him on board.</description>
     </item>
     
     <item>
@@ -251,9 +263,9 @@ Up until now &amp;lsquo;we&amp;rsquo; meant mostly myself alone, but now I also 
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/add-sharing-buttons/</guid>
-      <description>this is becoming my official personal blog and I&#39;m inclined to post some quality content here. so I better add some sharing buttons. but how does one do this in Hugo?
-I recalled I had a [Shareaholic] (https://shareaholic.com/) account I&#39;ve used before. Shareaholic is free and very easy to set up.
-I&#39;ve generated the code snippets from their control interface and pasted them to my theme&#39;s layout html files (I&#39;m using the wonderfully minimal cocoa theme):</description>
+      <description>this is becoming my official personal blog and I&amp;rsquo;m inclined to post some quality content here. so I better add some sharing buttons. but how does one do this in Hugo?
+I recalled I had a [Shareaholic] (https://shareaholic.com/) account I&amp;rsquo;ve used before. Shareaholic is free and very easy to set up.
+I&amp;rsquo;ve generated the code snippets from their control interface and pasted them to my theme&amp;rsquo;s layout html files (I&amp;rsquo;m using the wonderfully minimal cocoa theme):</description>
     </item>
     
     <item>
@@ -262,9 +274,9 @@ I&#39;ve generated the code snippets from their control interface and pasted the
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/starting-the-blog/</guid>
-      <description>If you&#39;ve been reading the posts on otomato blog - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.
-Now that Otomato is becoming a full-blown consulting firm I feel it&#39;s time to separate the personal from the professional.
-There still may be some shared context here and there, but starting today I&#39;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</description>
+      <description>If you&amp;rsquo;ve been reading the posts on otomato blog - you know that until now it was a mixed bag of professional articles, technical tips and personal impressions.
+Now that Otomato is becoming a full-blown consulting firm I feel it&amp;rsquo;s time to separate the personal from the professional.
+There still may be some shared context here and there, but starting today I&amp;rsquo;m moving my personal blogging to a Hugo-based site hosted on Github pages (here)</description>
     </item>
     
   </channel>
