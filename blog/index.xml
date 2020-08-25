@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 30 Jul 2020 14:38:43 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 14:01:07 +0300</lastBuildDate>
     
 	<atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Devops Shorts 012 Patrick Debois</title>
+      <link>https://antweiss.com/blog/devops-shorts-012-patrick-debois/</link>
+      <pubDate>Tue, 25 Aug 2020 14:01:07 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-012-patrick-debois/</guid>
+      <description>Patrick Debois - DevOps as a Life-Changing Methodology   Is this the peak of my career as a DevOps show host?!?!
+I&amp;rsquo;m excited beyond words - I succeeded to land an interview with the man who invented the DevOps word itself! With the original DevOpsDays orgainzer - the one and only Patrick Debois!
+Beside being one of the most prominent DevOps thought leaders of our times, Patrick is now also the DevOps Relations director at Snyk</description>
+    </item>
     
     <item>
       <title>Devops Shorts 011 Philipp Krenn</title>
