@@ -7,10 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 25 Aug 2020 14:01:07 +0300</lastBuildDate>
-    
-	<atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 14 Oct 2020 15:08:32 +0300</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 013 Ohad Maislish</title>
+      <link>https://antweiss.com/blog/devops-shorts-013-ohad-maislish/</link>
+      <pubDate>Wed, 14 Oct 2020 15:08:32 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-013-ohad-maislish/</guid>
+      <description>Ohad Maislish - The Revolution of Codified Infrastructure   Here&amp;rsquo;s why I was so happy to host Ohad at the show and why his company Env0 is one of my favourite Israeli startups of the last year:
+Ohad first reached out to me on Facebook - offering to demo their Infra-As-Code management platform. He was nice, I was curious and we scheduled a half-hour Zoom call. Ohad talked, I liked the platform, provided some (hopefully remotely useful) feedback and we said goodbye.</description>
+    </item>
     
     <item>
       <title>Devops Shorts 012 Patrick Debois</title>

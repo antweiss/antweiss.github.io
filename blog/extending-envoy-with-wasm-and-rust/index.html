@@ -1341,8 +1341,8 @@ And that our newly-built filter is loaded from our build target:</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#a89028">     </span><span style="color:#2838b0">proxy</span><span style="color:#888">:</span><span style="color:#a89028">
 </span><span style="color:#a89028">      </span>..<span style="color:#a89028">
 </span><span style="color:#a89028">       </span><span style="color:#2838b0">volumes</span><span style="color:#888">:</span><span style="color:#a89028">
-</span><span style="color:#a89028">         </span>- ./envoy/envoy.yaml<span style="color:#888">:</span>/etc/envoy.yaml<span style="color:#a89028">
-</span><span style="color:#a89028">         </span>- ./target/wasm32-unknown-unknown/release/myenvoyfilter.wasm<span style="color:#888">:</span>/etc/myenvoyfilter.wasm<span style="color:#a89028">
+</span><span style="color:#a89028">         </span>- ./envoy/envoy.yaml:/etc/envoy.yaml<span style="color:#a89028">
+</span><span style="color:#a89028">         </span>- ./target/wasm32-unknown-unknown/release/myenvoyfilter.wasm:/etc/myenvoyfilter.wasm<span style="color:#a89028">
 </span><span style="color:#a89028">        </span>..<span style="color:#a89028">
 </span><span style="color:#a89028">       </span><span style="color:#2838b0">ports</span><span style="color:#888">:</span><span style="color:#a89028">
 </span><span style="color:#a89028">         </span>- <span style="color:#b83838">&#34;18000:80&#34;</span><span style="color:#a89028">
