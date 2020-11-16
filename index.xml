@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 14 Oct 2020 15:08:32 +0300</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2020 18:12:22 +0300</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 014 J.Paul Reed</title>
+      <link>https://antweiss.com/blog/devops-shorts-014-j.paul-reed/</link>
+      <pubDate>Sun, 15 Nov 2020 18:12:22 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-014-j.paul-reed/</guid>
+      <description>J.Paul Reed - It&amp;rsquo;s Humans All the Way Down   Resilience engineering is one of the most forward-looking topics to surface in our industry in the last 5 years. That&amp;rsquo;s why I&amp;rsquo;m so excited to have J.Paul Reed as my guest. Paul is one of the most passionate promoters of resilience engineering practices. He&amp;rsquo;s a co-organizer of REdeploy, a frequent speaker on related topics and now also a senior applied resilience engineer at Netflix.</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 013 Ohad Maislish</title>
       <link>https://antweiss.com/blog/devops-shorts-013-ohad-maislish/</link>
