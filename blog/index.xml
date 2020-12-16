@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 06 Dec 2020 16:22:12 +0300</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Dec 2020 15:25:57 +0200</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 016 Tracy Miranda</title>
+      <link>https://antweiss.com/blog/devops-shorts-016-tracy-miranda/</link>
+      <pubDate>Wed, 16 Dec 2020 15:25:57 +0200</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-016-tracy-miranda/</guid>
+      <description>Tracy Miranda - Fixing Real-World Problems is not as Easy as You Think   Continuous Delivery is the practice underlying the DevOps principles. That&amp;rsquo;s why for this episode of DevOps Shorts I&amp;rsquo;m incredibly excited to interview Tracy Miranda - the executive director of the Continuous Delivery Foundation.
+Listen to the episode to learn:
+  How contributing to open-source can help you love your job
+  How easy it was to set up sane release practices for Jenkins</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 015 Viktor Farcic</title>
       <link>https://antweiss.com/blog/devops-shorts-015-viktor-farcic/</link>
