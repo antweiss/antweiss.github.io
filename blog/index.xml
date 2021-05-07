@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 23 Mar 2021 17:30:02 +0200</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 11:17:41 +0300</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Directions</title>
+      <link>https://antweiss.com/blog/new-directions/</link>
+      <pubDate>Fri, 07 May 2021 11:17:41 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/new-directions/</guid>
+      <description>It&amp;rsquo;s that Time Again I haven&amp;rsquo;t written anything on my personal blog for a while.
+Last year has been very busy. Once the first pandemic shock has passed - the whole industry quickly picked up a hectic pace.
+We at Otomato have been busy building infrastructure, teaching cloud native tech, coaching DevOps and SRE teams. We are now 4 people and potentially growing.
+During that time we also decided to launch a new enterprise with a long time friend and collaborator - Oleg.</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 18 Jonathan Hall</title>
       <link>https://antweiss.com/blog/devops-shorts-18-jonathan-hall/</link>
