@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 19 Nov 2021 10:50:36 +0200</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 17:02:36 +0200</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 20 Shauli Rozen</title>
+      <link>https://antweiss.com/blog/devops-shorts-20-shauli-rozen/</link>
+      <pubDate>Mon, 17 Jan 2022 17:02:36 +0200</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-20-shauli-rozen/</guid>
+      <description>Shauli Rozen - Let&amp;rsquo;s Just Get K8S Security Done   I first met Shauli when he and his co-founders were only planning to start ARMO - we sat in a small cafe in Ramat Gan Diamond Exchange district and talked about service meshes and network security. Shauli had great ideas and was full of motivation. And it all paid out! Fast-forward 3 years and he&amp;rsquo;s now the CTO of one of the leading Kubernetes security startups.</description>
+    </item>
+    
     <item>
       <title>One Sad Tech Evangelist</title>
       <link>https://antweiss.com/blog/one-sad-tech-evangelist/</link>
