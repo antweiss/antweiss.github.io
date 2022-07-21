@@ -7,14 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 17 Jan 2022 17:02:36 +0200</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 13:39:55 +0300</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 21 Boaz Ziniman</title>
+      <link>https://antweiss.com/blog/devops-shorts-21-boaz-ziniman/</link>
+      <pubDate>Thu, 21 Jul 2022 13:39:55 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-21-boaz-ziniman/</guid>
+      <description>Boaz Ziniman - Discovering DevOps by Mistake Boaz Ziniman is a Principal Developer Advocate at AWS and one of first proponents of cloud computing in Israel. Prior to working at AWS he&amp;rsquo;s spent a decade at Zend - the PHP company - also leading the cloudification of Zend services.
+Boaz has a great YouTube channel in Hebrew called מעונן חלקית (Partly Cloudy). Check it out here.
+Find Boaz on twitter and his own website</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 20 Shauli Rozen</title>
       <link>https://antweiss.com/blog/devops-shorts-20-shauli-rozen/</link>
       <pubDate>Mon, 17 Jan 2022 17:02:36 +0200</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-20-shauli-rozen/</guid>
-      <description>Shauli Rozen - Let&amp;rsquo;s Just Get K8S Security Done   I first met Shauli when he and his co-founders were only planning to start ARMO - we sat in a small cafe in Ramat Gan Diamond Exchange district and talked about service meshes and network security. Shauli had great ideas and was full of motivation. And it all paid out! Fast-forward 3 years and he&amp;rsquo;s now the CTO of one of the leading Kubernetes security startups.</description>
+      <description>Shauli Rozen - Let&amp;rsquo;s Just Get K8S Security Done I first met Shauli when he and his co-founders were only planning to start ARMO - we sat in a small cafe in Ramat Gan Diamond Exchange district and talked about service meshes and network security. Shauli had great ideas and was full of motivation. And it all paid out! Fast-forward 3 years and he&amp;rsquo;s now the CTO of one of the leading Kubernetes security startups.</description>
     </item>
     
     <item>
@@ -35,7 +46,7 @@ The deep sadness of the first weeks is now becoming lighter. It’s still there 
       <pubDate>Mon, 19 Jul 2021 20:35:17 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-019-steve-pereira/</guid>
-      <description>Steve Pereira - DevOps is a MacGuffin   Steve Pereira calls himself a Value Stream Guy. Today he is the founder of Visible where he is helping teams define and optimize their value streams. Before that he&amp;rsquo;s been a startup CTO, an agency consultant, a systems and release engineer, a finance IT manager, a tech support phone jockey, and a pizza maker. All focused on the flow of value, all the time.</description>
+      <description>Steve Pereira - DevOps is a MacGuffin Steve Pereira calls himself a Value Stream Guy. Today he is the founder of Visible where he is helping teams define and optimize their value streams. Before that he&amp;rsquo;s been a startup CTO, an agency consultant, a systems and release engineer, a finance IT manager, a tech support phone jockey, and a pizza maker. All focused on the flow of value, all the time.</description>
     </item>
     
     <item>
@@ -57,10 +68,10 @@ All this gives me renewed energy with which I feel like it&amp;rsquo;s finally t
       <pubDate>Tue, 23 Mar 2021 17:30:02 +0200</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-18-jonathan-hall/</guid>
-      <description>Jonathan Hall - Big Ideas for the Little Teams   Johnathan Hall (aka TinyDevOps) is a DevOps coach and consultant based in Netherlands. He has almost 3 decades of experience in the IT industry out of which 2 decades were spent in leadership roles. Jonathan is focused on helping small teams do amazing DevOps.
+      <description>Jonathan Hall - Big Ideas for the Little Teams Johnathan Hall (aka TinyDevOps) is a DevOps coach and consultant based in Netherlands. He has almost 3 decades of experience in the IT industry out of which 2 decades were spent in leadership roles. Jonathan is focused on helping small teams do amazing DevOps.
 Find him on twitter and on his site
 Listen to the episode to learn:
-  How love of IT is still about making tech do our bidding.</description>
+How love of IT is still about making tech do our bidding.</description>
     </item>
     
     <item>
@@ -69,7 +80,7 @@ Listen to the episode to learn:
       <pubDate>Mon, 18 Jan 2021 10:42:04 +0200</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-17-heidi-waterhouse/</guid>
-      <description>Heidi Waterhouse - Future is Just Another Feature   Heidi Waterhouse is a prominent figure on the DevOps landscape. And she&amp;rsquo;s also special at that - because her background is neither Dev nor Ops. For the whole of her career she&amp;rsquo;s been a technical writer, a documentation specialist. And I find this wonderfully exciting - because first of all - DevOps has never been the sole concern of Devs and Ops only.</description>
+      <description>Heidi Waterhouse - Future is Just Another Feature Heidi Waterhouse is a prominent figure on the DevOps landscape. And she&amp;rsquo;s also special at that - because her background is neither Dev nor Ops. For the whole of her career she&amp;rsquo;s been a technical writer, a documentation specialist. And I find this wonderfully exciting - because first of all - DevOps has never been the sole concern of Devs and Ops only.</description>
     </item>
     
     <item>
@@ -78,10 +89,10 @@ Listen to the episode to learn:
       <pubDate>Wed, 16 Dec 2020 15:25:57 +0200</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-016-tracy-miranda/</guid>
-      <description>Tracy Miranda - Fixing Real-World Problems is not as Easy as You Think   Continuous Delivery is the practice underlying the DevOps principles. That&amp;rsquo;s why for this episode of DevOps Shorts I&amp;rsquo;m incredibly excited to interview Tracy Miranda - the executive director of the Continuous Delivery Foundation.
+      <description>Tracy Miranda - Fixing Real-World Problems is not as Easy as You Think Continuous Delivery is the practice underlying the DevOps principles. That&amp;rsquo;s why for this episode of DevOps Shorts I&amp;rsquo;m incredibly excited to interview Tracy Miranda - the executive director of the Continuous Delivery Foundation.
 Listen to the episode to learn:
-  How contributing to open-source can help you love your job
-  How easy it was to set up sane release practices for Jenkins</description>
+How contributing to open-source can help you love your job
+How easy it was to set up sane release practices for Jenkins</description>
     </item>
     
     <item>
@@ -90,10 +101,10 @@ Listen to the episode to learn:
       <pubDate>Sun, 06 Dec 2020 16:22:12 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-015-viktor-farcic/</guid>
-      <description>Viktor Farcic - Defying the Rigid Org Structure   Today I&amp;rsquo;m very happy to have Viktor Farcic as my guest. Viktor is the author of the DevOps Toolkit Series, the host of the DevOps Paradox podcast and now also the Developer Advocate at Codefresh
+      <description>Viktor Farcic - Defying the Rigid Org Structure Today I&amp;rsquo;m very happy to have Viktor Farcic as my guest. Viktor is the author of the DevOps Toolkit Series, the host of the DevOps Paradox podcast and now also the Developer Advocate at Codefresh
 Listen to the episode to learn:
-  Why software engineers are a rare and lucky breed
-  How lack of communication skills can make you fall in love with computers</description>
+Why software engineers are a rare and lucky breed
+How lack of communication skills can make you fall in love with computers</description>
     </item>
     
     <item>
@@ -102,7 +113,7 @@ Listen to the episode to learn:
       <pubDate>Sun, 15 Nov 2020 18:12:22 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-014-j.paul-reed/</guid>
-      <description>J.Paul Reed - It&amp;rsquo;s Humans All the Way Down   Resilience engineering is one of the most forward-looking topics to surface in our industry in the last 5 years. That&amp;rsquo;s why I&amp;rsquo;m so excited to have J.Paul Reed as my guest. Paul is one of the most passionate promoters of resilience engineering practices. He&amp;rsquo;s a co-organizer of REdeploy, a frequent speaker on related topics and now also a senior applied resilience engineer at Netflix.</description>
+      <description>J.Paul Reed - It&amp;rsquo;s Humans All the Way Down Resilience engineering is one of the most forward-looking topics to surface in our industry in the last 5 years. That&amp;rsquo;s why I&amp;rsquo;m so excited to have J.Paul Reed as my guest. Paul is one of the most passionate promoters of resilience engineering practices. He&amp;rsquo;s a co-organizer of REdeploy, a frequent speaker on related topics and now also a senior applied resilience engineer at Netflix.</description>
     </item>
     
     <item>
@@ -111,7 +122,7 @@ Listen to the episode to learn:
       <pubDate>Wed, 14 Oct 2020 15:08:32 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-013-ohad-maislish/</guid>
-      <description>Ohad Maislish - The Revolution of Codified Infrastructure   Here&amp;rsquo;s why I was so happy to host Ohad at the show and why his company Env0 is one of my favourite Israeli startups of the last year:
+      <description>Ohad Maislish - The Revolution of Codified Infrastructure Here&amp;rsquo;s why I was so happy to host Ohad at the show and why his company Env0 is one of my favourite Israeli startups of the last year:
 Ohad first reached out to me on Facebook - offering to demo their Infra-As-Code management platform. He was nice, I was curious and we scheduled a half-hour Zoom call. Ohad talked, I liked the platform, provided some (hopefully remotely useful) feedback and we said goodbye.</description>
     </item>
     
@@ -121,7 +132,7 @@ Ohad first reached out to me on Facebook - offering to demo their Infra-As-Code 
       <pubDate>Tue, 25 Aug 2020 14:01:07 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-012-patrick-debois/</guid>
-      <description>Patrick Debois - DevOps as a Life-Changing Methodology   Is this the peak of my career as a DevOps show host?!?!
+      <description>Patrick Debois - DevOps as a Life-Changing Methodology Is this the peak of my career as a DevOps show host?!?!
 I&amp;rsquo;m excited beyond words - I succeeded to land an interview with the man who invented the DevOps word itself! With the original DevOpsDays orgainzer - the one and only Patrick Debois!
 Beside being one of the most prominent DevOps thought leaders of our times, Patrick is now also the DevOps Relations director at Snyk</description>
     </item>
@@ -132,10 +143,10 @@ Beside being one of the most prominent DevOps thought leaders of our times, Patr
       <pubDate>Thu, 30 Jul 2020 14:38:43 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-011-philipp-krenn/</guid>
-      <description>Philipp Krenn - Build, Play, Automate   This time I&amp;rsquo;m happy to host Philipp Krenn - a meetup organizer, conference speaker and developer advocate at Elastic
+      <description>Philipp Krenn - Build, Play, Automate This time I&amp;rsquo;m happy to host Philipp Krenn - a meetup organizer, conference speaker and developer advocate at Elastic
 Philipp is very good at explaining and demoing exciting new technologies and he&amp;rsquo;s now in the very epicenter of the observability movement - bringing the Elastic stack to engineers all over the virtual world.
 Listen to the episode to learn:
-  What&amp;rsquo;s the role of playfulness in IT</description>
+What&amp;rsquo;s the role of playfulness in IT</description>
     </item>
     
     <item>
@@ -144,7 +155,7 @@ Listen to the episode to learn:
       <pubDate>Tue, 14 Jul 2020 16:54:59 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-010-mark-burgess/</guid>
-      <description>Mark Burgess - Digging Away at Human-Machine Systems   I&amp;rsquo;m so thrilled! My guest for tonight is Mark Burgess - a &amp;ldquo;technologist, scientist and author, specializing in the physics of Information Systems&amp;rdquo; (quoted from Mark&amp;rsquo;s website).
+      <description>Mark Burgess - Digging Away at Human-Machine Systems I&amp;rsquo;m so thrilled! My guest for tonight is Mark Burgess - a &amp;ldquo;technologist, scientist and author, specializing in the physics of Information Systems&amp;rdquo; (quoted from Mark&amp;rsquo;s website).
 Mark is probably best known to the IT crowd as the man who defined the ideas behind desired-state configuration management and the creator of the CFEngine CM tool that predated Puppet, Chef and Ansible and is still in use at quite a number of companies.</description>
     </item>
     
@@ -165,7 +176,7 @@ And then WASI got released and Solomon Hykes (the founder of Docker) tweeted thi
       <pubDate>Thu, 18 Jun 2020 01:37:28 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-009-adi-shacham-shavit/</guid>
-      <description>Adi Shacham-Shavit - Quality is Still Too Hard   And our guest for tonight is Adi Shacham-Shavit - previously the R&amp;amp;D manager at such companies as AppsFlyer and Lemonade, now EVP Engineering at an early stage startup called Clear.
+      <description>Adi Shacham-Shavit - Quality is Still Too Hard And our guest for tonight is Adi Shacham-Shavit - previously the R&amp;amp;D manager at such companies as AppsFlyer and Lemonade, now EVP Engineering at an early stage startup called Clear.
 Adi hates wasting time and making the same mistake twice.
 First of all - it makes me happy that Adi is a woman - I feel like my show was lacking in diversity - I only got to interview white men until now.</description>
     </item>
@@ -176,7 +187,7 @@ First of all - it makes me happy that Adi is a woman - I feel like my show was l
       <pubDate>Tue, 09 Jun 2020 17:04:56 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-008-john-willis/</guid>
-      <description>John Willis - Towards the 5 Elements of IT   This episode of DevOps Shorts is probably the most exciting one I&amp;rsquo;ve recorded until now!
+      <description>John Willis - Towards the 5 Elements of IT This episode of DevOps Shorts is probably the most exciting one I&amp;rsquo;ve recorded until now!
 This time I was honoured to host none other but the great John Willis himself - the man who brought DevOpsDays to US, the originator of the CA(L)MS acronym, one of the authors of &amp;ldquo;The DevOps Handbook&amp;rdquo; and now - a senior director at RedHat Global Transformation Office.</description>
     </item>
     
@@ -186,7 +197,7 @@ This time I was honoured to host none other but the great John Willis himself - 
       <pubDate>Thu, 28 May 2020 19:03:49 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/were-on-the-cloud-native-landscape/</guid>
-      <description>We&amp;rsquo;re on The Cloud Native Landscape! This is a story about growing together as a community and building a project that matters.   Getting into the Mesh About a year and a half ago I got interested in service mesh technology. A customer needed some advanced routing capabilities and we started looking at Envoy and Istio. Then - invitations to talk about Istio at meetups and conferences started flowing in.</description>
+      <description>We&amp;rsquo;re on The Cloud Native Landscape! This is a story about growing together as a community and building a project that matters. Getting into the Mesh About a year and a half ago I got interested in service mesh technology. A customer needed some advanced routing capabilities and we started looking at Envoy and Istio. Then - invitations to talk about Istio at meetups and conferences started flowing in. That&amp;rsquo;s when I got excited about progressive delivery capabilities that service meshes enable.</description>
     </item>
     
     <item>
@@ -195,8 +206,9 @@ This time I was honoured to host none other but the great John Willis himself - 
       <pubDate>Wed, 27 May 2020 19:31:35 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-007-derek-weeks/</guid>
-      <description>Derek Weeks - It&amp;rsquo;s All in The Feedback Loops! DevOps Shorts E007   This time around I was happy to host Derek Weeks - the Vice-president at Sonatype and the co-founder of AllDayDevOps. The man who started doing global virtual conferences before they became cool.
-Derek spills some light on what it was like growing up in the Silicon Valley and what DevSecOps really looks like in the real world.</description>
+      <description>Derek Weeks - It&amp;rsquo;s All in The Feedback Loops! DevOps Shorts E007 This time around I was happy to host Derek Weeks - the Vice-president at Sonatype and the co-founder of AllDayDevOps. The man who started doing global virtual conferences before they became cool.
+Derek spills some light on what it was like growing up in the Silicon Valley and what DevSecOps really looks like in the real world.
+Listen to the episode to learn :</description>
     </item>
     
     <item>
@@ -205,7 +217,7 @@ Derek spills some light on what it was like growing up in the Silicon Valley and
       <pubDate>Mon, 25 May 2020 14:51:20 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/devops-shorts-006-manuel-pais/</guid>
-      <description>Manuel Pais - Exploring the Team Topologies DevOps Shorts E006   About 3 years ago when I started delivering my DevOps Fundamentals training I used to refer to a website called DevOps Topologies in order to explain the different possibilities of applying DevOps to organizational structure. The creators of the site - Manuel Pais and Matthew Skelton did a great job visualizing and explaining the dominant patterns and anti-patterns of building DevOps-ish teams.</description>
+      <description>Manuel Pais - Exploring the Team Topologies DevOps Shorts E006 About 3 years ago when I started delivering my DevOps Fundamentals training I used to refer to a website called DevOps Topologies in order to explain the different possibilities of applying DevOps to organizational structure. The creators of the site - Manuel Pais and Matthew Skelton did a great job visualizing and explaining the dominant patterns and anti-patterns of building DevOps-ish teams.</description>
     </item>
     
     <item>
@@ -265,8 +277,8 @@ I first encountered Glasnostic (and immediately loved the post-Soviet reference 
       <pubDate>Fri, 17 Apr 2020 16:45:18 +0300</pubDate>
       
       <guid>https://antweiss.com/blog/extending-envoy-with-wasm-and-rust/</guid>
-      <description>Extending Envoy with WASM and Rust  If you already know what Istio, Envoy, WASM and Rust have in common and just want to get started building your filter - feel free to skip straight to part 2 - Building the Filter
- Part 1: The Evolution of the Mesh As I’ve mentioned multiple times over the last couple of years - service meshes are the next stage in the evolution of cloud native infrastructure.</description>
+      <description>Extending Envoy with WASM and Rust If you already know what Istio, Envoy, WASM and Rust have in common and just want to get started building your filter - feel free to skip straight to part 2 - Building the Filter
+Part 1: The Evolution of the Mesh As I’ve mentioned multiple times over the last couple of years - service meshes are the next stage in the evolution of cloud native infrastructure.</description>
     </item>
     
     <item>
@@ -294,7 +306,7 @@ First of all - it really warms my heart how we suddenly get closer to folks from
     <item>
       <title>Corona Week One - The New Reality</title>
       <link>https://antweiss.com/blog/corona-week-one-the-new-reality/</link>
-      <pubDate>Tue, 17 Mar 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/corona-week-one-the-new-reality/</guid>
       <description>A New Reality Unfolds Gosh, it&amp;rsquo;s complicated. How do I start this post without sounding banal? We&amp;rsquo;re all confused, aren&amp;rsquo;t we? Even those who say the Corona hysteria is unjustified. Even those who are relatively safe from contagion. Because no matter if anybody I know gets sick or not - there&amp;rsquo;s a new reality our there. Something none of us had to deal with before. How will this impact our communities, jobs, businesses, families, money?</description>
@@ -306,7 +318,7 @@ First of all - it really warms my heart how we suddenly get closer to folks from
       <pubDate>Mon, 16 Mar 2020 12:25:23 +0200</pubDate>
       
       <guid>https://antweiss.com/talks/</guid>
-      <description>Here&amp;rsquo;s an incomplete list of talks I&amp;rsquo;ve given  Many Changes, Little Fun: It’s time to measure the value of DevOps  Yalla DevOps 2019, Herzlia, Israel Video: https://www.youtube.com/watch?v=3SEUZ7qUyPE Slides: https://www.slideshare.net/AntonWeiss/many-changes-little-fun      WTF Do We Need A Service Mesh  Cloud&amp;amp;Edge Native Day Israel, 2019 Video: https://www.youtube.com/watch?v=0zK60iO6WQQ Slides: https://www.slideshare.net/openstackil/wtf-do-we-need-a-service-mesh-by-anton-weiss      DevOps Collaboration 2020: Are We in The Trough of Disillusionment?  DevOpsCon Munich 2019      Dumb Services in smart Nets: deploy like a Ninja with Istio Service Mesh  DevOpsCon Berlin 2019 Slides: https://www.</description>
+      <description>Here&amp;rsquo;s an incomplete list of talks I&amp;rsquo;ve given Many Changes, Little Fun: It’s time to measure the value of DevOps Yalla DevOps 2019, Herzlia, Israel Video: https://www.youtube.com/watch?v=3SEUZ7qUyPE Slides: https://www.slideshare.net/AntonWeiss/many-changes-little-fun WTF Do We Need A Service Mesh Cloud&amp;amp;Edge Native Day Israel, 2019 Video: https://www.youtube.com/watch?v=0zK60iO6WQQ Slides: https://www.slideshare.net/openstackil/wtf-do-we-need-a-service-mesh-by-anton-weiss DevOps Collaboration 2020: Are We in The Trough of Disillusionment? DevOpsCon Munich 2019 Dumb Services in smart Nets: deploy like a Ninja with Istio Service Mesh DevOpsCon Berlin 2019 Slides: https://www.</description>
     </item>
     
     <item>
@@ -315,7 +327,7 @@ First of all - it really warms my heart how we suddenly get closer to folks from
       <pubDate>Thu, 12 Mar 2020 08:24:02 +0200</pubDate>
       
       <guid>https://antweiss.com/home/</guid>
-      <description>Anton (Ant) Weiss:  Blog, Talks, Music and Futurism</description>
+      <description>Anton (Ant) Weiss: Blog, Talks, Music and Futurism</description>
     </item>
     
     <item>
@@ -330,10 +342,10 @@ First of all - it really warms my heart how we suddenly get closer to folks from
     <item>
       <title>devops is a myth</title>
       <link>https://antweiss.com/blog/devops-is-a-myth/</link>
-      <pubDate>Tue, 25 Apr 2017 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/devops-is-a-myth/</guid>
-      <description>DevOps Is A Myth (Practitioner&amp;rsquo;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;lsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
+      <description>DevOps Is A Myth (Practitioner&amp;rsquo;s Reflections on The DevOps Handbook) The Holy Wars of DevOps Yet another argument explodes online around the &amp;rsquo;true nature of DevOps&amp;rsquo;, around &amp;lsquo;what DevOps really means&amp;rsquo; or around &amp;lsquo;what DevOps is not&amp;rsquo;. At each conference I attend we talk about DevOps culture, DevOps mindset and DevOps ways. All confirming one single truth - DevOps is a myth.
 Now don&amp;rsquo;t get me wrong - in no way is this a negation of its validity or importance.</description>
     </item>
     
@@ -375,7 +387,8 @@ Feel free to use and comment.</description>
       <guid>https://antweiss.com/about/</guid>
       <description>Welcome stranger! I&amp;rsquo;m Ant Weiss - an entrepreneur, software delivery consultant, musician, public speaker, writer and instructor.
 All this in no particular order and in parallel to being a male human being blessed to have a wonderful family and friends! Yes, we all get on each other&amp;rsquo;s nerves, but that&amp;rsquo;s what makes it fun!
- Me   I also like to think of myself as a futurist, but aren&amp;rsquo;t we all?</description>
+Me I also like to think of myself as a futurist, but aren&amp;rsquo;t we all?
+I write on a wide range of topics including but not limited to:</description>
     </item>
     
     <item>
@@ -391,7 +404,7 @@ I hope to be able to write more in the next few weeks as we&amp;rsquo;re going o
     <item>
       <title>2 months of Otomato</title>
       <link>https://antweiss.com/blog/2-months-of-otomato/</link>
-      <pubDate>Sun, 15 May 2016 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://antweiss.com/blog/2-months-of-otomato/</guid>
       <description>Going forward&amp;hellip;

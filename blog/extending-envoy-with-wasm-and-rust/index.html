@@ -1118,8 +1118,6 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
 
 
-
-
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -1132,7 +1130,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 
 
@@ -1238,26 +1235,26 @@ the wonderful folks at Solo.io already provide some tooling to help you get off 
 <h1 id="part2">Part 2: Building The Filter</h1>
 <h2 id="get-the-toolbox-ready">Get the Toolbox Ready</h2>
 <p>Your mileage with Rust may vary - so just in case you still don’t have Rust and Cargo (the wonderful Rust package manager) installed - go ahead and get them. On Linux and macOS systems, this is done as follows:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    curl https://sh.rustup.rs -sSf <span style="color:#888">|</span> sh
-</code></pre></div><p>If everything goes well, you’ll see this appear:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    Rust is installed now. Great!
-</code></pre></div><p>Remember - we’re dealing with bleeding edge functionality here, so the basic Rust installation isn’t sufficient. We’ll also need to install the Rust nightly toolchain and the support for WASM compilation target. Thankfully this is very easy. All you need to is run:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    rustup toolchain install nightly
-    rustup target add wasm32-unknown-unknown
-</code></pre></div><p>Now we have all the tools ready - let’s initialize our project:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    curl https://sh.rustup.rs -sSf <span style="color:#888">|</span> sh
+</span></span></code></pre></div><p>If everything goes well, you’ll see this appear:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    Rust is installed now. Great!
+</span></span></code></pre></div><p>Remember - we’re dealing with bleeding edge functionality here, so the basic Rust installation isn’t sufficient. We’ll also need to install the Rust nightly toolchain and the support for WASM compilation target. Thankfully this is very easy. All you need to is run:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    rustup toolchain install nightly
+</span></span><span style="display:flex;"><span>    rustup target add wasm32-unknown-unknown
+</span></span></code></pre></div><p>Now we have all the tools ready - let’s initialize our project:</p>
 <h2 id="create-the-library">Create the Library</h2>
 <p>A WASM filter is compiled from a Rust library project, so first we need to create that project:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    cargo new --lib my-wasm-filter
-</code></pre></div><p>This will create a template library project in ‘my-wasm-filter’ directory.  You’ll find a lib.rs file in the src/ directory and a Cargo.toml file that tells Cargo how to build your project.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    cargo new --lib my-wasm-filter
+</span></span></code></pre></div><p>This will create a template library project in ‘my-wasm-filter’ directory.  You’ll find a lib.rs file in the src/ directory and a Cargo.toml file that tells Cargo how to build your project.</p>
 <h2 id="setting-the-crate-type">Setting the Crate Type</h2>
 <p>The resulting library is loaded from Envoy’s C++ code so there’s no need to include any Rust-specific information in it. Therefore we’ll set the crate type to ‘cdylib’ as defined <a href="https://doc.rust-lang.org/edition-guide/rust-2018/platform-and-target-support/cdylib-crates-for-c-interoperability.html">here</a>. This will also produce a smaller binary. To do this - open your Cargo.toml file and under the [lib] section add:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#666">[</span>lib<span style="color:#666">]</span>
-    crate-type <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#b83838">&#34;cdylib&#34;</span><span style="color:#666">]</span>
-</code></pre></div><h2 id="proxy-wasm-sdk">Proxy WASM SDK</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    <span style="color:#666">[</span>lib<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    crate-type <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#b83838">&#34;cdylib&#34;</span><span style="color:#666">]</span>
+</span></span></code></pre></div><h2 id="proxy-wasm-sdk">Proxy WASM SDK</h2>
 <p>Envoy filters need to be based on the SDKs provided by the <a href="https://github.com/proxy-wasm">proxy-wasm</a> project.  Specifically the <a href="https://github.com/proxy-wasm/proxy-wasm-rust-sdk">proxy-wasm-rust</a> The first version of the SDK is already published on Crates.io <a href="https://crates.io/crates/proxy-wasm/0.1.0">here</a>. So we’ll need to add it to our Cargo.toml as a dependency:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#666">[</span>dependencies<span style="color:#666">]</span>
-    proxy-wasm <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.1.0&#34;</span>
-</code></pre></div><p>And now we’re ready to code.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    <span style="color:#666">[</span>dependencies<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    proxy-wasm <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.1.0&#34;</span>
+</span></span></code></pre></div><p>And now we’re ready to code.</p>
 <h2 id="lets-start-coding">Let’s Start Coding</h2>
 <p>At the time of writing this - no detailed documentation for writing Envoy WASM filters exists. My code is based on the examples found in the <a href="https://github.com/proxy-wasm/proxy-wasm-rust-sdk">proxy-sdk</a> project and on this <a href="https://github.com/envoyproxy/envoy-wasm/tree/master/api/wasm/cpp">example</a> for a CPP-based filter in the<a href="https://github.com/envoyproxy/envoy-wasm"> envoy-wasm</a> project.</p>
 <p>Basically what we’ll need to do is:</p>
@@ -1271,42 +1268,42 @@ the wonderful folks at Solo.io already provide some tooling to help you get off 
 <h2 id="what-will-our-filter-do">What Will Our Filter Do?</h2>
 <p>I decided to implement a very simple imaginary scenario where each request directed to our service needs to be authorized by sending a token which is then checked for validity by the filter. If the token is validated - the request is passed on to the service. Otherwise - 403 response is returned to the caller.</p>
 <p>The validity check for the token is quite dumb - we check if the token is a prime number. In order to do that - let’s add another dependency in our Cargo.toml - the primes crate:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#666">[</span>dependencies<span style="color:#666">]</span>
-    proxy-wasm <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.1.0&#34;</span>
-    <span style="color:#b04040">primes</span> <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.3.0&#34;</span>
-</code></pre></div><h2 id="the-implementation">The Implementation:</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    <span style="color:#666">[</span>dependencies<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    proxy-wasm <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.1.0&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#b04040">primes</span> <span style="color:#666">=</span> <span style="color:#b83838">&#34;0.3.0&#34;</span>
+</span></span></code></pre></div><h2 id="the-implementation">The Implementation:</h2>
 <p>Let’s create our Context:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#a89028">    </span><span style="color:#2838b0">struct</span> <span style="color:#287088">PrimeAuthorizer</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">        </span>context_id: <span style="color:#2838b0;font-style:italic">u32</span><span style="color:#888">,</span><span style="color:#a89028">
-</span><span style="color:#a89028">    </span><span style="color:#888">}</span><span style="color:#a89028">
-</span></code></pre></div><p>And implement the Context class for it:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#a89028">    </span><span style="color:#2838b0">impl</span><span style="color:#a89028"> </span>Context<span style="color:#a89028"> </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span>PrimeAuthorizer<span style="color:#a89028"> </span><span style="color:#888">{}</span><span style="color:#a89028">
-</span></code></pre></div><p>Note - we don’t need to implement any methods for Context as we’re doing all the work at L7 level - only processing HTTP headers. But we still need to have this in our code because our Context has to implement the base Context trait.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">struct</span> <span style="color:#287088">PrimeAuthorizer</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span>context_id: <span style="color:#2838b0;font-style:italic">u32</span><span style="color:#888">,</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>And implement the Context class for it:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">impl</span><span style="color:#a89028"> </span>Context<span style="color:#a89028"> </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span>PrimeAuthorizer<span style="color:#a89028"> </span><span style="color:#888">{}</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>Note - we don’t need to implement any methods for Context as we’re doing all the work at L7 level - only processing HTTP headers. But we still need to have this in our code because our Context has to implement the base Context trait.</p>
 <p>Now to the actual work - let’s implement the HttpContext. We’ll actually only need to implement one method: <code>HttpContext::on_http_request_headers</code> - to validate the headers as they arrive:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#a89028">
-</span><span style="color:#a89028">    </span><span style="color:#2838b0">impl</span><span style="color:#a89028"> </span>HttpContext<span style="color:#a89028"> </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span>PrimeAuthorizer<span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">        </span><span style="color:#2838b0">fn</span> <span style="color:#785840">on_http_request_headers</span><span style="color:#888">(</span><span style="color:#666">&amp;</span><span style="color:#2838b0">mut</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">,</span><span style="color:#a89028"> </span>_: <span style="color:#2838b0;font-style:italic">usize</span><span style="color:#888">)</span><span style="color:#a89028"> </span>-&gt; <span style="color:#287088">Action</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">            </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span><span style="color:#888">(</span>name<span style="color:#888">,</span><span style="color:#a89028"> </span>value<span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#2838b0">in</span><span style="color:#a89028"> </span><span style="color:#666">&amp;</span><span style="font-style:italic">self</span><span style="color:#888">.</span>get_http_request_headers<span style="color:#888">()</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">                </span>trace<span style="color:#666">!</span><span style="color:#888">(</span><span style="color:#b83838">&#34;In WASM : #{} -&gt; {}: {}&#34;</span><span style="color:#888">,</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">.</span>context_id<span style="color:#888">,</span><span style="color:#a89028"> </span>name<span style="color:#888">,</span><span style="color:#a89028"> </span>value<span style="color:#888">);</span><span style="color:#a89028">
-</span><span style="color:#a89028">            </span><span style="color:#888">}</span><span style="color:#a89028">
-</span><span style="color:#a89028">
-</span><span style="color:#a89028">            </span><span style="color:#2838b0">match</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">.</span>get_http_request_header<span style="color:#888">(</span><span style="color:#b83838">&#34;token&#34;</span><span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">                </span><span style="color:#388038">Some</span><span style="color:#888">(</span>token<span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#2838b0">if</span><span style="color:#a89028"> </span>is_prime<span style="color:#888">(</span>token<span style="color:#888">.</span>parse<span style="color:#888">().</span>unwrap<span style="color:#888">())</span><span style="color:#a89028"> </span><span style="color:#666">=&gt;</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">                    </span><span style="font-style:italic">self</span><span style="color:#888">.</span>resume_http_request<span style="color:#888">();</span><span style="color:#a89028">
-</span><span style="color:#a89028">                    </span>Action::Continue<span style="color:#a89028">
-</span><span style="color:#a89028">                </span><span style="color:#888">}</span><span style="color:#a89028">
-</span><span style="color:#a89028">                </span>_<span style="color:#a89028"> </span><span style="color:#666">=&gt;</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
-</span><span style="color:#a89028">                    </span><span style="font-style:italic">self</span><span style="color:#888">.</span>send_http_response<span style="color:#888">(</span><span style="color:#a89028">
-</span><span style="color:#a89028">                        </span><span style="color:#444">403</span><span style="color:#888">,</span><span style="color:#a89028">
-</span><span style="color:#a89028">                        </span>vec<span style="color:#666">!</span><span style="color:#888">[(</span><span style="color:#b83838">&#34;Powered-By&#34;</span><span style="color:#888">,</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;proxy-wasm&#34;</span><span style="color:#888">)],</span><span style="color:#a89028">
-</span><span style="color:#a89028">                        </span><span style="color:#388038">Some</span><span style="color:#888">(</span><span style="color:#b83838">b&#34;Access forbidden.</span><span style="color:#709030">\n</span><span style="color:#b83838">&#34;</span><span style="color:#888">),</span><span style="color:#a89028">
-</span><span style="color:#a89028">                    </span><span style="color:#888">);</span><span style="color:#a89028">
-</span><span style="color:#a89028">                    </span>Action::Pause<span style="color:#a89028">
-</span><span style="color:#a89028">                </span><span style="color:#888">}</span><span style="color:#a89028">
-</span><span style="color:#a89028">            </span><span style="color:#888">}</span><span style="color:#a89028">
-</span><span style="color:#a89028">        </span><span style="color:#888">}</span><span style="color:#a89028">
-</span><span style="color:#a89028">    </span><span style="color:#888">}</span><span style="color:#a89028">
-</span></code></pre></div><p>As you can see  -  the method calls self.get_http_request_header to find the header named ‘token’ and then checks it for primacy. In case the token is a prime number - self.resume_http_request() passes the request further to the target cluster. Otherwise a 403 response is returned saying “Acess forbidden”. The method returns an <a href="https://github.com/proxy-wasm/proxy-wasm-rust-sdk/blob/master/src/types.rs#L34">Action</a>  enum which tells Envoy whether to continue the request processing or to pause and wait for the next request.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">impl</span><span style="color:#a89028"> </span>HttpContext<span style="color:#a89028"> </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span>PrimeAuthorizer<span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span><span style="color:#2838b0">fn</span> <span style="color:#785840">on_http_request_headers</span><span style="color:#888">(</span><span style="color:#666">&amp;</span><span style="color:#2838b0">mut</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">,</span><span style="color:#a89028"> </span>_: <span style="color:#2838b0;font-style:italic">usize</span><span style="color:#888">)</span><span style="color:#a89028"> </span>-&gt; <span style="color:#287088">Action</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">for</span><span style="color:#a89028"> </span><span style="color:#888">(</span>name<span style="color:#888">,</span><span style="color:#a89028"> </span>value<span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#2838b0">in</span><span style="color:#a89028"> </span><span style="color:#666">&amp;</span><span style="font-style:italic">self</span><span style="color:#888">.</span>get_http_request_headers<span style="color:#888">()</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                </span>trace<span style="color:#666">!</span><span style="color:#888">(</span><span style="color:#b83838">&#34;In WASM : #{} -&gt; {}: {}&#34;</span><span style="color:#888">,</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">.</span>context_id<span style="color:#888">,</span><span style="color:#a89028"> </span>name<span style="color:#888">,</span><span style="color:#a89028"> </span>value<span style="color:#888">);</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">match</span><span style="color:#a89028"> </span><span style="font-style:italic">self</span><span style="color:#888">.</span>get_http_request_header<span style="color:#888">(</span><span style="color:#b83838">&#34;token&#34;</span><span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                </span><span style="color:#388038">Some</span><span style="color:#888">(</span>token<span style="color:#888">)</span><span style="color:#a89028"> </span><span style="color:#2838b0">if</span><span style="color:#a89028"> </span>is_prime<span style="color:#888">(</span>token<span style="color:#888">.</span>parse<span style="color:#888">().</span>unwrap<span style="color:#888">())</span><span style="color:#a89028"> </span><span style="color:#666">=&gt;</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                    </span><span style="font-style:italic">self</span><span style="color:#888">.</span>resume_http_request<span style="color:#888">();</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                    </span>Action::Continue<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                </span>_<span style="color:#a89028"> </span><span style="color:#666">=&gt;</span><span style="color:#a89028"> </span><span style="color:#888">{</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                    </span><span style="font-style:italic">self</span><span style="color:#888">.</span>send_http_response<span style="color:#888">(</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                        </span><span style="color:#444">403</span><span style="color:#888">,</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                        </span><span style="color:#b85820">vec!</span><span style="color:#888">[(</span><span style="color:#b83838">&#34;Powered-By&#34;</span><span style="color:#888">,</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;proxy-wasm&#34;</span><span style="color:#888">)],</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                        </span><span style="color:#388038">Some</span><span style="color:#888">(</span><span style="color:#b83838">b&#34;Access forbidden.</span><span style="color:#709030">\n</span><span style="color:#b83838">&#34;</span><span style="color:#888">),</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                    </span><span style="color:#888">);</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                    </span>Action::Pause<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">                </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#888">}</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>As you can see  -  the method calls self.get_http_request_header to find the header named ‘token’ and then checks it for primacy. In case the token is a prime number - self.resume_http_request() passes the request further to the target cluster. Otherwise a 403 response is returned saying “Acess forbidden”. The method returns an <a href="https://github.com/proxy-wasm/proxy-wasm-rust-sdk/blob/master/src/types.rs#L34">Action</a>  enum which tells Envoy whether to continue the request processing or to pause and wait for the next request.</p>
 <h2 id="testing-the-filter">Testing The Filter</h2>
 <p>While building the filter was quite easy - verifying that it works proved to be a bit painful. The official Envoy binaries still don’t have WASM support built-in. But I assumed that if I build my own Envoy binary with WASM enabled - the filter should get loaded fine. The binary I built was based on <a href="https://github.com/envoyproxy/envoy-wasm">this github repo</a>, but alas - Envoy was crashing with “Failed to load WASM module due to a missing import: env.proxy_get_configuration”</p>
 <p>Next step - I decided to use the Envoy image used by<a href="https://docs.solo.io/web-assembly-hub/latest/tutorial_code/getting_started/"> wasme CLI utility</a> to test filters it helps build. This is the one: <!-- raw HTML omitted --><a href="https://quay.io/repository/solo-io/gloo-envoy-wasm-wrapper">https://quay.io/repository/solo-io/gloo-envoy-wasm-wrapper</a> <!-- raw HTML omitted --></p>
@@ -1323,36 +1320,36 @@ the wonderful folks at Solo.io already provide some tooling to help you get off 
 <p>This will create the file ‘myenvoyfilter.wasm’ in &lt;your-clone-directory&gt;/target/wasm32-unknown-unknown. The name of the WASM file is defined by this configuration in Cargo.toml:</p>
 </li>
 </ol>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#666">[</span>lib<span style="color:#666">]</span>
-    <span style="color:#b04040">name</span> <span style="color:#666">=</span> <span style="color:#b83838">&#34;myenvoyfilter&#34;</span>
-</code></pre></div><ol start="3">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    <span style="color:#666">[</span>lib<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#b04040">name</span> <span style="color:#666">=</span> <span style="color:#b83838">&#34;myenvoyfilter&#34;</span>
+</span></span></code></pre></div><ol start="3">
 <li>
 <p>docker-compose up &ndash;build</p>
 <p>This will build a new envoy image based on istio/proxyv2 and pull an image for hasicorp/http-echo that is used as the target service</p>
 <p>You should see something like:</p>
 </li>
 </ol>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    proxy_1        <span style="color:#888">|</span> <span style="color:#666">[</span>2020-04-17 13:15:36.931<span style="color:#666">][</span>14<span style="color:#666">][</span>debug<span style="color:#666">][</span>wasm<span style="color:#666">]</span> <span style="color:#666">[</span>external/envoy/source/extensions/common/wasm/wasm.cc:285<span style="color:#666">]</span> Thread-Local Wasm created <span style="color:#444">4</span> now active
-
-
-    proxy_1        <span style="color:#888">|</span> <span style="color:#666">[</span>2020-04-17 13:15:36.935<span style="color:#666">][</span>14<span style="color:#666">][</span>debug<span style="color:#666">][</span>upstream<span style="color:#666">]</span> <span style="color:#666">[</span>external/envoy/source/common/upstream/cluster_manager_impl.cc:1084<span style="color:#666">]</span> membership update <span style="color:#2838b0">for</span> TLS cluster web_service added <span style="color:#444">1</span> removed <span style="color:#444">0</span>
-</code></pre></div><p>Note that Envoy is set up to listen on port 18000 of your host machine.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    proxy_1        <span style="color:#888">|</span> <span style="color:#666">[</span>2020-04-17 13:15:36.931<span style="color:#666">][</span>14<span style="color:#666">][</span>debug<span style="color:#666">][</span>wasm<span style="color:#666">]</span> <span style="color:#666">[</span>external/envoy/source/extensions/common/wasm/wasm.cc:285<span style="color:#666">]</span> Thread-Local Wasm created <span style="color:#444">4</span> now active
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    proxy_1        <span style="color:#888">|</span> <span style="color:#666">[</span>2020-04-17 13:15:36.935<span style="color:#666">][</span>14<span style="color:#666">][</span>debug<span style="color:#666">][</span>upstream<span style="color:#666">]</span> <span style="color:#666">[</span>external/envoy/source/common/upstream/cluster_manager_impl.cc:1084<span style="color:#666">]</span> membership update <span style="color:#2838b0">for</span> TLS cluster web_service added <span style="color:#444">1</span> removed <span style="color:#444">0</span>
+</span></span></code></pre></div><p>Note that Envoy is set up to listen on port 18000 of your host machine.
 And that our newly-built filter is loaded from our build target:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#a89028">     </span><span style="color:#2838b0">proxy</span><span style="color:#888">:</span><span style="color:#a89028">
-</span><span style="color:#a89028">      </span>..<span style="color:#a89028">
-</span><span style="color:#a89028">       </span><span style="color:#2838b0">volumes</span><span style="color:#888">:</span><span style="color:#a89028">
-</span><span style="color:#a89028">         </span>- ./envoy/envoy.yaml:/etc/envoy.yaml<span style="color:#a89028">
-</span><span style="color:#a89028">         </span>- ./target/wasm32-unknown-unknown/release/myenvoyfilter.wasm:/etc/myenvoyfilter.wasm<span style="color:#a89028">
-</span><span style="color:#a89028">        </span>..<span style="color:#a89028">
-</span><span style="color:#a89028">       </span><span style="color:#2838b0">ports</span><span style="color:#888">:</span><span style="color:#a89028">
-</span><span style="color:#a89028">         </span>- <span style="color:#b83838">&#34;18000:80&#34;</span><span style="color:#a89028">
-</span></code></pre></div><p>Now go to another prompt and verify everything works as expected by sending curl requests:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    curl  -H <span style="color:#b83838">&#34;token&#34;</span>:<span style="color:#b83838">&#34;323232&#34;</span> 0.0.0.0:18000
-    Access forbidden.
-
-    curl  -H <span style="color:#b83838">&#34;token&#34;</span>:<span style="color:#b83838">&#34;32323&#34;</span> 0.0.0.0:18000
-    <span style="color:#b83838">&#34;Welcome to WASM land&#34;</span>
-</code></pre></div><p>Feel free to try this with other prime and non-prime numbers or strings. Let me know if you succeed in breaking it. :)</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#a89028">     </span><span style="color:#2838b0">proxy</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">      </span>..<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">       </span><span style="color:#2838b0">volumes</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">         </span>- ./envoy/envoy.yaml:/etc/envoy.yaml<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">         </span>- ./target/wasm32-unknown-unknown/release/myenvoyfilter.wasm:/etc/myenvoyfilter.wasm<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span>..<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">       </span><span style="color:#2838b0">ports</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">         </span>- <span style="color:#b83838">&#34;18000:80&#34;</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>Now go to another prompt and verify everything works as expected by sending curl requests:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    curl  -H <span style="color:#b83838">&#34;token&#34;</span>:<span style="color:#b83838">&#34;323232&#34;</span> 0.0.0.0:18000
+</span></span><span style="display:flex;"><span>    Access forbidden.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    curl  -H <span style="color:#b83838">&#34;token&#34;</span>:<span style="color:#b83838">&#34;32323&#34;</span> 0.0.0.0:18000
+</span></span><span style="display:flex;"><span>    <span style="color:#b83838">&#34;Welcome to WASM land&#34;</span>
+</span></span></code></pre></div><p>Feel free to try this with other prime and non-prime numbers or strings. Let me know if you succeed in breaking it. :)</p>
 <h2 id="summary">Summary:</h2>
 <ul>
 <li>WASM filters allow extending Envoy functionality</li>
@@ -1404,7 +1401,7 @@ And that our newly-built filter is loaded from our build target:</p>
             <div class="disqus">
                 <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
