@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 21 Jul 2022 13:39:55 +0300</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 15:21:01 +0300</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 22 Natan Yellin</title>
+      <link>https://antweiss.com/blog/devops-shorts-22-natan-yellin/</link>
+      <pubDate>Wed, 31 Aug 2022 15:21:01 +0300</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-22-natan-yellin/</guid>
+      <description>Natan Yellin - Fixing Kubernetes and the Success of AI Natan Yellin is the CEO of Robusta - a company building an open-source platform for multi-cluster Kubernetes monitoring, troubleshooting, and automation. If you follow him in social media (twitter or linkedin) you&amp;rsquo;ll find that he is very vocipherous about the correct usage of container limits and requests. But from his interview - you&amp;rsquo;ll learn that it&amp;rsquo;s mostly the human experience with Kubernetes (and tech in general) that he cares about.</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 21 Boaz Ziniman</title>
       <link>https://antweiss.com/blog/devops-shorts-21-boaz-ziniman/</link>
