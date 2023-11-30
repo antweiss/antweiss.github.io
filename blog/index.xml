@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 24 Jan 2023 15:39:15 +0200</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Nov 2023 13:30:16 +0200</lastBuildDate><atom:link href="https://antweiss.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 24 Henrik Hoegh</title>
+      <link>https://antweiss.com/blog/devops-shorts-24-henrik-hoegh/</link>
+      <pubDate>Thu, 30 Nov 2023 13:30:16 +0200</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-24-henrik-hoegh/</guid>
+      <description>Henrik Hoegh - Playing with Lego Henrik Høegh is the Digital Platform Owner at Velux. He&amp;rsquo;s been doing system administration and cloud native platforms since 2008 and is one of the organizers of the recent, wildly successful Kubernetes Community Days (KCD) conference in Kopenhagen.
+Listen to the episode to learn:
+How internal delivery platform are like Lego.
+What&amp;rsquo;s there to hate about Terraform (yes OpenToFu too).
+What it takes to build a great internal platform.</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 23 Hila Fish</title>
       <link>https://antweiss.com/blog/devops-shorts-23-hila-fish/</link>
