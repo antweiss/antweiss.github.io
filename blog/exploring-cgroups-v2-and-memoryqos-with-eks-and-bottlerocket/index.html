@@ -15,9 +15,9 @@
 <meta property="og:site_name" content="one man&#39;s singularity" />
 <meta property="og:locale" content="en-us" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://antweiss.com/blog/" />
-<meta property="og:title" content="Blogs" />
-<meta property="twitter:title" content="Blogs">
+<meta property="og:url" content="https://antweiss.com/blog/exploring-cgroups-v2-and-memoryqos-with-eks-and-bottlerocket/" />
+<meta property="og:title" content="Exploring cgroups v2 and MemoryQoS With EKS and Bottlerocket" />
+<meta property="twitter:title" content="Exploring cgroups v2 and MemoryQoS With EKS and Bottlerocket">
 
     <meta property="og:image" content="https://antweiss.com/img/horns-bw.png">
     <meta property="twitter:card" content="summary">
@@ -29,10 +29,10 @@
 <title>
 
 
-     one man&#39;s singularity - Blogs 
+     one man&#39;s singularity - Exploring cgroups v2 and MemoryQoS With EKS and Bottlerocket 
 
 </title>
-<link rel="canonical" href="https://antweiss.com/blog/">
+<link rel="canonical" href="https://antweiss.com/blog/exploring-cgroups-v2-and-memoryqos-with-eks-and-bottlerocket/">
 
 
 <style media="screen">
@@ -1136,7 +1136,7 @@ if (!doNotTrack) {
 <body>
 
 
-<div class="header header-home column">
+<div class="header column">
 
     <div class="container">
         
@@ -1171,587 +1171,281 @@ if (!doNotTrack) {
     </div>
 </div>
 
-<div class="main column">
+
+
+
+
+<div class="main post non-narrow zero-top-spacing column">
     <div class="container">
         <div class="content">
-            <div class="posts">
-                <div class="page-heading">Blogs</div>
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
 
-                
+    
+    Exploring cgroups v2 and MemoryQoS With EKS and Bottlerocket
+    
 
-                
-                <ul>
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sun Nov 12 2023 14:16:55 IST">Nov 12, 2023</div>
                     
-                      
-                        <li class="groupby">Jan, 2024</li>
                         
-                          
-                            <li class="post-item">
-    <span class="meta">Jan 3, 2024</span>
-    
-    <a href="/blog/devops-shorts-25-turja-chaudhuri/"><span>Devops Shorts 25 Turja Chaudhuri</span></a>
-    
-</li>
-
-                          
-                        
-                      
                     
-                      
-                        <li class="groupby">Nov, 2023</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Nov 30, 2023</span>
-    
-    <a href="/blog/devops-shorts-24-henrik-hoegh/"><span>Devops Shorts 24 Henrik Hoegh</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Nov 12, 2023</span>
-    
-    <a href="/blog/exploring-cgroups-v2-and-memoryqos-with-eks-and-bottlerocket/"><span>Exploring cgroups v2 and MemoryQoS With EKS and Bottlerocket</span></a>
-    
-</li>
-
-                          
-                        
-                      
                     
-                      
-                        <li class="groupby">Jan, 2023</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jan 24, 2023</span>
-    
-    <a href="/blog/devops-shorts-23-hila-fish/"><span>Devops Shorts 23 Hila Fish</span></a>
-    
-</li>
-
-                          
-                        
-                      
+                    <div class="reading-time middot">8 minute read</div>
                     
-                      
-                        <li class="groupby">Aug, 2022</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Aug 31, 2022</span>
-    
-    <a href="/blog/devops-shorts-22-natan-yellin/"><span>Devops Shorts 22 Natan Yellin</span></a>
-    
-</li>
-
-                          
-                        
-                      
                     
-                      
-                        <li class="groupby">Jul, 2022</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jul 21, 2022</span>
-    
-    <a href="/blog/devops-shorts-21-boaz-ziniman/"><span>Devops Shorts 21 Boaz Ziniman</span></a>
-    
-</li>
-
-                          
-                        
-                      
+                      <div class="tags">
                     
-                      
-                        <li class="groupby">Jan, 2022</li>
-                        
+                        <ul>
                           
-                            <li class="post-item">
-    <span class="meta">Jan 17, 2022</span>
-    
-    <a href="/blog/devops-shorts-20-shauli-rozen/"><span>Devops Shorts 20 Shauli Rozen</span></a>
-    
-</li>
-
+                        </ul>
+                    </div>
+                    <div class="tags">
+                        <ul>
                           
-                        
-                      
-                    
-                      
-                        <li class="groupby">Nov, 2021</li>
-                        
                           
-                            <li class="post-item">
-    <span class="meta">Nov 19, 2021</span>
-    
-    <a href="/blog/one-sad-tech-evangelist/"><span>One Sad Tech Evangelist</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Jul, 2021</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jul 19, 2021</span>
-    
-    <a href="/blog/devops-shorts-019-steve-pereira/"><span>Devops Shorts 019 Steve Pereira</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">May, 2021</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 7, 2021</span>
-    
-    <a href="/blog/new-directions/"><span>New Directions</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Mar, 2021</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Mar 23, 2021</span>
-    
-    <a href="/blog/devops-shorts-18-jonathan-hall/"><span>Devops Shorts 18 Jonathan Hall</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Jan, 2021</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jan 18, 2021</span>
-    
-    <a href="/blog/devops-shorts-17-heidi-waterhouse/"><span>Devops Shorts 17 Heidi Waterhouse</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Dec, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Dec 16, 2020</span>
-    
-    <a href="/blog/devops-shorts-016-tracy-miranda/"><span>Devops Shorts 016 Tracy Miranda</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Dec 6, 2020</span>
-    
-    <a href="/blog/devops-shorts-015-viktor-farcic/"><span>Devops Shorts 015 Viktor Farcic</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Nov, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Nov 15, 2020</span>
-    
-    <a href="/blog/devops-shorts-014-j.paul-reed/"><span>Devops Shorts 014 J.Paul Reed</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Oct, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Oct 14, 2020</span>
-    
-    <a href="/blog/devops-shorts-013-ohad-maislish/"><span>Devops Shorts 013 Ohad Maislish</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Aug, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Aug 25, 2020</span>
-    
-    <a href="/blog/devops-shorts-012-patrick-debois/"><span>Devops Shorts 012 Patrick Debois</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Jul, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jul 30, 2020</span>
-    
-    <a href="/blog/devops-shorts-011-philipp-krenn/"><span>Devops Shorts 011 Philipp Krenn</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jul 14, 2020</span>
-    
-    <a href="/blog/devops-shorts-010-mark-burgess/"><span>Devops Shorts 010 Mark Burgess</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Jun, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jun 19, 2020</span>
-    
-    <a href="/blog/why-i-started-wasm-il/"><span>Why I Started Wasm IL</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jun 18, 2020</span>
-    
-    <a href="/blog/devops-shorts-009-adi-shacham-shavit/"><span>Devops Shorts 009 Adi Shacham Shavit</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jun 9, 2020</span>
-    
-    <a href="/blog/devops-shorts-008-john-willis/"><span>Devops Shorts 008 John Willis</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">May, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 28, 2020</span>
-    
-    <a href="/blog/were-on-the-cloud-native-landscape/"><span>We&#39;re on the Cloud Native Landscape!</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 27, 2020</span>
-    
-    <a href="/blog/devops-shorts-007-derek-weeks/"><span>Devops Shorts 007 Derek Weeks</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 25, 2020</span>
-    
-    <a href="/blog/devops-shorts-006-manuel-pais/"><span>Devops Shorts 006 Manuel Pais</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 17, 2020</span>
-    
-    <a href="/blog/devops-shorts-005-mike-druzhinin/"><span>Devops Shorts 005 - Mike Druzhinin</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 5, 2020</span>
-    
-    <a href="/blog/devops-shorts-004-carlos-leon/"><span>Devops Shorts 004 - Carlos Leon</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 3, 2020</span>
-    
-    <a href="/blog/devops-shorts-003-damien-ryan/"><span>Devops Shorts 003 - Damien Ryan</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Apr, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 24, 2020</span>
-    
-    <a href="/blog/devops-shorts-002-baruch-sadogursky/"><span>Devops Shorts 002 - Baruch Sadogursky</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 21, 2020</span>
-    
-    <a href="/blog/devops-shorts-001-tobias-kunze/"><span>Devops Shorts 001 - Tobias Kunze</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 17, 2020</span>
-    
-    <a href="/blog/extending-envoy-with-wasm-and-rust/"><span>Extending Envoy With Wasm and Rust</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 14, 2020</span>
-    
-    <a href="/blog/announcing-devops-shorts/"><span>Announcing Devops Shorts</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Mar, 2020</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Mar 24, 2020</span>
-    
-    <a href="/blog/tangible-devops-easy/"><span>Tangible Devops - Easy?</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Mar 17, 2020</span>
-    
-    <a href="/blog/corona-week-one-the-new-reality/"><span>Corona Week One - The New Reality</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Mar 11, 2020</span>
-    
-    <a href="/blog/dangerous-career-advice-for-it-professionals/"><span>Dangerous Career Advice for IT Professionals</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Apr, 2017</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 25, 2017</span>
-    
-    <a href="/blog/devops-is-a-myth/"><span>devops is a myth</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Jan, 2017</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Jan 21, 2017</span>
-    
-    <a href="/blog/from-zero-to-one-with-peter-thiel/"><span>From Zero to One with Peter Thiel</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Dec, 2016</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Dec 31, 2016</span>
-    
-    <a href="/blog/wrap-up-2016/"><span>wrap up 2016</span></a>
-    
-</li>
-
-                          
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Dec 25, 2016</span>
-    
-    <a href="/blog/measuring-devops-flow/"><span>measuring devops flow</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Sep, 2016</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2016</span>
-    
-    <a href="/blog/milestone-throw/"><span>milestone throw</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">May, 2016</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">May 15, 2016</span>
-    
-    <a href="/blog/2-months-of-otomato/"><span>2 months of Otomato</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Apr, 2016</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Apr 15, 2016</span>
-    
-    <a href="/blog/add-sharing-buttons/"><span>add sharing buttons</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                      
-                        <li class="groupby">Mar, 2016</li>
-                        
-                          
-                            <li class="post-item">
-    <span class="meta">Mar 15, 2016</span>
-    
-    <a href="/blog/starting-the-blog/"><span>starting the blog</span></a>
-    
-</li>
-
-                          
-                        
-                      
-                    
-                </ul>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="markdown">
+                
+    
+    <h1 id="aws-bottlerocket-and-cgroups-v2">AWS Bottlerocket and Cgroups V2</h1>
+<p><img src="https://raw.githubusercontent.com/antweiss/botllerocket-cgroupv2/main/antweiss_bottlerocket_with_memory_d4aa3a97-258b-4267-bdd7-94660146c5d1.webp" alt="Blame Midjourney for this image">
+Bottlerocket is a Linux-based operating system optimized for hosting containers. It was originally developed at AWS specifically for runnning secure and performant Kubernetes nodes. It&rsquo;s minimal, secure and supports atomic updates.</p>
+<p>According to this <a href="https://github.com/Bottlerocket-os/Bottlerocket/discussions/2874">discussion</a> - starting with Bottlerocket 1.13.0 (Mar 2023) new distributions will default to using Cgroups v2 interface for process organization and enforcing resource limits.</p>
+<p>In this post I intend to explore how this works for EKS clusters running Kubernetes 1.26+ and what this change means for EKS users.</p>
+<h1 id="cgroups---an-intro">Cgroups - An Intro</h1>
+<p>Cgroups (abbreviated from Control Groups) - is a Linux kernel feature that lies at the foundation of what we now know as Linux containers.</p>
+<p>The feature allows to limit. account for and isolate resource usage for a collection of processes.</p>
+<p>It was developed at Google circa 2007 and merged into Linux kernel mainline in 2008.</p>
+<p><img src="https://wizardzines.com/images/uploads/cgroups.png" alt="Julia Evans&amp;rsquo; wonderful cgroups comic"></p>
+<h2 id="cgroups-and-kubernetes">Cgroups and Kubernetes</h2>
+<p>Kubernetes allows us to define resource usage for containers via the <a href="https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#resources">resources</a> map in the Pod API spec.
+These definitions are then passed by the kubelet on to the container runtime on the node and translated into Cgroups configuration.</p>
+<p>Up until version 1.25 Kubernetes only supported Cgroups v1 by default. In 1.25 - stable support for Cgroups v2 was added. Now if running on a node with Cgroups v2 - the kubelet automatically identifies this and perfroms accordingly. But what does this mean for our workload configuration? In order to understand that we need to explain what Cgroups v2 is.</p>
+<h2 id="cgroups-v2">Cgroups V2</h2>
+<p>Cgroups v2 was released in 2015 introducing API redesign - mainly for a unified hierarchy and improved consistency. The following diagram shows the change in how Cgroup controllers are ordered in v2 vs. v1:
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*P7ZLLF_F4TMgGfaJ2XIfuQ.png" alt="cgroup hierarchy"></p>
+<p>According to <a href="https://kubernetes.io/docs/concepts/architecture/cgroups/#:~:text=Some%20Kubernetes%20features%20exclusively%20use%20cgroup%20v2%20for%20enhanced%20resource%20management%20and%20isolation.%20For%20example%2C%20the%20MemoryQoS%20feature%20improves%20memory%20QoS%20and%20relies%20on%20cgroup%20v2%20primitives.">this architecture document</a> : <em>&ldquo;Some Kubernetes features exclusively use cgroup v2 for enhanced resource management and isolation. For example, the MemoryQoS feature improves memory QoS and relies on cgroup v2 primitives.&rdquo;</em></p>
+<p>And when we look at the description of the aforementioned <em>MemoryQoS</em> feature we find out that &ldquo;In cgroup v1, and prior to this feature, the container runtime never took into account and effectively ignored spec.containers[].resources.requests[&ldquo;memory&rdquo;].&rdquo; and that &ldquo;Fortunately, cgroup v2 brings a new design and implementation to achieve full protection on memory&hellip; With this experimental feature, quality-of-service for pods and containers extends to cover not just CPU time but memory as well.&rdquo;</p>
+<p>Well, first of all - <strong>it&rsquo;s a bit shocking and even insulting to learn that container runtimes ignored our settings</strong>! But I was also very curious to learn how this changes now that cgroups v2 support is introduced.</p>
+<h2 id="memoryqos-and-cgroups-v2">MemoryQoS and Cgroups v2</h2>
+<p>According to this <a href="https://kubernetes.io/blog/2021/11/26/qos-memory-resources/">page</a>:</p>
+<p>Memory QoS uses the memory controller of cgroup v2 to guarantee memory resources in Kubernetes. Memory requests and limits of containers in pod are used to set specific interfaces <code>memory.min and </code>memory.high<code> provided by the memory controller. When `memory.min</code> is set to memory requests, memory resources are reserved and never reclaimed by the kernel; this is how Memory QoS ensures the availability of memory for Kubernetes pods. And if memory limits are set in the container, this means that the system needs to limit container memory usage, Memory QoS uses <code>memory.high</code> to throttle workload approaching it&rsquo;s memory limit, ensuring that the system is not overwhelmed by instantaneous memory allocation.
+<img src="https://kubernetes.io/blog/2021/11/26/qos-memory-resources/memory-qos-cal.svg" alt="container memory in cgroup v2"></p>
+<p>This is all great! Let&rsquo;s now provision an EKS cluster with some Bottlerocket nodes and see how this works in practice.</p>
+<p>To easily spin up a cluster - use the <a href="https://github.com/antweiss/botllerocket-cgroupv2/blob/main/cluster.yaml">cluster.yaml</a> in the attached github repository:</p>
+<p>generate ssh keys:</p>
+<pre tabindex="0"><code>ssh-keygen -f ./mykey
+</code></pre><p>and create the cluster</p>
+<pre tabindex="0"><code>eksctl create cluster -f cluster.yaml
+</code></pre><p>This will create a cluster with one Bottlerocket node. It also configures ssh access to the nodes by running the <a href="https://github.com/Bottlerocket-os/Bottlerocket-admin-container">Bottlerocket admin container</a>.</p>
+<p>This means we can now access the node:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#388038">export</span> <span style="color:#b04040">NODE_IP</span><span style="color:#666">=</span><span style="color:#2838b0">$(</span>kubectl get node -oyaml <span style="color:#888">|</span> yq  <span style="color:#b83838">&#39;.items[].status.addresses[] | select(.type==&#34;ExternalIP&#34;) | .address&#39;</span><span style="color:#2838b0">)</span>
+</span></span><span style="display:flex;"><span>ssh -i mykey ec2-user@<span style="color:#b04040">$NODE_IP</span>
+</span></span></code></pre></div><p>We get greeted with the following screen:</p>
+<p><img src="/img/Bottlerocket-ssh.png" alt=""></p>
+<p>As this says - we can get admin access to the Bottlerocket filesystem by running <code>sudo sheltie</code>. So let&rsquo;s do that!</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#666">[</span>ec2-user@admin<span style="color:#666">]</span>$ sudo sheltie
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>bash-5.1<span style="color:#666">]</span>$ whoami
+</span></span><span style="display:flex;"><span>root
+</span></span></code></pre></div><p>Now we can check if we in fact have <code>cgroupv2</code> enabled:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#666">[</span>bash-5.1<span style="color:#666">]</span>$ stat -fc %T /sys/fs/cgroup/
+</span></span><span style="display:flex;"><span>cgroup2fs
+</span></span></code></pre></div><p>Yup! This is cgroupv2! Were this <code>cgroupv1</code> the output would&rsquo;ve been <code>tmpfs</code>.</p>
+<h2 id="lets-deploy-a-pod">Let&rsquo;s Deploy a Pod</h2>
+<p>Ok, now let&rsquo;s deploy a pod to our node. We&rsquo;ll do that by creating a deployment based on the following <code>yaml</code> spec. This deploys [antweiss/busyhttp], that I forked from [jpetazzo/busyhttp] and add memory load and release endpoints to.
+You&rsquo;ll notice that the pod runs a container with Guaranteed QoS - i.e memory and CPU limits are equal to requests:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#2838b0">apiVersion</span><span style="color:#888">:</span><span style="color:#a89028"> </span>apps/v1<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">kind</span><span style="color:#888">:</span><span style="color:#a89028"> </span>Deployment<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">metadata</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">labels</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">app</span><span style="color:#888">:</span><span style="color:#a89028"> </span>busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">name</span><span style="color:#888">:</span><span style="color:#a89028"> </span>busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">spec</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">replicas</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#444">1</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">selector</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">matchLabels</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">      </span><span style="color:#2838b0">app</span><span style="color:#888">:</span><span style="color:#a89028"> </span>busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">template</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">metadata</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">      </span><span style="color:#2838b0">labels</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span><span style="color:#2838b0">app</span><span style="color:#888">:</span><span style="color:#a89028"> </span>busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">    </span><span style="color:#2838b0">spec</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">      </span><span style="color:#2838b0">containers</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">      </span>- <span style="color:#2838b0">image</span><span style="color:#888">:</span><span style="color:#a89028"> </span>otomato/busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span><span style="color:#2838b0">name</span><span style="color:#888">:</span><span style="color:#a89028"> </span>busyhttp<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">        </span><span style="color:#2838b0">resources</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">          </span><span style="color:#2838b0">requests</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">memory</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;200Mi&#34;</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">cpu</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;250m&#34;</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">          </span><span style="color:#2838b0">limits</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">memory</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;200Mi&#34;</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">            </span><span style="color:#2838b0">cpu</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#b83838">&#34;250m&#34;</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>This spec is found in <a href="https://github.com/antweiss/botllerocket-cgroupv2/blob/main/dep.yaml">dep.yaml</a> and we can deploy it with:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl apply -f dep.yaml
+</span></span></code></pre></div><h2 id="check-the-cgroup-impact">Check the Cgroup Impact</h2>
+<p>Now let&rsquo;s go back to our node and see how our resource definitions are reflected in the <code>cgroup</code> config.</p>
+<p>Back inside the <code>sheltie</code> prompt let&rsquo;s explore the containers running on Bottlerocket. Bottlerocket OS is using <code>containerd</code> container runtime. In order to interact with it we&rsquo;ll need to use <a href="https://github.com/projectatomic/containerd/blob/master/docs/cli.md"><code>ctr</code></a>.</p>
+<p>When we run <code>ctr help</code> - we get the following:</p>
+<p><img src="/img/ctr.png" alt=""></p>
+<p>So <code>ctr</code> is unsupported. A bit discouraging, but well, it&rsquo;s working. Let&rsquo;s try to look at our containers:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash-5.1$ ctr containers ls
+</span></span><span style="display:flex;"><span>CONTAINER    IMAGE    RUNTIME
+</span></span></code></pre></div><p>No containers?! But I do see my pod running on the node! Where is my container? Well the answer to that is <code>namespaces</code>. Yup, just like kubernetes or linux kernel - containerd has namespaces. And all the containers executed by the kubelet live in a namespace called &ldquo;k8s.io&rdquo;. We can see it by running:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash-5.1$ ctr ns ls
+</span></span><span style="display:flex;"><span>NAME   LABELS
+</span></span><span style="display:flex;"><span>k8s.io
+</span></span></code></pre></div><p>Ok, let&rsquo;s check the containers in the &ldquo;k8s.io&rdquo; namespace:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash-5.1$ ctr -n k8s.io containers ls
+</span></span><span style="display:flex;"><span>CONTAINER                                                           IMAGE                                                                                                RUNTIME
+</span></span><span style="display:flex;"><span>0ed99eae66803896504d1853859d8866e00669b2610ba65cba6a17aa1300da48    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>154d9b7b3a83e4db6e3e4ac4ac1f836321337c604c3b590b5188b7a0773bdae1    docker.io/otomato/busyhttp:latest                                                                    io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>3b63efe56d15e9c315c668a5913e17ade420cf7fb5ff7fa62b3c9b0e1574eab4    112233445566.dkr.ecr.eu-central-1.amazonaws.com/amazon/aws-network-policy-agent:v1.0.7-eksbuild.1    io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>3c85fa3829f59f517db1c766e490a014357a760ce12e2859004cdfb8ea3d7cc6    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>420b62c7b2bdf2e7aa10baf8e4afd1ebda0cfff66300a23846758a029ad31222    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>4e21008f8fc70580906990fb95bed91f9155495270fbac1efb043f81e62a1c51    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/coredns:v1.11.1-eksbuild.4                       io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>4f9d20de851414160a5003eb6988f2b0df81dfe3d72d4ba3705db01a4571b515    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/kube-proxy:v1.29.0-minimal-eksbuild.1            io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>5f8924422d852d09ad44f5d8579d9abaa78304d303007d566300db8f61978ee5    112233445566.dkr.ecr.eu-central-1.amazonaws.com/amazon-k8s-cni:v1.16.0-eksbuild.1                    io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>7f5afdfbb9a8599c3c5888664f0df349aab8740be21d87e629ff7390e0524c2a    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>80ed8ba3fd4624770eb17087c1a046c90be28e9fb2e31630c82e67b4c0ae19dd    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>a0929884ccdd72de6bf848a037e80b206a4fb4e2f9b77be568bac8f51787cccb    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/pause:3.1-eksbuild.1                             io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>a0dd24ecb0aee4eb645d25c75a3eade0c8c35fb09127db5ff7d8136d7bb86efe    112233445566.dkr.ecr.eu-central-1.amazonaws.com/eks/coredns:v1.11.1-eksbuild.4                       io.containerd.runc.v2
+</span></span><span style="display:flex;"><span>c3a3a9214b11b808a88c0293312d8877497f06f87435af3a7334717a13588c26    112233445566.dkr.ecr.eu-central-1.amazonaws.com/amazon-k8s-cni-init:v1.16.0-eksbuild.1               io.containerd.runc.v2
+</span></span></code></pre></div><p>Now we&rsquo;re talking! We have all the usual suspects here - coredns, kube-proxy, the omnipresent <a href="https://docs.mirantis.com/mke/3.4/ref-arch/pause-containers.html">pause</a> containers. But right now we&rsquo;re interested in the container based on the <code>docker.io/otomato/busyhttp:latest</code> image.</p>
+<p>Let&rsquo;s look for its cgroup definition in the cgroup filesystem we discovered previously. First we need to filter out the container id. <code>ctr</code> supports filters for its listing function. So the way to parse out the container id by image name is the following:</p>
+<pre tabindex="0"><code>export CONTAINER_ID=$(ctr -n k8s.io containers ls -q image==docker.io/otomato/busyhttp:latest)
+</code></pre><p>Note the <code>-q</code> that tells <code>ctr</code> to only output the id.</p>
+<p>Now we can find the container&rsquo;s cgroup config:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find /sys/fs/cgroup/ -name *<span style="color:#b04040">$CONTAINER_ID</span>*
+</span></span><span style="display:flex;"><span>/sys/fs/cgroup/kubepods.slice/kubepods-pod5be5d94a_cbfe_416f_9010_6338003af666.slice/cri-containerd-154d9b7b3a83e4db6e3e4ac4ac1f836321337c604c3b590b5188b7a0773bdae1.scope
+</span></span></code></pre></div><p>This gives us a long path somewhere inside a folder called <code>kubepods.slice</code>. Let&rsquo;s wrap this path in an environment variable and look around:</p>
+<pre tabindex="0"><code>export MY_CGROUP_DIR=$(find /sys/fs/cgroup/ -name *$CONTAINER_ID*)
+ls ${MY_CGROUP_DIR}
+</code></pre><p>Whew! That&rsquo;s a lot of files! Now according to <a href="https://kubernetes.io/blog/2021/11/26/qos-memory-resources/">this page on Memory QoS</a> - our <code>requests.memory</code> should be translated to <code>memory.min</code> while <code>memory.high</code> is calculated the following way:</p>
+<pre tabindex="0"><code>memory,high = (pod.spec.containers[i].resources.limits[memory] or nodeAllocatableMemory) * throttlingFactor
+</code></pre><p>Let&rsquo;s look at the limit first:</p>
+<pre tabindex="0"><code>cat ${MY_CGROUP_DIR}/memory.high
+max
+</code></pre><p>Hmm. That&rsquo;s not a number. But we can also notice that there&rsquo;s a file called <code>memory.max</code>. Let&rsquo;s look inside that:</p>
+<pre tabindex="0"><code>cat ${MY_CGROUP_DIR}/memory.high
+209715200
+</code></pre><p>Ok, here&rsquo;s our limit! 209715200 bytes is exactlymthe 200Mi we defined in the <code>resources</code> section of our pod spec.</p>
+<p>Now what about the requests? Let&rsquo;s look at <code>memory.min</code>:</p>
+<pre tabindex="0"><code>cat ${MY_CGROUP_DIR}/memory.min
+0
+</code></pre><p>0 is not the request we&rsquo;ve defined. And that makes sense. <a href="https://kubernetes.io/blog/2021/11/26/qos-memory-resources/">Memory QoS</a> has been in alpha since Kubernetes 1.22 (August 2021) and according to the <a href="https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/2570-memory-qos/kep.yaml">KEP data</a> was still in alpha as of 1.27.</p>
+<p>In order to see the actual request values for memory reflected in cgroup config one needs to enable the Memory QoS <a href="https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/#kubelet-config-k8s-io-v1beta1-KubeletConfiguration:~:text=effect.%20Default%3A%2015-,featureGates,-map%5Bstring%5Dbool">feature gate in kubelet config</a> as defined <a href="https://github.com/kubernetes/kubernetes/blob/master/pkg/features/kube_features.go#L492">here</a>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#2838b0">apiVersion</span><span style="color:#888">:</span><span style="color:#a89028"> </span>kubelet.config.k8s.io/v1beta1<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">kind</span><span style="color:#888">:</span><span style="color:#a89028"> </span>KubeletConfiguration<span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">featureGates</span><span style="color:#888">:</span><span style="color:#a89028">
+</span></span></span><span style="display:flex;"><span><span style="color:#a89028">  </span><span style="color:#2838b0">MamoryQoS</span><span style="color:#888">:</span><span style="color:#a89028"> </span><span style="color:#444;font-style:italic">true</span><span style="color:#a89028">
+</span></span></span></code></pre></div><p>Trouble is - due to the atomic nature of Bottlerocket OS - we can&rsquo;t change its KubeletConfiguration file (found at /etc/kubernetes/kubelet/config) directly. We can only pass settings through <code>settings.kubernetes</code> via the API or a config file. But these currently don&rsquo;t support setting feature gates. So it looks like the only way to modify the Kubelet to support Memory QoS on EKS Bottlerocket nodes is to build our own Bottlerocket images. Which is a subject for a whole another blog post.</p>
+<p>And for now - let&rsquo;s shrug our shoulders, scratch our heads and bring down our EKS cluster:</p>
+<pre tabindex="0"><code>eksctl delete cluster -f cluster.yaml
+</code></pre><h2 id="summing-it-all-up">Summing it All Up</h2>
+<ul>
+<li>
+<p><code>cgroup v2</code> is enabled by default in current Bottlerocket EKS instances.</p>
+</li>
+<li>
+<p>this allows a better organized resource management on the nodes</p>
+</li>
+<li>
+<p>an important Kubernetes feature based on <code>cgroup v2</code> is Memory QoS that ensure that memory requests are actually allocated by the container runtime and not merely checked for by the Kubernetes scheduler</p>
+</li>
+<li>
+<p>MemoryQoS is still in <code>alpha</code> after 2 years</p>
+</li>
+<li>
+<p>There&rsquo;s no easy way to enable Memory QoS on Bottlerocket nodes without building the AMIs ourselves.</p>
+</li>
+</ul>
+<p>Anyway - this was an interesting exploration. And if there&rsquo;s anything I got wrong or didn&rsquo;t make clear - please let me know in comments.</p>
+<p>May all your containers run smoothly!</p>
+<p>The config files used in the blog post can be found <a href="https://github.com/antweiss/botllerocket-cgroupv2">in this github repo</a></p>
+
+
+            </div>
+            
+            <br>
+            <div class="share">
+                  
+                  <a href="" class="ssk ssk-facebook"></a>
+                  
+                  
+                  <a href="" class="ssk ssk-twitter"></a>
+                  
+                  
+                  <a href="" class="ssk ssk-google-plus"></a>
+                  
+                  
+                  <a href="" class="ssk ssk-linkedin"></a>
+                  
+            </div>
+            
+            
+            <br>
+            <div class="navigation">
+                
+                <div>
+                    <img class="icon" src="/img/back.svg" alt="back" />
+                    <a href="https://antweiss.com/blog/devops-shorts-23-hila-fish/">Devops Shorts 23 Hila Fish</a>
+                </div>
+                
+                <div style="width: 100%;"></div>
+                
+                <div>
+                    <a href="https://antweiss.com/blog/devops-shorts-24-henrik-hoegh/">Devops Shorts 24 Henrik Hoegh</a>
+                    <img class="icon" src="/img/next.svg" alt="next" />
+                </div>
+                
+            </div>
+            
+            
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "antweiss" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+            
+
+            
+            
+
+            
+
+            
         </div>
     </div>
 </div>
+
+
+
 <div class="footer column">
     <div class="container">
 
