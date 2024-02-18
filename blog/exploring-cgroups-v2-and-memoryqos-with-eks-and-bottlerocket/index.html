@@ -1260,7 +1260,7 @@ These definitions are then passed by the kubelet on to the container runtime on 
 </span></span><span style="display:flex;"><span>cgroup2fs
 </span></span></code></pre></div><p>Yup! This is cgroupv2! Were this <code>cgroupv1</code> the output would&rsquo;ve been <code>tmpfs</code>.</p>
 <h2 id="lets-deploy-a-pod">Let&rsquo;s Deploy a Pod</h2>
-<p>Ok, now let&rsquo;s deploy a pod to our node. We&rsquo;ll do that by creating a deployment based on the following <code>yaml</code> spec. This deploys [antweiss/busyhttp], that I forked from [jpetazzo/busyhttp] and add memory load and release endpoints to.
+<p>Ok, now let&rsquo;s deploy a pod to our node. We&rsquo;ll do that by creating a deployment based on the following <code>yaml</code> spec. This deploys <a href="https://github.com/antweiss/busyhttp">antweiss/busyhttp</a>, that I forked from <a href="https://github.com/jpetazzo/busyhttp">jpetazzo/busyhttp</a> and added memory load and release endpoints to.
 You&rsquo;ll notice that the pod runs a container with Guaranteed QoS - i.e memory and CPU limits are equal to requests:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#2838b0">apiVersion</span><span style="color:#888">:</span><span style="color:#a89028"> </span>apps/v1<span style="color:#a89028">
 </span></span></span><span style="display:flex;"><span><span style="color:#a89028"></span><span style="color:#2838b0">kind</span><span style="color:#888">:</span><span style="color:#a89028"> </span>Deployment<span style="color:#a89028">
