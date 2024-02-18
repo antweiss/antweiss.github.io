@@ -1250,7 +1250,7 @@ These definitions are then passed by the kubelet on to the container runtime on 
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#388038">export</span> <span style="color:#b04040">NODE_IP</span><span style="color:#666">=</span><span style="color:#2838b0">$(</span>kubectl get node -oyaml <span style="color:#888">|</span> yq  <span style="color:#b83838">&#39;.items[].status.addresses[] | select(.type==&#34;ExternalIP&#34;) | .address&#39;</span><span style="color:#2838b0">)</span>
 </span></span><span style="display:flex;"><span>ssh -i mykey ec2-user@<span style="color:#b04040">$NODE_IP</span>
 </span></span></code></pre></div><p>We get greeted with the following screen:</p>
-<p><img src="/img/Bottlerocket-ssh.png" alt=""></p>
+<p><img src="/img/bottlerocket-ssh.png" alt=""></p>
 <p>As this says - we can get admin access to the Bottlerocket filesystem by running <code>sudo sheltie</code>. So let&rsquo;s do that!</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#666">[</span>ec2-user@admin<span style="color:#666">]</span>$ sudo sheltie
 </span></span><span style="display:flex;"><span><span style="color:#666">[</span>bash-5.1<span style="color:#666">]</span>$ whoami
