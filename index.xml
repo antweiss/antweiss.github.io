@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 20 Feb 2024 16:12:41 +0200</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Mar 2024 20:29:19 +0200</lastBuildDate><atom:link href="https://antweiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops Shorts 27 Abby Bangser</title>
+      <link>https://antweiss.com/blog/devops-shorts-27-abby-bangser/</link>
+      <pubDate>Wed, 06 Mar 2024 20:29:19 +0200</pubDate>
+      
+      <guid>https://antweiss.com/blog/devops-shorts-27-abby-bangser/</guid>
+      <description>Abby Bangser - The Best Platforms are Built on DevOps Principles I only recently had the honour to host Abby Bangser at a webinar on continuous optimization practices as applied to the Platform Engineering Maturity Model and now we finally got to record a DevOps Shorts episode too!
+Abby is a Principal Engineer at Syntasso building [Kratix] and is also the Platforms Working Group Lead at CNCF. So she&amp;rsquo;s definitely the person I wanted to talk to about platforms.</description>
+    </item>
+    
     <item>
       <title>Devops Shorts 26 Omkar Kadam</title>
       <link>https://antweiss.com/blog/devops-shorts-26-omkar-kadam/</link>
