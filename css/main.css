@@ -107,10 +107,13 @@ img{max-width:100%;height:auto;display:block;}
 .site-footer a{color:var(--faint);}
 .site-footer a:hover{color:var(--ink);text-decoration:none;}
 
+.prose .portrait-float{float:right;width:240px;max-width:40%;margin:4px 0 16px 24px;border-radius:12px;shape-outside:margin-box;}
+
 @media(max-width:760px){
   .hero .container,.about .container{grid-template-columns:1fr;}
   .hero h1{font-size:34px;}
   .band p{font-size:23px;}
   .cards{grid-template-columns:1fr;}
   .nav{gap:12px;font-size:13px;flex-wrap:wrap;justify-content:flex-end;}
+  .prose .portrait-float{float:none;display:block;width:60%;margin:0 auto 16px;}
 }
